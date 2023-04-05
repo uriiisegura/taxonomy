@@ -25,9 +25,9 @@ class TaxonomyItem extends Component {
 	}
 	linkToSlide(n) {
 		this.currentSlide(n);
-		const slideshow = document.getElementById('slideshow');
-		slideshow.scrollIntoView();
-//		window.scrollTo({top: 0, behavior: 'smooth'});
+		// const slideshow = document.getElementById('slideshow');
+		// slideshow.scrollIntoView();
+		window.scrollTo({top: 0, behavior: 'smooth'});
 	}
 	plusSlides(n) {
 		this.showSlide(SLIDE_INDEX += n);

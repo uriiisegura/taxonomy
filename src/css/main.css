@@ -816,24 +816,29 @@ Taxonomy Item
 .prev,
 .next {
 	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
+	top: 0;
+	bottom: 0;
+	left: 8px;
+	margin: auto 0 !important;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
 	color: white;
 	font-size: 18px;
 	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
+	border-radius: 50%;
 	cursor: pointer;
 	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .slideshow:hover .prev,
 .slideshow:hover .next {
 	display: block;
 }
 .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+	left: unset;
+	right: 8px;
 }
 .prev:hover,
 .next:hover {
@@ -846,11 +851,14 @@ Taxonomy Item
 
 .slide .counter {
 	position: absolute;
-	top: 0;
+	top: 8px;
+	left: 8px;
 	color: var(--white);
 	font-size: 0.7rem;
-	padding: 8px 0 0 12px;
 	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 2px 10px;
+	border-radius: 9999px;
 }
 .slideshow:hover .counter {
 	display: block;
@@ -876,7 +884,7 @@ Taxonomy Item
 	user-select: text !important;
 	transition: var(--transition);
 }
-.slide:hover .caption {
+.slideshow:hover .caption {
 	transform: translateY(0%);
 }
 
@@ -930,6 +938,10 @@ Taxonomy Item
 .tax-item-information a:hover {
 	color: var(--secondary-400);
 	text-decoration: underline;
+}
+
+.tax-item-information .latin {
+	font-style: italic;
 }
 
 /*
