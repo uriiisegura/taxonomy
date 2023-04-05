@@ -551,13 +551,13 @@ Page
 
 .page {
 	min-height: calc(100vh - (var(--navbar-height) + var(--footer-height)));
-	padding: 1rem 0 2rem;
+	padding-bottom: 2rem;
 }
 
 section {
 	width: var(--page-width);
 	margin: 0 auto;
-	padding: 1.5rem 0;
+	padding: 1rem 0;
 }
 
 section :last-child {
@@ -793,6 +793,7 @@ Taxonomy Item
 .slideshow-container {
 	width: 100%;
 	user-select: none;
+	scroll-margin-top: 6rem;
 }
 
 .slideshow {

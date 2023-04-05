@@ -23,6 +23,12 @@ class TaxonomyItem extends Component {
 			this.filterItem(e, level, name);
 		});
 	}
+	linkToSlide(n) {
+		this.currentSlide(n);
+		const slideshow = document.getElementById('slideshow');
+		slideshow.scrollIntoView();
+//		window.scrollTo({top: 0, behavior: 'smooth'});
+	}
 	plusSlides(n) {
 		this.showSlide(SLIDE_INDEX += n);
 	}
@@ -47,7 +53,7 @@ class TaxonomyItem extends Component {
 	setSlideshow(images) {
 		const URL = MakeURL(ITEM.name);
 
-		return (<div className="slideshow-container">
+		return (<div id="slideshow" className="slideshow-container">
 			<div className="slideshow">
 				{
 					images.map((e, i) => {
@@ -90,9 +96,6 @@ class TaxonomyItem extends Component {
 			component = React.createElement(c.type, props, children);
 		}
 		return component;
-	}
-	componentDidMount() {
-		window.component = this;
 	}
 	render() {
 		const { level, name } = this.props.params;
