@@ -85,6 +85,7 @@
 																					{
 																						"type": "a",
 																						"props": {
+																							"className": "latin",
 																							"href": "#/taxonomy/family/motacillidae"
 																						},
 																						"text": "Motacillidae"
@@ -223,7 +224,24 @@
 																	},
 																	{
 																		"type": "p",
-																		"text": "The sexes are similar and often indistinguishable to human eyes, but under ultraviolet light, males have a brighter blue crown. Nevertheless, their sex can be told apart by the collar around their head. Males have a darker and wider stain, while females' collars are thinner and bluer."
+																		"components": [
+																			{
+																				"type": "span",
+																				"text": "The sexes are similar and often indistinguishable to human eyes, but under ultraviolet light, males have a brighter blue crown. Nevertheless, their sex can be told apart by the collar around their head. Males have a darker and wider stain, while females' collars are thinner and bluer. (This feature can be seen in "
+																			},
+																			{
+																				"type": "span",
+																				"props": {
+																					"className": "link",
+																					"onClick": "() => this.linkToSlide(3)"
+																				},
+																				"text": "this picture"
+																			},
+																			{
+																				"type": "span",
+																				"text": ".)"
+																			}
+																		]
 																	},
 																	{
 																		"type": "h2",
@@ -304,6 +322,78 @@
 																			{
 																				"type": "span",
 																				"text": " at Yemişkumu, Turkey"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "png",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "On the left, a male specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Curruca melanocephala melanocephala"
+																			},
+																			{
+																				"type": "span",
+																				"text": ", and on the right, a female of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Curruca melanocephala melanocephala"
+																			},
+																			{
+																				"type": "span",
+																				"text": ", both at Las Palmas de Gran Canaria, Spain"
+																			}
+																		]
+																	}
+																],
+																"text": [
+																	{
+																		"type": "h2",
+																		"text": "Characteristics"
+																	},
+																	{
+																		"type": "p",
+																		"text": "This species is a bird from the Mediterranean region."
+																	},
+																	{
+																		"type": "h2",
+																		"text": "Sexual dimorphism"
+																	},
+																	{
+																		"type": "p",
+																		"components": [
+																			{
+																				"type": "span",
+																				"text": "Like most "
+																			},
+																			{
+																				"type": "a",
+																				"props": {
+																					"className": "latin",
+																					"href": "#/taxonomy/genus/curruca"
+																				},
+																				"text": "Curruca"
+																			},
+																			{
+																				"type": "span",
+																				"text": " species, it has distinct male and female plumages. The adult male has a grey back, whitish underparts, black head, white throat and red eyes. Plumages are somewhat variable even in the same locality, with the intensity of a reddish hue on upper- and/or underside that varies from absent to (in some subspecies) pronounced. The female is mainly brown above and buff below, with a grey head. (In "
+																			},
+																			{
+																				"type": "span",
+																				"props": {
+																					"className": "link",
+																					"onClick":"() => this.linkToSlide(4)"
+																				},
+																				"text": "this image"
+																			},
+																			{
+																				"type": "span",
+																				"text": " the dimorphism can be seen.)"
 																			}
 																		]
 																	}
