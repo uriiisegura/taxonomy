@@ -88,10 +88,10 @@ class TaxonomyTree extends Component {
 			<section>
 				<h1>Taxonomy Tree</h1>
 
-				<button onClick={this.expandAll}>Expand all</button>
-				<button onClick={this.collapseAll}>Collapse all</button>
-
-				<hr />
+				<div className="taxonomy-tree-controller">
+					<button className="btn" onClick={this.expandAll}>Expand all</button>
+					<button className="btn" onClick={this.collapseAll}>Collapse all</button>
+				</div>
 				
 				<ul className="taxonomy-tree">
 					{
