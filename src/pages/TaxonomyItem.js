@@ -1,0 +1,135 @@
+import React, { Component } from "react";
+import { useParams } from "react-router-dom";
+import NotFound from "./NotFound";
+import MakeURL from "./../functions/MakeURL";
+import taxonomy from "./../data/taxonomy.json";
+
+function withParams(Component) {
+	return props => <Component {...props} params={useParams()} />;
+}
+
+let ITEM = null;
+let SLIDE_INDEX = 1;
+
+class TaxonomyItem extends Component {
+	filterItem(item, level, name) {
+		if (MakeURL(item.level) === level && MakeURL(item.name) === name) {
+			ITEM = item;
+			return;
+		}
+		if (item.children === undefined)
+			return;
+		item.children.forEach(e => {
+			this.filterItem(e, level, name);
+		});
+	}
+	plusSlides(n) {
+		this.showSlide(SLIDE_INDEX += n);
+	}
+	currentSlide(n) {
+		this.showSlide(SLIDE_INDEX = n);
+	}
+	showSlide(n) {
+		let slides = document.getElementsByClassName('slide');
+		let dots = document.getElementsByClassName('dot');
+
+		if (n > slides.length) SLIDE_INDEX = 1;
+		if (n < 1) SLIDE_INDEX = slides.length;
+
+		for (let i = 0; i < slides.length; i++)
+			slides[i].style.display = 'none';
+		for (let i = 0; i < dots.length; i++)
+			dots[i].className = dots[i].className.replace(' active', '');
+
+		slides[SLIDE_INDEX-1].style.display = 'block';
+		dots[SLIDE_INDEX-1].className += ' active';
+	}
+	setSlideshow(images) {
+		const URL = MakeURL(ITEM.name);
+
+		return (<div className="slideshow-container">
+			<div className="slideshow">
+				{
+					images.map((e, i) => {
+						return (<div key={i} className="slide" style={{display: i === 0 ? 'block' : 'none'}}>
+							<div className="counter">{i+1} / {images.length}</div>
+							<img className="slide-img" src={`species/${URL}/${URL}-${i+1}.${e.extension}`} alt={ITEM.name} />
+							<div className="caption">{
+								Array.isArray(e.caption) ? e.caption.map((c, i) => {
+									return this.renderComponent(c, i);
+								}) : e.caption
+							}</div>
+						</div>);
+					})
+				}
+				<span className="prev" onClick={() => this.plusSlides(-1)}>❮</span>
+				<span className="next" onClick={() => this.plusSlides(1)}>❯</span>
+			</div>
+			<div className="slid-dot-container">
+				{
+					images.map((_, i) => {
+						return <span key={i} className={`dot ${i === 0 ? ' active' : ''}`} onClick={() => this.currentSlide(i+1)}>{i+1}</span>;
+					})
+				}
+			</div>
+		</div>);
+	}
+	renderComponent(c, i) {
+		let component;
+		const props = c.props ? c.props : {};
+		props.key = i;
+		if (props.onClick)
+			// eslint-disable-next-line
+			props.onClick = eval(props.onClick)
+		if (c.text) {
+			component = React.createElement(c.type, props, c.text);
+		} else {
+			const children = c.components.map((e, j) => {
+				return this.renderComponent(e, j);
+			});
+			component = React.createElement(c.type, props, children);
+		}
+		return component;
+	}
+	componentDidMount() {
+		window.component = this;
+	}
+	render() {
+		const { level, name } = this.props.params;
+		taxonomy.forEach(e => {
+			this.filterItem(e, level, name);
+		});
+		const item = ITEM;
+
+		if (item === null)
+			return <NotFound />;
+		
+		return (<>
+			<section>
+				<div className="tax-item-title">
+					<h3>{item.level}</h3>
+					<h1>{item.name}</h1>
+				</div>
+
+				<div className="tax-item-content">
+					{
+						item.images ?
+							this.setSlideshow(item.images)
+						: <></>
+					}
+
+					<div className="tax-item-information">
+						{
+							item.text ? item.text.map((c, i) => {
+								return this.renderComponent(c, i);
+							})
+							: <></>
+						}
+					</div>
+				</div>
+			</section>
+		</>);
+	}
+}
+
+export default withParams(TaxonomyItem);

@@ -1,0 +1,282 @@
+[
+	{
+		"level": "Domain",
+		"name": "Eukaryota",
+		"children": [
+			{
+				"level": "Kingdom",
+				"name": "Animalia",
+				"children": [
+					{
+						"level": "Phylum",
+						"name": "Chordata",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Aves",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Passeriformes",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Motacillidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Motacilla",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Motacilla alba",
+																"children": [
+																	{
+																		"level": "Subspecies",
+																		"name":"Motacilla alba alba",
+																		"images": [
+																			{
+																				"extension": "jpg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Motacilla alba alba"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Sète, France"
+																					}
+																				]
+																			},
+																			{
+																				"extension": "jpeg",
+																				"caption":  [
+																					{
+																						"type": "i",
+																						"text": "Motacilla alba alba"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Basel, Switzerland"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"text": "It is an insectivorous bird of open country, often near habitation and water. It prefers bare areas for feeding, where it can see and pursue its prey. In urban areas it has adapted to foraging on paved areas such as car parks. It nests in crevices in stone walls and similar natural and man-made structures."
+																			},
+																			{
+																				"type": "p",
+																				"text": "Specimens of this species are around 18 cm long, with a wing span of about 25 cm. Depending on the gender and life phase they weight between 18 and 27 grams. Their life expectancy is around the 10 years."
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "Like all the species from the "
+																					},
+																					{
+																						"type": "a",
+																						"props": {
+																							"href": "#/taxonomy/family/motacillidae"
+																						},
+																						"text": "Motacillidae"
+																					},
+																					{
+																						"type": "span",
+																						"text": " family, they exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat. That is why in most countries this species is known as \"white wagtail\"."
+																					}
+																				]
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Distribution"
+																			},
+																			{
+																				"type": "p",
+																				"text": "Europe from the Iberian Peninsula to Ural Mountains, Turkey, the Levant, Iceland, the Faroe Islands and Greenland's eastern coast. Some migrate to the south of Europe and Africa down as far as Kenya and Malawi. Occasionally, they are found in Britain."
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
+												"name": "Paridae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Cyanistes",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Cyanistes caeruleus",
+																"images": [
+																	{
+																		"extension": "jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanistes caeruleus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Lancashire, UK"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanistes caeruleus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Baltasound, UK"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Sexual dimorphism of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Cyanistes caeruleus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Regino Valley, Corsica, France. On the right there is the male, and on the left, the female"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "png",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanistes caeruleus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " distribution map"
+																			}
+																		]
+																	}
+																],
+																"text": [
+																	{
+																		"type": "h2",
+																		"text": "JavaScript link test"
+																	},
+																	{
+																		"type": "p",
+																		"components": [
+																			{
+																				"type": "span",
+																				"text": "Click "
+																			},
+																			{
+																				"type": "span",
+																				"props": {
+																					"className": "link",
+																					"onClick": "() => this.currentSlide(4)"
+																				},
+																				"text": "here"
+																			},
+																			{
+																				"type": "span",
+																				"text": " to view the map."
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
+												"name": "Sylviidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Curruca",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Curruca melanocephala",
+																"images": [
+																	{
+																		"extension": "jpg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Curruca melanocephala"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Las Palmas de Gran Canaria, Spain"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Curruca melanocephala leucogastra"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Las Palmas de Gran Canaria, Spain"
+																			}
+																		]
+																	},
+																	{
+																		"extension": "jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Curruca melanocephala momus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Yemişkumu, Turkey"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
