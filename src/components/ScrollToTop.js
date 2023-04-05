@@ -11,6 +11,8 @@ function ScrollToTop() {
     const nav = document.getElementById('nav-links');
     if (nav !== null)
         nav.classList.remove('show');
+	
+	document.title = 'Taxonomy';
 
 	return;
 }

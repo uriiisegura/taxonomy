@@ -107,6 +107,8 @@ class TaxonomyItem extends Component {
 		if (item === null)
 			return <NotFound />;
 		
+		document.title = `Taxonomy | ${item.name}`;
+		
 		return (<>
 			<section>
 				<div className="tax-item-title">
