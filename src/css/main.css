@@ -292,7 +292,7 @@ Navbar
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--primary-500);
+	background-color: var(--primary-400);
 	z-index: 99999;
 	height: var(--navbar-height);
 }
@@ -469,7 +469,7 @@ Navbar
 		position: absolute;
 		top: var(--navbar-height);
 		left: 0;
-		background-color: var(--white);
+		background-color: var(--primary-200);
 	}
 	#nav-links.show {
 		transform: none;
