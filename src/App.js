@@ -17,7 +17,7 @@ function App() {
 			<ScrollToTop />
 			<main className="page">
 				<Routes>
-					<Route path="/" element={<TaxonomyTree />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/taxonomy-tree" element={<TaxonomyTree />} />
 					<Route path="/palette" element={<Palette />} />
 					<Route path="/taxonomy/:level/:name" element={<TaxonomyItem />} />
