@@ -3,8 +3,8 @@
   "name": "Taxonomy Encyclopedia",
   "icons": [
     {
-      "src": "icon.png",
-      "type": "image/png"
+      "src": "icon.svg",
+      "type": "image/svg"
     }
   ],
   "start_url": ".",
