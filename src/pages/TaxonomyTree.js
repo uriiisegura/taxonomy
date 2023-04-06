@@ -48,12 +48,12 @@ class TaxonomyTree extends Component {
 			nested[i].classList.remove('active');
 		}
 	}
-	renderLevel(level) {
+	renderLevel(level, key) {
 		const unknown = level.name === null;
 		const extinct = level.extinct !== undefined && level.extinct;
 		if (level.children === undefined)
 			return (
-				<li className={`taxonomy-item ${unknown ? 'idk' : ''} ${extinct ? 'extinct' : ''}`}>
+				<li key={key} className={`taxonomy-item ${unknown ? 'idk' : ''} ${extinct ? 'extinct' : ''}`}>
 					{
 						unknown ? UNKNOWN_STRING
 						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{level.name}</NavLink>
@@ -62,7 +62,7 @@ class TaxonomyTree extends Component {
 				</li>
 			);
 		return (
-			<li>
+			<li key={key}>
 				<span className={unknown ? 'idk' : ''}>
 					<span className="caret"></span>
 					<span className={`taxonomy-item ${extinct ? 'extinct' : ''}`}>
@@ -75,8 +75,8 @@ class TaxonomyTree extends Component {
 				</span>
 				<ul className="nested">
 					{
-						level.children.map(e => {
-							return this.renderLevel(e);
+						level.children.map((e, i) => {
+							return this.renderLevel(e, i);
 						})
 					}
 				</ul>
@@ -95,8 +95,8 @@ class TaxonomyTree extends Component {
 				
 				<ul className="taxonomy-tree">
 					{
-						taxonomy.map(e => {
-							return this.renderLevel(e);
+						taxonomy.map((e, i) => {
+							return this.renderLevel(e, i);
 						})
 					}
 				</ul>

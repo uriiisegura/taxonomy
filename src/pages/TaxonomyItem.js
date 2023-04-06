@@ -100,30 +100,29 @@ class TaxonomyItem extends Component {
 		taxonomy.forEach(e => {
 			this.filterItem(e, level, name);
 		});
-		const item = ITEM;
 
-		if (item === null)
+		if (ITEM === null)
 			return <NotFound />;
 		
-		document.title = `Taxonomy | ${item.name}`;
+		document.title = `Taxonomy | ${ITEM.name}`;
 		
 		return (<>
 			<section>
 				<div className="tax-item-title">
-					<h3>{item.level}</h3>
-					<h1>{item.name}</h1>
+					<h3>{ITEM.level}</h3>
+					<h1>{ITEM.name}</h1>
 				</div>
 
 				<div className="tax-item-content">
 					{
-						item.images ?
-							this.setSlideshow(item.images)
+						ITEM.images ?
+							this.setSlideshow(ITEM.images)
 						: <></>
 					}
 
 					<div className="tax-item-information">
 						{
-							item.text ? item.text.map((c, i) => {
+							ITEM.text ? ITEM.text.map((c, i) => {
 								return this.renderComponent(c, i);
 							})
 							: <></>
