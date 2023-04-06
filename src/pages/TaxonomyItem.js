@@ -51,15 +51,13 @@ class TaxonomyItem extends Component {
 		dots[SLIDE_INDEX-1].className += ' active';
 	}
 	setSlideshow(images) {
-		const URL = MakeURL(ITEM.name);
-
 		return (<div id="slideshow" className="slideshow-container">
 			<div className="slideshow">
 				{
 					images.map((e, i) => {
 						return (<div key={i} className="slide" style={{display: i === 0 ? 'block' : 'none'}}>
 							<div className="counter">{i+1} / {images.length}</div>
-							<img className="slide-img" src={`species/${URL}/${URL}-${i+1}.${e.extension}`} alt={ITEM.name} />
+							<img className="slide-img" src={`species/${e.link}`} alt={ITEM.name} />
 							<div className="caption">{
 								Array.isArray(e.caption) ? e.caption.map((c, i) => {
 									return this.renderComponent(c, i);

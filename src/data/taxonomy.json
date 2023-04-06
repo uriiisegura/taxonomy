@@ -22,6 +22,21 @@
 											{
 												"level": "Family",
 												"name": "Motacillidae",
+												"images": [
+													{
+														"link": "macronyx-capensis-1.jpeg",
+														"caption": [
+															{
+																"type": "i",
+																"text": "Macronyx capensis"
+															},
+															{
+																"type": "span",
+																"text": " at Krugersdorp Game Reserve, South Africa"
+															}
+														]
+													}
+												],
 												"children": [
 													{
 														"level": "Genus",
@@ -36,7 +51,7 @@
 																		"name":"Motacilla alba alba",
 																		"images": [
 																			{
-																				"extension": "jpg",
+																				"link": "motacilla-alba-alba-1.jpg",
 																				"caption": [
 																					{
 																						"type": "i",
@@ -49,7 +64,7 @@
 																				]
 																			},
 																			{
-																				"extension": "jpeg",
+																				"link": "motacilla-alba-alba-2.jpeg",
 																				"caption":  [
 																					{
 																						"type": "i",
@@ -125,7 +140,7 @@
 																"name": "Cyanistes caeruleus",
 																"images": [
 																	{
-																		"extension": "jpeg",
+																		"link": "cyanistes-caeruleus-1.jpeg",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -138,7 +153,7 @@
 																		]
 																	},
 																	{
-																		"extension": "jpeg",
+																		"link": "cyanistes-caeruleus-2.jpeg",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -151,7 +166,7 @@
 																		]
 																	},
 																	{
-																		"extension": "jpeg",
+																		"link": "cyanistes-caeruleus-3.jpeg",
 																		"caption": [
 																			{
 																				"type": "span",
@@ -168,7 +183,7 @@
 																		]
 																	},
 																	{
-																		"extension": "png",
+																		"link": "cyanistes-caeruleus-4.png",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -287,7 +302,7 @@
 																"name": "Curruca melanocephala",
 																"images": [
 																	{
-																		"extension": "jpg",
+																		"link": "curruca-melanocephala-1.jpg",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -300,7 +315,7 @@
 																		]
 																	},
 																	{
-																		"extension": "jpeg",
+																		"link": "curruca-melanocephala-2.jpeg",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -313,7 +328,7 @@
 																		]
 																	},
 																	{
-																		"extension": "jpeg",
+																		"link": "curruca-melanocephala-3.jpeg",
 																		"caption": [
 																			{
 																				"type": "i",
@@ -326,7 +341,7 @@
 																		]
 																	},
 																	{
-																		"extension": "png",
+																		"link": "curruca-melanocephala-4.png",
 																		"caption": [
 																			{
 																				"type": "span",
@@ -379,7 +394,7 @@
 																				"type": "span",
 																				"props": {
 																					"className": "link",
-																					"onClick":"() => this.linkToSlide(4)"
+																					"onClick": "() => this.linkToSlide(4)"
 																				},
 																				"text": "this image"
 																			},
