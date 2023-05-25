@@ -615,6 +615,50 @@
 														]
 													}
 												]
+											},
+											{
+												"level": "Family",
+												"name": "Corvidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Cyanocitta",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Cyanocitta cristata",
+																"images": [
+																	{
+																		"link": "cyanocitta-cristata-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanocitta cristata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Welland, Ontario, Canada"
+																			}
+																		]
+																	},
+																	{
+																		"link": "cyanocitta-cristata-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanocitta cristata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " in Algonquin Provincial Park, Canada"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
 											}
 										]
 									}
