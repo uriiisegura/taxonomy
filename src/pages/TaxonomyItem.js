@@ -56,7 +56,9 @@ class TaxonomyItem extends Component {
 				{
 					images.map((e, i) => {
 						return (<div key={i} className="slide" style={{display: i === 0 ? 'block' : 'none'}}>
-							<div className="counter">{i+1} / {images.length}</div>
+							{
+								images.length > 1 ? <div className="counter">{i+1} / {images.length}</div> : <></>
+							}
 							<img className="slide-img" src={`species/${e.link}`} alt={ITEM.name} />
 							<div className="caption">{
 								Array.isArray(e.caption) ? e.caption.map((c, i) => {
@@ -66,14 +68,18 @@ class TaxonomyItem extends Component {
 						</div>);
 					})
 				}
-				<span className="prev" onClick={() => this.plusSlides(-1)}>❮</span>
-				<span className="next" onClick={() => this.plusSlides(1)}>❯</span>
+				{
+					images.length > 1 ? <>
+						<span className="prev" onClick={() => this.plusSlides(-1)}>❮</span>
+						<span className="next" onClick={() => this.plusSlides(1)}>❯</span>
+					</> : <></>
+				}
 			</div>
 			<div className="slid-dot-container">
 				{
-					images.map((_, i) => {
+					images.length > 1 ? images.map((_, i) => {
 						return <span key={i} className={`dot ${i === 0 ? ' active' : ''}`} onClick={() => this.currentSlide(i+1)}>{i+1}</span>;
-					})
+					}) : <></>
 				}
 			</div>
 		</div>);
