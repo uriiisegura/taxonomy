@@ -944,6 +944,11 @@ Taxonomy Item
 	font-style: italic;
 }
 
+.tax-item-information .greek {
+	font-family: 'Open Sans';
+	font-style: italic;
+}
+
 /*
 =============== 
 
