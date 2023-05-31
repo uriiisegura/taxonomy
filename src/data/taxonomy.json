@@ -71,6 +71,98 @@
 				"children": [
 					{
 						"level": "Phylum",
+						"name": "Arthropoda",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Insecta",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Lepidoptera",
+										"images": [
+											{
+												"link": "parthenos-sylvia-philippensis-1.jpeg",
+												"caption": [
+													{
+														"type": "i",
+														"text": "Parthenos sylvia philippinensis"
+													}
+												]
+											},{
+												"link": "attacus-atlas-1.jpeg",
+												"caption": [
+													{
+														"type": "i",
+														"text": "Attacus atlas"
+													}
+												]
+											}
+										],
+										"text": [
+											{
+												"type": "h2",
+												"text": "Etymology"
+											},
+											{
+												"type": "p",
+												"components": [
+													{
+														"type": "span",
+														"text": "The term comes from Greek "
+													},
+													{
+														"type": "span",
+														"props": {
+															"className": "greek",
+															"title": "lepís"
+														},
+														"text": "λεπίς"
+													},
+													{
+														"type": "span",
+														"text": ", meaning 'scale'; and "
+													},
+													{
+														"type": "span",
+														"props": {
+															"className": "greek",
+															"title": "pterós"
+														},
+														"text": "πτερόν"
+													},
+													{
+														"type": "span",
+														"text": ", meaning 'wing'. Refering to the presence of scales that cover the bodies and wings of the species from this order."
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"level": "Family",
+												"name": "Nymphalidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Morpho",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Morpho didius"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
 						"name": "Chordata",
 						"children": [
 							{
@@ -118,6 +210,66 @@
 										"level": "Order",
 										"name": "Passeriformes",
 										"children": [
+											{
+												"level": "Family",
+												"name": "Corvidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Cyanocitta",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Cyanocitta cristata",
+																"images": [
+																	{
+																		"link": "cyanocitta-cristata-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanocitta cristata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Welland, Ontario, Canada"
+																			}
+																		]
+																	},
+																	{
+																		"link": "cyanocitta-cristata-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Cyanocitta cristata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " in Algonquin Provincial Park, Canada"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
+												"name": "Fringillidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Serinus",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Serinus serinus"
+															}
+														]
+													}
+												]
+											},
 											{
 												"level": "Family",
 												"name": "Motacillidae",
@@ -611,142 +763,6 @@
 																		]
 																	}
 																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Corvidae",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Cyanocitta",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Cyanocitta cristata",
-																"images": [
-																	{
-																		"link": "cyanocitta-cristata-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanocitta cristata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Welland, Ontario, Canada"
-																			}
-																		]
-																	},
-																	{
-																		"link": "cyanocitta-cristata-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanocitta cristata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " in Algonquin Provincial Park, Canada"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"level": "Phylum",
-						"name": "Arthropoda",
-						"children": [
-							{
-								"level": "Class",
-								"name": "Insecta",
-								"children": [
-									{
-										"level": "Order",
-										"name": "Lepidoptera",
-										"images": [
-											{
-												"link": "parthenos-sylvia-philippensis-1.jpeg",
-												"caption": [
-													{
-														"type": "i",
-														"text": "Parthenos sylvia philippinensis"
-													}
-												]
-											},{
-												"link": "attacus-atlas-1.jpeg",
-												"caption": [
-													{
-														"type": "i",
-														"text": "Attacus atlas"
-													}
-												]
-											}
-										],
-										"text": [
-											{
-												"type": "h2",
-												"text": "Etymology"
-											},
-											{
-												"type": "p",
-												"components": [
-													{
-														"type": "span",
-														"text": "The term comes from Greek "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "greek",
-															"title": "lepís"
-														},
-														"text": "λεπίς"
-													},
-													{
-														"type": "span",
-														"text": ", meaning 'scale'; and "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "greek",
-															"title": "pterós"
-														},
-														"text": "πτερόν"
-													},
-													{
-														"type": "span",
-														"text": ", meaning 'wing'. Refering to the presence of scales that cover the bodies and wings of the species from this order."
-													}
-												]
-											}
-										],
-										"children": [
-											{
-												"level": "Family",
-												"name": "Nymphalidae",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Morpho",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Morpho didius"
 															}
 														]
 													}
