@@ -14,7 +14,8 @@ const SYMBOLS = {
 	'Tribe': <span className="level-symbol caramel"><span className="view">T</span><span className="full">Tribe</span></span>,
 	'Genus': <span className="level-symbol gold"><span className="view">G</span><span className="full">Genus</span></span>,
 	'Species': <span className="level-symbol ocre"><span className="view">S</span><span className="full">Species</span></span>,
-	'Subspecies': <span className="level-symbol sub"><span className="view">S</span><span className="full">Subspecies</span></span>
+	'Subspecies': <span className="level-symbol sub"><span className="view">s</span><span className="full">subspecies</span></span>,
+	'Variety': <span className="level-symbol sub"><span className="view">v</span><span className="full">variety</span></span>
 }
 
 class TaxonomyTree extends Component {

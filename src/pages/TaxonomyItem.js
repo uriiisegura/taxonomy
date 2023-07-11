@@ -117,6 +117,7 @@ class TaxonomyItem extends Component {
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
 					<h1>{ITEM.name}</h1>
+					{ITEM.common && <h5>{ITEM.common}</h5>}
 				</div>
 
 				<div className="tax-item-content">
