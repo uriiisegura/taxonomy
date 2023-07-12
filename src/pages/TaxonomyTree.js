@@ -14,8 +14,8 @@ const SYMBOLS = {
 	'Tribe': <span className="level-symbol caramel"><span className="view">T</span><span className="full">Tribe</span></span>,
 	'Genus': <span className="level-symbol gold"><span className="view">G</span><span className="full">Genus</span></span>,
 	'Species': <span className="level-symbol ocre"><span className="view">S</span><span className="full">Species</span></span>,
-	'Subspecies': <span className="level-symbol sub"><span className="view">s</span><span className="full">subspecies</span></span>,
-	'Variety': <span className="level-symbol sub"><span className="view">v</span><span className="full">variety</span></span>
+	'Subspecies': <span className="level-symbol sub"><span className="view">S</span><span className="full">Subspecies</span></span>,
+	'Variety': <span className="level-symbol sub"><span className="view">V</span><span className="full">Variety</span></span>
 }
 
 class TaxonomyTree extends Component {
@@ -54,10 +54,10 @@ class TaxonomyTree extends Component {
 		const extinct = level.extinct !== undefined && level.extinct;
 		if (level.children === undefined)
 			return (
-				<li key={key} className={`taxonomy-item ${unknown ? 'idk' : ''} ${extinct ? 'extinct' : ''}`}>
+				<li key={key} className={`taxonomy-item ${unknown ? 'idk' : ''}`}>
 					{
 						unknown ? UNKNOWN_STRING
-						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{level.name}</NavLink>
+						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}</NavLink>
 					}
 					{SYMBOLS[level.level]}
 				</li>
@@ -66,10 +66,10 @@ class TaxonomyTree extends Component {
 			<li key={key}>
 				<span className={unknown ? 'idk' : ''}>
 					<span className="caret"></span>
-					<span className={`taxonomy-item ${extinct ? 'extinct' : ''}`}>
+					<span className="taxonomy-item">
 						{
 							unknown ? UNKNOWN_STRING
-							: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{level.name}</NavLink>
+							: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}</NavLink>
 						}
 						{SYMBOLS[level.level]}
 					</span>

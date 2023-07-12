@@ -141,6 +141,23 @@
 										"children": [
 											{
 												"level": "Family",
+												"name": "Lycaenidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Glaucopsyche",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Glaucopsyche xerces",
+																"extinct": true
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
 												"name": "Nymphalidae",
 												"children": [
 													{
@@ -800,6 +817,22 @@
 						"level": "Order",
 						"name": "Asparagales",
 						"children": [
+							{
+								"level": "Family",
+								"name": "Asparagaceae",
+								"children": [
+									{
+										"level": "Genus",
+										"name": "Aspidistra",
+										"children": [
+											{
+												"level": "Species",
+												"name": "Aspidistra elatior"
+											}
+										]
+									}
+								]
+							},
 							{
 								"level": "Family",
 								"name": "Iridaceae",

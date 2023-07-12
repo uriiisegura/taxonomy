@@ -111,12 +111,14 @@ class TaxonomyItem extends Component {
 			return <NotFound />;
 		
 		document.title = `Taxonomy | ${ITEM.name}`;
+
+		const extinct = ITEM.extinct !== undefined && ITEM.extinct;
 		
 		return (<>
 			<section>
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
-					<h1>{ITEM.name}</h1>
+					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
 					{ITEM.common && <h5>{ITEM.common}</h5>}
 				</div>
 

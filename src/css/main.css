@@ -712,13 +712,8 @@ Taxonomy Tree
 }
 
 .extinct:after {
-	content: '\271D';
-	margin-left: 6px;
+	content: '\271D\00a0';
 	font-style: normal !important;
-}
-.idk.extinct:after,
-.idk .extinct:after {
-	content: '';
 }
 
 .taxonomy-tree .nested {
@@ -771,6 +766,10 @@ Taxonomy Tree
 }
 .level-symbol.sub {
 	border: 1px solid #c6ba7b;
+}
+
+.level-symbol * {
+	padding: 1px 0 1px 1px;
 }
 
 .level-symbol .full {
