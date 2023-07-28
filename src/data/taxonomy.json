@@ -289,6 +289,22 @@
 											},
 											{
 												"level": "Family",
+												"name": "Monarchidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Hypothymis",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Hypothymis azurea"
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
 												"name": "Motacillidae",
 												"images": [
 													{
