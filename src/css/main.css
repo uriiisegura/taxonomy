@@ -437,7 +437,7 @@ Navbar
 }
 
 /* TODO: change width */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 0px) {
 	.nav-expand {
 		display: flex;
 		justify-content: flex-end;

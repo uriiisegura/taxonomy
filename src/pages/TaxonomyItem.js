@@ -120,6 +120,7 @@ class TaxonomyItem extends Component {
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
 					{ITEM.common && <h5>{ITEM.common}</h5>}
+					{ITEM.aka && <h5>{ITEM.aka}</h5>}
 				</div>
 
 				<div className="tax-item-content">

@@ -26,7 +26,9 @@ class Navbar extends Component {
 						</button>
 					</div>
 					<ul id="nav-links">
-						<li className="nav-link"><NavLink to="/taxonomy-tree">Taxonomy tree</NavLink></li>
+						{/*<li className="nav-link">
+							<NavLink to="/taxonomy-tree">Taxonomy tree</NavLink>
+						</li>*/}
 					</ul>
 				</div>
 			</nav>
