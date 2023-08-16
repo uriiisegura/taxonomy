@@ -89,7 +89,8 @@
 														"text": "Parthenos sylvia philippinensis"
 													}
 												]
-											},{
+											},
+											{
 												"link": "attacus-atlas-1.jpeg",
 												"caption": [
 													{
@@ -150,7 +151,26 @@
 															{
 																"level": "Species",
 																"name": "Glaucopsyche xerces",
-																"extinct": true
+																"extinct": true,
+																"images": [
+																	{
+																		"link": "glaucopsyche-xerces-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Twelve pinned "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Glaucopsyche xerces"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -166,7 +186,60 @@
 														"children": [
 															{
 																"level": "Species",
-																"name": "Morpho didius"
+																"name": "Morpho didius",
+																"images": [
+																	{
+																		"link": "morpho-didius-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Morpho didius"
+																			},
+																			{
+																				"type": "span",
+																				"text": " on a leaf"
+																			}
+																		]
+																	},
+																	{
+																		"link": "morpho-didius-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Morpho didius"
+																			},
+																			{
+																				"type": "span",
+																				"text": " on a leaf showing the ventral side of its wings"
+																			}
+																		]
+																	},
+																	{
+																		"link": "morpho-didius-3.png",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "On the left, the dorsal view of a "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Morpho didius"
+																			},
+																			{
+																				"type": "span",
+																				"text": "; and on the right, its ventral view"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -281,7 +354,26 @@
 														"children": [
 															{
 																"level": "Species",
-																"name": "Serinus serinus"
+																"name": "Serinus serinus",
+																"images": [
+																	{
+																		"link": "serinus-serinus-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A male specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Serinus serinus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Souss-Massa National Park, Morocco"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -297,7 +389,26 @@
 														"children": [
 															{
 																"level": "Species",
-																"name": "Hypothymis azurea"
+																"name": "Hypothymis azurea",
+																"images": [
+																	{
+																		"link": "hypothymis-azurea-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An speciment of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Hypothymis azurea"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -425,7 +536,26 @@
 														"children": [
 															{
 																"level": "Species",
-																"name": "Dendronanthus indicus"
+																"name": "Dendronanthus indicus",
+																"images": [
+																	{
+																		"link": "dendronanthus-indicus-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Dendronanthus indicus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													},
@@ -582,7 +712,7 @@
 																			},
 																			{
 																				"type": "span",
-																				"text": " distribution map"
+																				"text": " distribution map as for February 2013"
 																			}
 																		]
 																	}
@@ -819,8 +949,31 @@
 						"children": [
 							{
 								"level": "Class",
+								"name": "Liliopsida",
+								"aka": "Monocotyledoneae",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Liliales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Liliaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Lilium"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"level": "Class",
 								"name": "Magnoliopsida",
-								"aka": "Dicotyledons",
+								"aka": "Dicotyledoneae",
 								"children": [
 									{
 										"level": "Order",
@@ -925,11 +1078,75 @@
 															},
 															{
 																"level": "Species",
-																"name": "Mentha requienii"
+																"name": "Mentha requienii",
+																"images": [
+																	{
+																		"link": "mentha-requienii-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Mentha requienii"
+																			}
+																		]
+																	}
+																]
 															},
 															{
 																"level": "Species",
-																"name": "Mentha spicata"
+																"name": "Mentha spicata",
+																"images": [
+																	{
+																		"link": "mentha-spicata-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Mentha spicata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Jalukbari, Assam, India"
+																			}
+																		]
+																	},
+																	{
+																		"link": "mentha-spicata-2.webp",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Detail of the "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Mentha spicata"
+																			},
+																			{
+																				"type": "span",
+																				"text": "'s flower, they can be white or light pink"
+																			}
+																		]
+																	},
+																	{
+																		"link": "mentha-spicata-3.png",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Cutting of a "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Mentha spicata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " from the Herbari Virtual de la Universitat de les Illes Balears"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													},
@@ -944,7 +1161,18 @@
 																	{
 																		"level": "Variety",
 																		"name": "Ocimum basilicum var. thyrsiflora",
-																		"common": "Thai basil"
+																		"common": "Thai basil",
+																		"images": [
+																			{
+																				"link": "ocimum-basilicum-var-thyrsiflora-1.webp",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Ocimum basilicum var. thyrsiflora"
+																					}
+																				]
+																			}
+																		]
 																	}
 																]
 															}

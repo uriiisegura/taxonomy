@@ -580,6 +580,7 @@ section :last-child {
 @media screen and (max-width: 1250px) {
 	section {
 		width: var(--mobile-width);
+		padding: 0.5rem 0;
 	}
 
 	.full-width-right {
@@ -712,7 +713,7 @@ Taxonomy Tree
 }
 
 .extinct:after {
-	content: '\271D\00a0';
+	content: '\271E\00a0';
 	font-style: normal !important;
 }
 

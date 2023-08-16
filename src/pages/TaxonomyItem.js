@@ -60,11 +60,15 @@ class TaxonomyItem extends Component {
 								images.length > 1 ? <div className="counter">{i+1} / {images.length}</div> : <></>
 							}
 							<img className="slide-img" src={`species/${e.link}`} alt={ITEM.name} />
-							<div className="caption">{
-								Array.isArray(e.caption) ? e.caption.map((c, i) => {
-									return this.renderComponent(c, i);
-								}) : e.caption
-							}</div>
+							{
+								e.caption ?
+									<div className="caption">{
+										Array.isArray(e.caption) ? e.caption.map((c, i) => {
+											return this.renderComponent(c, i);
+										}) : e.caption
+									}</div>
+								: <></>
+							}
 						</div>);
 					})
 				}

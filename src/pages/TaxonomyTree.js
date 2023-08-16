@@ -52,16 +52,18 @@ class TaxonomyTree extends Component {
 	renderLevel(level, key) {
 		const unknown = level.name === null;
 		const extinct = level.extinct !== undefined && level.extinct;
+
 		if (level.children === undefined)
 			return (
 				<li key={key} className={`taxonomy-item ${unknown ? 'idk' : ''}`}>
 					{
 						unknown ? UNKNOWN_STRING
-						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}</NavLink>
+						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}{level.aka && ` (${level.aka})`}</NavLink>
 					}
 					{SYMBOLS[level.level]}
 				</li>
 			);
+		
 		return (
 			<li key={key}>
 				<span className={unknown ? 'idk' : ''}>
@@ -69,7 +71,7 @@ class TaxonomyTree extends Component {
 					<span className="taxonomy-item">
 						{
 							unknown ? UNKNOWN_STRING
-							: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}</NavLink>
+							: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}{level.aka && ` (${level.aka})`}</NavLink>
 						}
 						{SYMBOLS[level.level]}
 					</span>
