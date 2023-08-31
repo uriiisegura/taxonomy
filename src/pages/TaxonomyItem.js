@@ -3,6 +3,7 @@ import { NavLink, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
 import Tree from "../components/Tree";
 import MakeURL from "./../functions/MakeURL";
+import CapitalizeFirst from "./../functions/CapitalizeFirst";
 import taxonomy from "./../data/taxonomy.json";
 import articles from "./../data/articles.json";
 
@@ -130,7 +131,7 @@ class TaxonomyItem extends Component {
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
-					{ITEM.aka && !ITEM.common && <h5>{ITEM.aka}</h5>}
+					{ITEM.aka && !ITEM.common && <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
 					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
 							{
 								Object.entries(ITEM.common).map(([l, c], i) => {

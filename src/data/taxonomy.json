@@ -1037,8 +1037,13 @@
 			},
 			{
 				"level": "Kingdom",
-				"name": "Plantae",
+				"name": "Viridiplantae",
+				"aka": "Plantae",
 				"children": [
+					{
+						"level": "Phylum",
+						"name": "Chlorophyta"
+					},
 					{
 						"level": "Phylum",
 						"name": "Streptophyta",
@@ -1095,24 +1100,68 @@
 									},
 									{
 										"level": "Order",
-										"name": "Asparagales",
+										"name": "Apiales",
 										"children": [
 											{
 												"level": "Family",
-												"name": "Asparagaceae",
+												"name": "Apiaceae",
+												"aka": "carrot family",
 												"children": [
 													{
 														"level": "Genus",
-														"name": "Aspidistra",
+														"name": "Foeniculum",
 														"children": [
 															{
 																"level": "Species",
-																"name": "Aspidistra elatior"
+																"name": "Foeniculum vulgare",
+																"aka": "fennel",
+																"common": {
+																	"ca": [
+																		"fenoll",
+																		"fonoll"
+																	],
+																	"en": "fennel",
+																	"es": "hinojo"
+																},
+																"images": [
+																	{
+																		"link": "foeniculum-vulgare-1.webp",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A plant of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Foeniculum vulgare"
+																			}
+																		]
+																	},
+																	{
+																		"link": "foeniculum-vulgare-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Detail of the flowers of a "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Foeniculum vulgare"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
 												]
-											},
+											}
+										]
+									},
+									{
+										"level": "Order",
+										"name": "Asparagales",
+										"children": [
 											{
 												"level": "Family",
 												"name": "Iridaceae",
@@ -1139,7 +1188,42 @@
 														"children": [
 															{
 																"level": "Species",
-																"name": "Nerium oleander"
+																"name": "Nerium oleander",
+																"aka": "oleander",
+																"common": {
+																	"ca": [
+																		"baladre",
+																		"oleandre"
+																	],
+																	"en": [
+																		"oleander",
+																		"nerium"
+																	],
+																	"es": [
+																		"adelfa",
+																		"baladre",
+																		"laurel de flor"
+																	]
+																},
+																"images": [
+																	{
+																		"link": "nerium-oleander-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Nerium oleander"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Pontinha, Portugal"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -1422,6 +1506,62 @@
 																	"en": "thyme",
 																	"es": "tomillo"
 																}
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Order",
+										"name": "Sapindales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Anacardiaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Pistacia",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Pistacia lentiscus",
+																"aka": "lentisc",
+																"common": {
+																	"ca": [
+																		"llentiscle",
+																		"mata"
+																	],
+																	"en": [
+																		"lentisc",
+																		"mastic tree"
+																	],
+																	"es": [
+																		"lentisco",
+																		"mata charneca"
+																	]
+																},
+																"images": [
+																	{
+																		"link": "pistacia-lentiscus-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A plant of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Pistacia lentiscus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Chiclana, Cádiz, Spain"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}

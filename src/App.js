@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import TaxonomyTree from "./pages/TaxonomyTree";
 import TaxonomyItem from "./pages/TaxonomyItem";
+import Articles from "./pages/Articles";
 import SingleArticle from "./pages/SingleArticle";
 import Palette from "./pages/Palette";
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
 					<Route path="/taxonomy-tree" element={<TaxonomyTree />} />
 					<Route path="/palette" element={<Palette />} />
 					<Route path="/taxonomy/:level/:name" element={<TaxonomyItem />} />
+					<Route path="/articles" element={<Articles />} />
 					<Route path="/articles/:id" element={<SingleArticle />} />
 
 					<Route path="*" element={<NotFound />} />
