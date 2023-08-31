@@ -838,12 +838,11 @@ Taxonomy Item
 	display: none;
 }
 .common-names li {
-	line-height: 1;
+	line-height: 1.5;
 	font-size: 0.8rem;
 	background-position: 0;
 	background-repeat: no-repeat;
-	background-size: 15px;
-	padding-left: 1.2rem;
+	padding-left: 1.5rem;
 	font-style: italic;
 	color: var(--grey-400);
 }
