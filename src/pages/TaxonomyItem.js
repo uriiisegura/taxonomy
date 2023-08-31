@@ -134,7 +134,7 @@ class TaxonomyItem extends Component {
 					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
 							{
 								Object.entries(ITEM.common).map(([l, c], i) => {
-									return <li style={{backgroundImage: `url('/flags/${l}.png')`}} key={`common-${i}`}>{Array.isArray(c) ? c.join(', ') : c}</li>;
+									return <li key={`common-${i}`}><img src={`/flags/${l}.png`} alt={l} />{Array.isArray(c) ? c.join(', ') : c}</li>;
 								})
 							}
 						</ul></>
