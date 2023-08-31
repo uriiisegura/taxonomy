@@ -951,6 +951,9 @@
 								"level": "Class",
 								"name": "Liliopsida",
 								"aka": "Monocotyledoneae",
+								"articles": [
+									"monocots-vs-dicots"
+								],
 								"children": [
 									{
 										"level": "Order",
@@ -974,6 +977,9 @@
 								"level": "Class",
 								"name": "Magnoliopsida",
 								"aka": "Dicotyledoneae",
+								"articles": [
+									"monocots-vs-dicots"
+								],
 								"children": [
 									{
 										"level": "Order",
@@ -1053,6 +1059,35 @@
 												"level": "Family",
 												"name": "Lamiaceae",
 												"children": [
+													{
+														"level": "Genus",
+														"name": "Melissa",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Melissa officinalis",
+																"images": [
+																	{
+																		"link": "melissa-officinalis-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A plant of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Melissa officinalis"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Aomori, Japan"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
 													{
 														"level": "Genus",
 														"name": "Mentha",
@@ -1161,7 +1196,9 @@
 																	{
 																		"level": "Variety",
 																		"name": "Ocimum basilicum var. thyrsiflora",
-																		"common": "Thai basil",
+																		"common": {
+																			"en": "thai basil"
+																		},
 																		"images": [
 																			{
 																				"link": "ocimum-basilicum-var-thyrsiflora-1.webp",
@@ -1171,6 +1208,40 @@
 																						"text": "Ocimum basilicum var. thyrsiflora"
 																					}
 																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Genus",
+														"name": "Salvia",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Salvia rosmarinus",
+																"common": {
+																	"ca": "romaní",
+																	"en": "rosemary",
+																	"es": "romero"
+																},
+																"images": [
+																	{
+																		"link": "salvia-rosmarinus-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Salvia rosmarinus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " in Italy"
 																			}
 																		]
 																	}

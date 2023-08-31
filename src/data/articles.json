@@ -1,0 +1,33 @@
+{
+	"monocots-vs-dicots": {
+		"title": "Differences between monocots and dicots",
+		"article": [
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "Lorem ipsum "
+					},
+					{
+						"type": "i",
+						"components": [
+							{
+								"type": "span",
+								"text": "dolor "
+							},
+							{
+								"type": "u",
+								"text": "sit"
+							}
+						]
+					},
+					{
+						"type": "span",
+						"text": " amet..."
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
+import Tree from "../components/Tree";
 import MakeURL from "./../functions/MakeURL";
 import taxonomy from "./../data/taxonomy.json";
+import articles from "./../data/articles.json";
 
 function withParams(Component) {
 	return props => <Component {...props} params={useParams()} />;
@@ -105,6 +107,10 @@ class TaxonomyItem extends Component {
 		}
 		return component;
 	}
+	showCommonNames() {
+		document.getElementsByClassName('common-expand')[0].classList.toggle('expand');
+		document.getElementsByClassName('common-names')[0].classList.toggle('expand');
+	}
 	render() {
 		const { level, name } = this.props.params;
 		taxonomy.forEach(e => {
@@ -117,14 +123,21 @@ class TaxonomyItem extends Component {
 		document.title = `Taxonomy | ${ITEM.name}`;
 
 		const extinct = ITEM.extinct !== undefined && ITEM.extinct;
-		
+
 		return (<>
 			<section>
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
-					{ITEM.common && <h5>{ITEM.common}</h5>}
 					{ITEM.aka && <h5>{ITEM.aka}</h5>}
+					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
+							{
+								Object.entries(ITEM.common).map(([l, c], i) => {
+									return <li style={{backgroundImage: `url('/flags/${l}.png')`}} key={`common-${i}`}>{Array.isArray(c) ? c.join(', ') : c}</li>;
+								})
+							}
+						</ul></>
+					}
 				</div>
 
 				<div className="tax-item-content">
@@ -144,6 +157,33 @@ class TaxonomyItem extends Component {
 					</div>
 				</div>
 			</section>
+			{
+				ITEM.children ? <>
+					<section>
+						<h3 style={{textTransform: 'none'}}>Children taxonomy tree</h3>
+
+						<Tree
+							children={ITEM.children}
+							collapsed={true}
+							/>
+					</section>
+				</> : <></>
+			}
+			{
+				ITEM.articles ? <>
+					<section>
+						<h3 style={{textTransform: 'none', marginBottom: '0.5rem'}}>Related articles</h3>
+
+						<ul className="articles-wrap">
+							{
+								ITEM.articles.map((a, i) => {
+									return <li key={`article-${i}`}><NavLink to={`/articles/${a}`}>{articles[a].title}</NavLink></li>;
+								})
+							}
+						</ul>
+					</section>
+				</> : <></>
+			}
 		</>);
 	}
 }

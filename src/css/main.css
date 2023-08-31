@@ -717,6 +717,17 @@ Taxonomy Tree
 	font-style: normal !important;
 }
 
+.aka {
+	font-size: 0.75rem;
+	color: var(--grey-400);
+}
+.aka::before {
+	content: ' (';
+}
+.aka::after {
+	content: ')';
+}
+
 .taxonomy-tree .nested {
 	display: none;
 	padding-left: 2rem;
@@ -799,6 +810,41 @@ Taxonomy Item
 }
 .tax-item-title h1 {
 	font-style: italic;
+}
+
+.common-expand {
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	padding-left: 1rem;
+}
+.common-expand::before {
+	position: absolute;
+	left: 0;
+	top: -10%;
+	content: '\25B6';
+	font-size: 0.9rem;
+}
+.common-expand.expand::before {
+	content: '\25BC';
+}
+
+.common-names {
+	padding-left: 1.5rem;
+}
+
+.common-names:not(.expand) li {
+	display: none;
+}
+.common-names li {
+	line-height: 1;
+	font-size: 0.8rem;
+	background-position: 0;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left: 1.2rem;
+	font-style: italic;
+	color: var(--grey-400);
 }
 
 .slideshow-container {
@@ -947,6 +993,16 @@ Taxonomy Item
 .tax-item-information .greek {
 	font-family: 'Open Sans';
 	font-style: italic;
+}
+
+/*
+=============== 
+Single Article
+===============
+*/
+
+.article h1 {
+	text-transform: none;
 }
 
 /*
