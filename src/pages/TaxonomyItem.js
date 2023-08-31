@@ -14,6 +14,9 @@ let ITEM = null;
 let SLIDE_INDEX = 1;
 
 class TaxonomyItem extends Component {
+	componentDidUpdate() {
+		window.location.reload();
+	}
 	filterItem(item, level, name) {
 		if (MakeURL(item.level) === level && MakeURL(item.name) === name) {
 			ITEM = item;
@@ -27,8 +30,6 @@ class TaxonomyItem extends Component {
 	}
 	linkToSlide(n) {
 		this.currentSlide(n);
-		// const slideshow = document.getElementById('slideshow');
-		// slideshow.scrollIntoView();
 		window.scrollTo({top: 0, behavior: 'smooth'});
 	}
 	plusSlides(n) {
@@ -129,7 +130,7 @@ class TaxonomyItem extends Component {
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
-					{ITEM.aka && <h5>{ITEM.aka}</h5>}
+					{ITEM.aka && !ITEM.common && <h5>{ITEM.aka}</h5>}
 					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
 							{
 								Object.entries(ITEM.common).map(([l, c], i) => {
@@ -154,33 +155,31 @@ class TaxonomyItem extends Component {
 							})
 							: <></>
 						}
+						{
+							ITEM.articles && <>
+								<h2 style={{marginBottom: '0.5rem'}}>Related articles</h2>
+
+								<ul className="articles-wrap">
+									{
+										ITEM.articles.map((a, i) => {
+											return <li key={`article-${i}`}><NavLink to={`/articles/${a}`}>{articles[a].title}</NavLink></li>;
+										})
+									}
+								</ul>
+							</>
+						}
 					</div>
 				</div>
 			</section>
 			{
 				ITEM.children ? <>
 					<section>
-						<h3 style={{textTransform: 'none'}}>Children taxonomy tree</h3>
+						<h2 style={{textTransform: 'none'}}>Children items</h2>
 
 						<Tree
 							children={ITEM.children}
 							collapsed={true}
 							/>
-					</section>
-				</> : <></>
-			}
-			{
-				ITEM.articles ? <>
-					<section>
-						<h3 style={{textTransform: 'none', marginBottom: '0.5rem'}}>Related articles</h3>
-
-						<ul className="articles-wrap">
-							{
-								ITEM.articles.map((a, i) => {
-									return <li key={`article-${i}`}><NavLink to={`/articles/${a}`}>{articles[a].title}</NavLink></li>;
-								})
-							}
-						</ul>
 					</section>
 				</> : <></>
 			}

@@ -29,5 +29,14 @@
 				]
 			}
 		]
+	},
+	"blue-in-nature": {
+		"title": "Blue in nature",
+		"article": [
+			{
+				"type": "p",
+				"text": "Lorem ipsum..."
+			}
+		]
 	}
 }

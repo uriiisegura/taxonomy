@@ -822,11 +822,12 @@ Taxonomy Item
 	position: absolute;
 	left: 0;
 	top: -10%;
-	content: '\25B6';
+	content: '\25BC';
+	transform: rotate(-90deg);
 	font-size: 0.9rem;
 }
 .common-expand.expand::before {
-	content: '\25BC';
+	transform: none;
 }
 
 .common-names {

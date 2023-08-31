@@ -152,6 +152,12 @@
 																"level": "Species",
 																"name": "Glaucopsyche xerces",
 																"extinct": true,
+																"aka": "Xerces blue",
+																"common": {
+																	"ca": "Xerces blau",
+																	"en": "Xerces blue",
+																	"es": "Xerces azul"
+																},
 																"images": [
 																	{
 																		"link": "glaucopsyche-xerces-1.jpeg",
@@ -170,6 +176,9 @@
 																			}
 																		]
 																	}
+																],
+																"articles": [
+																	"blue-in-nature"
 																]
 															}
 														]
@@ -187,6 +196,10 @@
 															{
 																"level": "Species",
 																"name": "Morpho didius",
+																"aka": "giant blue morpho",
+																"common": {
+																	"en": "giant blue morpho"
+																},
 																"images": [
 																	{
 																		"link": "morpho-didius-1.jpeg",
@@ -239,6 +252,9 @@
 																			}
 																		]
 																	}
+																],
+																"articles": [
+																	"blue-in-nature"
 																]
 															}
 														]
@@ -274,6 +290,12 @@
 															{
 																"level": "Species",
 																"name": "Upupa epops",
+																"aka": "Eurasian hoopoe",
+																"common": {
+																	"ca": "puput",
+																	"en": "Eurasian hoopoe",
+																	"es": "abubilla"
+																},
 																"images": [
 																	{
 																		"link": "upupa-epops-1.jpeg",
@@ -311,6 +333,15 @@
 															{
 																"level": "Species",
 																"name": "Cyanocitta cristata",
+																"aka": "blue jay",
+																"common": {
+																	"ca": "gaig nord-americà",
+																	"en": "blue jay",
+																	"es": [
+																		"chara azul",
+																		"urraca azul"
+																	]
+																},
 																"images": [
 																	{
 																		"link": "cyanocitta-cristata-1.jpeg",
@@ -338,6 +369,9 @@
 																			}
 																		]
 																	}
+																],
+																"articles": [
+																	"blue-in-nature"
 																]
 															}
 														]
@@ -355,6 +389,12 @@
 															{
 																"level": "Species",
 																"name": "Serinus serinus",
+																"aka": "European serin",
+																"common": {
+																	"ca": "gafarró europeu",
+																	"en": "European serin",
+																	"es": "serín verdecillo"
+																},
 																"images": [
 																	{
 																		"link": "serinus-serinus-1.jpeg",
@@ -390,6 +430,12 @@
 															{
 																"level": "Species",
 																"name": "Hypothymis azurea",
+																"aka": "black-naped monarch",
+																"common": {
+																	"ca": "monarca blau coronat",
+																	"en": "black-naped monarch",
+																	"es": "monarca nuquinegro"
+																},
 																"images": [
 																	{
 																		"link": "hypothymis-azurea-1.jpeg",
@@ -408,6 +454,32 @@
 																			}
 																		]
 																	}
+																],
+																"text": [
+																	{
+																		"type": "h2",
+																		"text": "Trivia"
+																	},
+																	{
+																		"type": "p",
+																		"components": [
+																			{
+																				"type": "span",
+																				"text": "This bird species inspired the "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Twitter"
+																			},
+																			{
+																				"type": "span",
+																				"text": " logo, and was named 'Larry' after the mythic Boston Celtics NBA player Larry Bird."
+																			}
+																		]
+																	}
+																],
+																"articles": [
+																	"blue-in-nature"
 																]
 															}
 														]
@@ -537,6 +609,15 @@
 															{
 																"level": "Species",
 																"name": "Dendronanthus indicus",
+																"aka": "forest wagtail",
+																"common": {
+																	"ca": "cuereta boscana",
+																	"en": "forest wagtail",
+																	"es": [
+																		"lavandera forestal",
+																		"lavandera de los bosques"
+																	]
+																},
 																"images": [
 																	{
 																		"link": "dendronanthus-indicus-1.jpeg",
@@ -566,81 +647,81 @@
 															{
 																"level": "Species",
 																"name": "Motacilla alba",
-																"children": [
+																"aka": "white wagtail",
+																"common": {
+																	"ca": "cuereta blanca",
+																	"en": "white wagtail",
+																	"es": "lavandera blanca"
+																},
+																"images": [
 																	{
-																		"level": "Subspecies",
-																		"name":"Motacilla alba alba",
-																		"images": [
+																		"link": "motacilla-alba-1.jpg",
+																		"caption": [
 																			{
-																				"link": "motacilla-alba-alba-1.jpg",
-																				"caption": [
-																					{
-																						"type": "i",
-																						"text": "Motacilla alba alba"
-																					},
-																					{
-																						"type": "span",
-																						"text": " in Sète, France"
-																					}
-																				]
+																				"type": "i",
+																				"text": "Motacilla alba"
 																			},
 																			{
-																				"link": "motacilla-alba-alba-2.jpeg",
-																				"caption":  [
-																					{
-																						"type": "i",
-																						"text": "Motacilla alba alba"
-																					},
-																					{
-																						"type": "span",
-																						"text": " in Basel, Switzerland"
-																					}
-																				]
-																			}
-																		],
-																		"text": [
-																			{
-																				"type": "h2",
-																				"text": "Characteristics"
-																			},
-																			{
-																				"type": "p",
-																				"text": "It is an insectivorous bird of open country, often near habitation and water. It prefers bare areas for feeding, where it can see and pursue its prey. In urban areas it has adapted to foraging on paved areas such as car parks. It nests in crevices in stone walls and similar natural and man-made structures."
-																			},
-																			{
-																				"type": "p",
-																				"text": "Specimens of this species are around 18 cm long, with a wing span of about 25 cm. Depending on the gender and life phase they weight between 18 and 27 grams. Their life expectancy is around the 10 years."
-																			},
-																			{
-																				"type": "p",
-																				"components": [
-																					{
-																						"type": "span",
-																						"text": "Like all the species from the "
-																					},
-																					{
-																						"type": "a",
-																						"props": {
-																							"className": "latin",
-																							"href": "#/taxonomy/family/motacillidae"
-																						},
-																						"text": "Motacillidae"
-																					},
-																					{
-																						"type": "span",
-																						"text": " family, they exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat. That is why in most countries this species is known as \"white wagtail\"."
-																					}
-																				]
-																			},
-																			{
-																				"type": "h2",
-																				"text": "Distribution"
-																			},
-																			{
-																				"type": "p",
-																				"text": "Europe from the Iberian Peninsula to Ural Mountains, Turkey, the Levant, Iceland, the Faroe Islands and Greenland's eastern coast. Some migrate to the south of Europe and Africa down as far as Kenya and Malawi. Occasionally, they are found in Britain."
+																				"type": "span",
+																				"text": " in Sète, France"
 																			}
 																		]
+																	},
+																	{
+																		"link": "motacilla-alba-2.jpeg",
+																		"caption":  [
+																			{
+																				"type": "i",
+																				"text": "Motacilla alba"
+																			},
+																			{
+																				"type": "span",
+																				"text": " in Basel, Switzerland"
+																			}
+																		]
+																	}
+																],
+																"text": [
+																	{
+																		"type": "h2",
+																		"text": "Characteristics"
+																	},
+																	{
+																		"type": "p",
+																		"text": "It is an insectivorous bird of open country, often near habitation and water. It prefers bare areas for feeding, where it can see and pursue its prey. In urban areas it has adapted to foraging on paved areas such as car parks. It nests in crevices in stone walls and similar natural and man-made structures."
+																	},
+																	{
+																		"type": "p",
+																		"text": "Specimens of this species are around 18 cm long, with a wing span of about 25 cm. Depending on the gender and life phase they weight between 18 and 27 grams. Their life expectancy is around the 10 years."
+																	},
+																	{
+																		"type": "p",
+																		"components": [
+																			{
+																				"type": "span",
+																				"text": "Like all the species from the "
+																			},
+																			{
+																				"type": "a",
+																				"props": {
+																					"className": "latin",
+																					"href": "#/taxonomy/family/motacillidae"
+																				},
+																				"text": "Motacillidae"
+																			},
+																			{
+																				"type": "span",
+																				"text": " family, they exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat. That is why in most countries this species is known as \"white wagtail\"."
+																			}
+																		]
+																	},
+																	{
+																		"type": "h2",
+																		"text": "Distribution"
+																	},
+																	{
+																		"type": "p",
+																		"text": "Europe from the Iberian Peninsula to Ural Mountains, Turkey, the Levant, Iceland, the Faroe Islands and Greenland's eastern coast. Some migrate to the south of Europe and Africa down as far as Kenya and Malawi. Occasionally, they are found in Britain."
 																	}
 																]
 															}
@@ -659,6 +740,12 @@
 															{
 																"level": "Species",
 																"name": "Cyanistes caeruleus",
+																"aka": "Eurasian blue tit",
+																"common": {
+																	"ca": "mallerenga blava",
+																	"en": "Eurasian blue tit",
+																	"es": "herrerillo común"
+																},
 																"images": [
 																	{
 																		"link": "cyanistes-caeruleus-1.jpeg",
@@ -804,6 +891,9 @@
 																			}
 																		]
 																	}
+																],
+																"articles": [
+																	"blue-in-nature"
 																]
 															}
 														]
@@ -821,6 +911,12 @@
 															{
 																"level": "Species",
 																"name": "Curruca melanocephala",
+																"aka": "Sardinian warbler",
+																"common": {
+																	"ca": "tallarol capnegre",
+																	"en": "Sardinian warbler",
+																	"es": "curruca cabecinegra"
+																},
 																"images": [
 																	{
 																		"link": "curruca-melanocephala-1.jpg",
@@ -1066,6 +1162,15 @@
 															{
 																"level": "Species",
 																"name": "Melissa officinalis",
+																"aka": "lemon balm",
+																"common": {
+																	"ca": "tarongina",
+																	"en": "lemon balm",
+																	"es": [
+																		"melisa",
+																		"toronjil"
+																	]
+																},
 																"images": [
 																	{
 																		"link": "melissa-officinalis-1.jpeg",
@@ -1095,6 +1200,11 @@
 															{
 																"level": "Species",
 																"name": "Mentha aquatica",
+																"aka": "water mint",
+																"common": {
+																	"ca": "herba-sana d'aigua",
+																	"en": "water mint"
+																},
 																"images": [
 																	{
 																		"link": "mentha-aquatica-1.jpeg",
@@ -1114,6 +1224,10 @@
 															{
 																"level": "Species",
 																"name": "Mentha requienii",
+																"aka": "Corsician mint",
+																"common": {
+																	"en": "Corsician mint"
+																},
 																"images": [
 																	{
 																		"link": "mentha-requienii-1.jpeg",
@@ -1129,6 +1243,11 @@
 															{
 																"level": "Species",
 																"name": "Mentha spicata",
+																"aka": "spearmint",
+																"common": {
+																	"en": "spearmint",
+																	"es": "hierbabuena"
+																},
 																"images": [
 																	{
 																		"link": "mentha-spicata-1.jpeg",
@@ -1192,10 +1311,45 @@
 															{
 																"level": "Species",
 																"name": "Ocimum basilicum",
+																"aka": "basil",
+																"common": {
+																	"ca": "alfàbrega",
+																	"en": "basil",
+																	"es": "albahaca"
+																},
+																"images": [
+																	{
+																		"link": "ocimum-basilicum-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Some plants of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Ocimum basilicum"
+																			},
+																			{
+																				"type": "span",
+																				"text": " by the Karuna Society for Animals and Nature"
+																			}
+																		]
+																	},
+																	{
+																		"link": "ocimum-basilicum-var-thyrsiflora-1.webp",
+																		"caption": [
+																			{
+																				"type": "i",
+																				"text": "Ocimum basilicum var. thyrsiflora"
+																			}
+																		]
+																	}
+																],
 																"children": [
 																	{
 																		"level": "Variety",
 																		"name": "Ocimum basilicum var. thyrsiflora",
+																		"aka": "thai basil",
 																		"common": {
 																			"en": "thai basil"
 																		},
@@ -1222,6 +1376,7 @@
 															{
 																"level": "Species",
 																"name": "Salvia rosmarinus",
+																"aka": "rosemary",
 																"common": {
 																	"ca": "romaní",
 																	"en": "rosemary",
@@ -1246,6 +1401,27 @@
 																		]
 																	}
 																]
+															}
+														]
+													},
+													{
+														"level": "Genus",
+														"name": "Thymus",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Thymus vulgaris",
+																"aka": "thyme",
+																"common": {
+																	"ca": [
+																		"farigola",
+																		"timó",
+																		"timonet",
+																		"tomell"
+																	],
+																	"en": "thyme",
+																	"es": "tomillo"
+																}
 															}
 														]
 													}

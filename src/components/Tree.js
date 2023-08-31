@@ -28,6 +28,9 @@ class Tree extends Component {
 			});
 		}
 
+		if (document.getElementsByClassName('nested').length === 0)
+			document.getElementById('tree-controller').style.display = 'none';
+
 		if (!this.props.collapsed)
 			this.expandAll();
 	}
@@ -88,7 +91,7 @@ class Tree extends Component {
 	}
 	render() {
 		return (<>
-			<div className="taxonomy-tree-controller">
+			<div className="taxonomy-tree-controller" id="tree-controller">
 				<button className="btn" onClick={this.expandAll}>Expand all</button>
 				<button className="btn" onClick={this.collapseAll}>Collapse all</button>
 			</div>
