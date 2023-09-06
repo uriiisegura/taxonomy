@@ -77,20 +77,20 @@
 					},
 					{
 						"type": "span",
-						"text": " you can notice, as you turn around the animal, that the color changes, it does not display the same blue tone from all angles. This is because there is no blue pigment in their scales. They look blue, but they are not blue at all. If we zoom in on those scales we can see that they look like small trees. Those shapes, and more precisely their size, give that blue color. Color is defined in a light wave by its wavelength, and for most colors the wave reflected by the tree and the wave coming out after bouncing on the butterfly will be out of phase, which means that they cancel each other out. That is not how it works with blue, it has the precise right wavelength so that the reflected light waves are in sync and they make it to our eye. It is like a hall of mirrors that only lets blue light escape. There is even a pigment at the base that absorbs stray red and green light to make the blue even more pure."
+						"text": " you can notice, as you turn around the animal, that the color changes, it does not display the same blue tone from all angles. This is because there is no blue pigment in their scales. They look blue, but they are not blue at all. If we zoom in on those scales we can see that they look like small trees. Those shapes, and more precisely their size, give that blue color. A light wave defines its color by its wavelength, and for most colors the wave reflected by the tree and the wave coming out after bouncing on the butterfly will be out of phase, which means that they cancel each other out. But this does not happen with blue. Blue has the precise right wavelength so that the reflected light waves are in sync and they make it to our eye. It is like a hall of mirrors that only lets blue light escape. There is even a pigment at the base that absorbs stray red and green light to make the blue even more pure."
 					}
 				]
 			},
 			{
 				"type": "p",
-				"text": "All of this happens because of the way light bends when it moves from air into another material. So what would happen if we fill all those gaps with something that is not air? The blue disappears. For example, if you throw some alcohol it turns green instead. Once the alcohol evaporates, the blue comes back. This would make them lose their color each time they get wet —with rain, for example—, but their wings are water-resistant."
+				"text": "All of this happens because of the way light bends when it moves from air into another material. So what would happen if we fill all those gaps with something that is not air? The blue disappears. For example, if you throw some alcohol on the wing, the blue turns green instead. Once the alcohol evaporates, the blue comes back. This would seem to be a problem since they would lose their color each time they get wet —with rain, for example—, but their wings are water-resistant and do not let water get inside the tiny tree-like structures."
 			},
 			{
 				"type": "p",
 				"components": [
 					{
 						"type": "span",
-						"text": "What about other animals? The concept is always the same, but the structure varies from one species to another. Let's take a look at a "
+						"text": "We now know where butterflies get their blue from. But what about other animals? The concept is always the same, but the structure varies from one species to another. Let's now take a look at a "
 					},
 					{
 						"type": "a",
