@@ -270,10 +270,12 @@
 					{
 						"level": "Phylum",
 						"name": "Chordata",
+						"aka": "chordates",
 						"children": [
 							{
 								"level": "Class",
 								"name": "Aves",
+								"aka": "birds",
 								"children": [
 									{
 										"level": "Order",
@@ -1028,6 +1030,132 @@
 												]
 											}
 										]
+									},
+									{
+										"level": "Order",
+										"name": "Phoenicopteriformes",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Phoenicopteridae",
+												"aka": "flamingos"
+											}
+										]
+									}
+								]
+							},
+							{
+								"level": "Class",
+								"name": "Reptilia",
+								"aka": "reptiles",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Squamata",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Dactyloidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Anolis",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Anolis carolinensis",
+																"aka": "green anole",
+																"common": {
+																	"ca": "anolis verd",
+																	"en": [
+																		"green anole",
+																		"Carolina anole"
+																	],
+																	"es": "anolis verde"
+																},
+																"images": [
+																	{
+																		"link": "anolis-carolinensis-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A male "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Anolis carolinensis"
+																			},
+																			{
+																				"type": "span",
+																				"text": " showing its pink dewlap"
+																			}
+																		]
+																	},
+																	{
+																		"link": "anolis-carolinensis-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "Female specimens of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Anolis carolinensis"
+																			},
+																			{
+																				"type": "span",
+																				"text": " have a prominent white stripe along their spine"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
+												"name": "Gekkonidae",
+												"aka": "common geckos",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Phelsuma",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Phelsuma madagascariensis",
+																"aka": "Madagascar day gecko",
+																"common": {
+																	"en": "Madagascar day gecko",
+																	"es": "gecko diurno de Madagascar"
+																},
+																"images": [
+																	{
+																		"link": "phelsuma-madagascariensis-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Phelsuma madagascariensis"
+																			},
+																			{
+																				"type": "span",
+																				"text": " in the vivarium of Lausanne, Switzerland"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
 									}
 								]
 							}
@@ -1280,6 +1408,7 @@
 													{
 														"level": "Genus",
 														"name": "Mentha",
+														"aka": "mints",
 														"children": [
 															{
 																"level": "Species",
@@ -1391,15 +1520,19 @@
 													{
 														"level": "Genus",
 														"name": "Ocimum",
+														"aka": "basils",
 														"children": [
 															{
 																"level": "Species",
 																"name": "Ocimum basilicum",
-																"aka": "basil",
+																"aka": "sweet basil",
 																"common": {
 																	"ca": "alfàbrega",
-																	"en": "basil",
-																	"es": "albahaca"
+																	"en": "sweet basil",
+																	"es": [
+																		"albahaca",
+																		"basílico"
+																	]
 																},
 																"images": [
 																	{

@@ -35,7 +35,75 @@
 		"article": [
 			{
 				"type": "p",
-				"text": "Lorem ipsum..."
+				"text": "You can probably think pretty fast of a green animal, or a red one, even a yellow one. But what about a blue one? There are some, of course, but it is clear that blue is the rarest color in nature."
+			},
+			{
+				"type": "p",
+				"text": "Before trying to understand why is blue so rare, we first need to know what gives color to an animal. And when it comes to color there is a group of animals that displays the brightest and most colorful patterns: butterflies. Butterflies are a group of moths that evolved to be active during the day, and that gives them a great advantage because now they can use light to communicate. Colors are used in nature to send messages: ‘I am dangerous’, ‘look how pretty I am’, ‘you are in my territory’, etc."
+			},
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "Colors in butterflies come from tiny scales that, in most cases, contain pigments, organic molecules that absorb every color but the one we see. This is true for most of the colors: yellows, reds, oranges, browns, even white and black, among others. Animals do not make take pigments out of nowhere, they get them through their diets. An easy example are flamingos ("
+					},
+					{
+						"type": "a",
+						"text": "Phoenicopteridae",
+						"props": {
+							"href": "#/taxonomy/family/phoenicopteridae"
+						}
+					},
+					{
+						"type": "span",
+						"text": "), they are born gray but turn pink thanks to some pigments called carotenoids abundant in the crustaceous they eat. Nonetheless, that is not true for blue."
+					}
+				]
+			},
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "If we take a look at a blue butterfly like the "
+					},
+					{
+						"type": "a",
+						"text": "Morpho didius",
+						"props": {
+							"href": "#/taxonomy/species/morpho-didius"
+						}
+					},
+					{
+						"type": "span",
+						"text": " you can notice, as you turn around the animal, that the color changes, it does not display the same blue tone from all angles. This is because there is no blue pigment in their scales. They look blue, but they are not blue at all. If we zoom in on those scales we can see that they look like small trees. Those shapes, and more precisely their size, give that blue color. Color is defined in a light wave by its wavelength, and for most colors the wave reflected by the tree and the wave coming out after bouncing on the butterfly will be out of phase, which means that they cancel each other out. That is not how it works with blue, it has the precise right wavelength so that the reflected light waves are in sync and they make it to our eye. It is like a hall of mirrors that only lets blue light escape. There is even a pigment at the base that absorbs stray red and green light to make the blue even more pure."
+					}
+				]
+			},
+			{
+				"type": "p",
+				"text": "All of this happens because of the way light bends when it moves from air into another material. So what would happen if we fill all those gaps with something that is not air? The blue disappears. For example, if you throw some alcohol it turns green instead. Once the alcohol evaporates, the blue comes back. This would make them lose their color each time they get wet —with rain, for example—, but their wings are water-resistant."
+			},
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "What about other animals? The concept is always the same, but the structure varies from one species to another. Let's take a look at a "
+					},
+					{
+						"type": "a",
+						"text": "Cyanocitta cristata",
+						"props": {
+							"href": "#/taxonomy/species/cyanocitta-cristata"
+						}
+					},
+					{
+						"type": "span",
+						"text": " feather."
+					}
+				]
 			}
 		]
 	}

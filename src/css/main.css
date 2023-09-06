@@ -986,13 +986,15 @@ Taxonomy Item
 }
 
 .tax-item-information .link,
-.tax-item-information a {
+.tax-item-information a,
+.article a {
 	color: var(--primary-400);
 	transition: var(--transition);
 	cursor: pointer;
 }
 .tax-item-information .link:hover,
-.tax-item-information a:hover {
+.tax-item-information a:hover,
+.article a:hover {
 	color: var(--secondary-400);
 	text-decoration: underline;
 }
