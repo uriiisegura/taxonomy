@@ -491,6 +491,7 @@
 											{
 												"level": "Family",
 												"name": "Motacillidae",
+												"aka": "wagtails",
 												"images": [
 													{
 														"link": "macronyx-capensis-1.jpeg",
@@ -1226,16 +1227,42 @@
 			},
 			{
 				"level": "Kingdom",
-				"name": "Viridiplantae",
-				"aka": "Plantae",
+				"name": "Plantae",
 				"children": [
 					{
 						"level": "Phylum",
-						"name": "Chlorophyta"
+						"name": "Coniferophyta",
+						"aka": "conifers",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Pinopsida",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Cupressales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Cupressaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Juniperus",
+														"aka": "junipers"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
 					},
 					{
 						"level": "Phylum",
-						"name": "Streptophyta",
+						"name": "Magnoliophyta",
+						"aka": "angiosperms (flowering plants)",
 						"children": [
 							{
 								"level": "Class",
@@ -1247,6 +1274,24 @@
 								"children": [
 									{
 										"level": "Order",
+										"name": "Asparagales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Asparagaceae",
+												"aka": "asparagus family",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Agave",
+														"aka": "agaves"
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Order",
 										"name": "Liliales",
 										"children": [
 											{
@@ -1255,7 +1300,8 @@
 												"children": [
 													{
 														"level": "Genus",
-														"name": "Lilium"
+														"name": "Lilium",
+														"aka": "lilies"
 													}
 												]
 											}
@@ -1774,6 +1820,41 @@
 													{
 														"level": "Genus",
 														"name": "Strelitzia"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
+						"name": "Polypodiophyta",
+						"aka": "ferns",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Polypodiopsida",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Equisetales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Equisetaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Equisetum",
+														"aka": "horsetail",
+														"common": {
+															"ca": "cua de cavall",
+															"en": "horsetail",
+															"es": "cola de caballo"
+														}
 													}
 												]
 											}
