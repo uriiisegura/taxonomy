@@ -720,12 +720,7 @@ Taxonomy Tree
 .aka {
 	font-size: 0.75rem;
 	color: var(--grey-400);
-}
-.aka::before {
-	content: ' (';
-}
-.aka::after {
-	content: ')';
+	padding-left: 7px;
 }
 
 .taxonomy-tree .nested {
