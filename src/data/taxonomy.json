@@ -1033,6 +1033,67 @@
 									},
 									{
 										"level": "Order",
+										"name": "Psittaciformes",
+										"aka": "parrots",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Psittacidae",
+												"aka": "holotropical parrots",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Amazona",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Amazona vittata",
+																"aka": "Puerto Rican amazon",
+																"common": {
+																	"ca": "amazona de Puerto Rico",
+																	"en": [
+																		"Puerto Rican amazon",
+																		"Puerto Rican parrot",
+																		"iguaca"
+																	],
+																	"es": [
+																		"cotorra puertorriqueña",
+																		"amazona puertorriqueña",
+																		"iguaca"
+																	]
+																},
+																"images": [
+																	{
+																		"link": "amazona-vittata-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Amazona vittata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " eating the fruits of a "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Miconia impetiolaris"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Order",
 										"name": "Phoenicopteriformes",
 										"children": [
 											{
