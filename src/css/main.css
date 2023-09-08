@@ -754,6 +754,9 @@ Taxonomy Tree
 .level-symbol.green {
 	background-color: #4bbb8d;
 }
+.level-symbol.sub-green {
+	border: 1px solid #4bbb8d;
+}
 .level-symbol.blue {
 	background-color: #4ad0f1;
 }
@@ -772,7 +775,7 @@ Taxonomy Tree
 .level-symbol.ocre {
 	background-color: #c6ba7b;
 }
-.level-symbol.sub {
+.level-symbol.sub-ocre {
 	border: 1px solid #c6ba7b;
 }
 
