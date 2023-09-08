@@ -68,18 +68,22 @@
 			{
 				"level": "Kingdom",
 				"name": "Animalia",
+				"aka": "animals",
 				"children": [
 					{
 						"level": "Phylum",
 						"name": "Arthropoda",
+						"aka": "arthropods",
 						"children": [
 							{
 								"level": "Class",
 								"name": "Insecta",
+								"aka": "insects",
 								"children": [
 									{
 										"level": "Order",
 										"name": "Lepidoptera",
+										"aka": "butterflies and moths",
 										"images": [
 											{
 												"link": "parthenos-sylvia-philippensis-1.jpeg",
@@ -192,6 +196,7 @@
 													{
 														"level": "Genus",
 														"name": "Morpho",
+														"aka": "morphos",
 														"children": [
 															{
 																"level": "Species",
@@ -284,18 +289,23 @@
 											{
 												"level": "Family",
 												"name": "Upupidae",
+												"aka": "hoopoes",
 												"children": [
 													{
 														"level": "Genus",
 														"name": "Upupa",
+														"aka": "hoopoes",
 														"children": [
 															{
 																"level": "Species",
 																"name": "Upupa epops",
-																"aka": "Eurasian hoopoe",
+																"aka": "common hoopoe",
 																"common": {
 																	"ca": "puput",
-																	"en": "Eurasian hoopoe",
+																	"en": [
+																		"common hoopoe",
+																		"Eurasian hoopoe"
+																	],
 																	"es": "abubilla"
 																},
 																"images": [
@@ -323,6 +333,7 @@
 									{
 										"level": "Order",
 										"name": "Passeriformes",
+										"aka": "perching birds",
 										"children": [
 											{
 												"level": "Family",
@@ -424,10 +435,12 @@
 											{
 												"level": "Family",
 												"name": "Monarchidae",
+												"aka": "monarch flycatchers",
 												"children": [
 													{
 														"level": "Genus",
 														"name": "Hypothymis",
+														"aka": "blue monarchs",
 														"children": [
 															{
 																"level": "Species",
@@ -491,7 +504,6 @@
 											{
 												"level": "Family",
 												"name": "Motacillidae",
-												"aka": "wagtails",
 												"images": [
 													{
 														"link": "macronyx-capensis-1.jpeg",
@@ -608,6 +620,7 @@
 													{
 														"level": "Genus",
 														"name": "Dendronanthus",
+														"aka": "forest wagtails",
 														"children": [
 															{
 																"level": "Species",
@@ -646,6 +659,7 @@
 													{
 														"level": "Genus",
 														"name": "Motacilla",
+														"aka": "wagtails",
 														"children": [
 															{
 																"level": "Species",
@@ -1034,17 +1048,30 @@
 									},
 									{
 										"level": "Order",
+										"name": "Phoenicopteriformes",
+										"aka": "flamingos",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Phoenicopteridae",
+												"aka": "flamingos"
+											}
+										]
+									},
+									{
+										"level": "Order",
 										"name": "Psittaciformes",
 										"aka": "parrots",
 										"children": [
 											{
 												"level": "Family",
 												"name": "Psittacidae",
-												"aka": "holotropical parrots",
+												"aka": "new world and african parrots",
 												"children": [
 													{
 														"level": "Genus",
 														"name": "Amazona",
+														"aka": "Amazon parrots",
 														"children": [
 															{
 																"level": "Species",
@@ -1092,23 +1119,12 @@
 												]
 											}
 										]
-									},
-									{
-										"level": "Order",
-										"name": "Phoenicopteriformes",
-										"children": [
-											{
-												"level": "Family",
-												"name": "Phoenicopteridae",
-												"aka": "flamingos"
-											}
-										]
 									}
 								]
 							},
 							{
 								"level": "Class",
-								"name": "Chondrichthyes",
+								"name": "Elasmobranchii",
 								"children": [
 									{
 										"level": "Order",
@@ -1118,11 +1134,11 @@
 											{
 												"level": "Family",
 												"name": "Sphyrnidae",
-												"aka": "hammerhead sharks family",
 												"children": [
 													{
 														"level": "Genus",
 														"name": "Sphyrna",
+														"aka": "hammerhead sharks",
 														"children": [
 															{
 																"level": "Species",
@@ -1135,7 +1151,22 @@
 																	],
 																	"en": "great hammerhead",
 																	"es": "tiburón martillo gigante"
-																}
+																},
+																"images": [
+																	{
+																		"link": "sphyrna-mokarran-1.jpg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Sphyrna mokarran"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -1153,100 +1184,111 @@
 									{
 										"level": "Order",
 										"name": "Squamata",
+										"aka": "snakes and lizards",
 										"children": [
 											{
-												"level": "Family",
-												"name": "Dactyloidae",
+												"level": "Suborder",
+												"name": "Sauria",
+												"aka": "lizards",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Anolis",
+														"level": "Family",
+														"name": "Anolidae",
+														"aka": "anoles",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Anolis carolinensis",
-																"aka": "green anole",
-																"common": {
-																	"ca": "anolis verd",
-																	"en": [
-																		"green anole",
-																		"Carolina anole"
-																	],
-																	"es": "anolis verde"
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Anolis",
+																"aka": "anoles",
+																"children": [
 																	{
-																		"link": "anolis-carolinensis-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Anolis carolinensis",
+																		"aka": "green anole",
+																		"common": {
+																			"ca": "anolis verd",
+																			"en": [
+																				"green anole",
+																				"Carolina anole"
+																			],
+																			"es": "anolis verde"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A male "
+																				"link": "anolis-carolinensis-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A male "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Anolis carolinensis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " showing its pink dewlap"
+																					}
+																				]
 																			},
 																			{
-																				"type": "i",
-																				"text": "Anolis carolinensis"
-																			},
-																			{
-																				"type": "span",
-																				"text": " showing its pink dewlap"
-																			}
-																		]
-																	},
-																	{
-																		"link": "anolis-carolinensis-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "Female specimens of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Anolis carolinensis"
-																			},
-																			{
-																				"type": "span",
-																				"text": " have a prominent white stripe along their spine"
+																				"link": "anolis-carolinensis-2.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "Female specimens of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Anolis carolinensis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " have a prominent white stripe along their spine"
+																					}
+																				]
 																			}
 																		]
 																	}
 																]
 															}
 														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Gekkonidae",
-												"aka": "common geckos",
-												"children": [
+													},
 													{
-														"level": "Genus",
-														"name": "Phelsuma",
+														"level": "Family",
+														"name": "Gekkonidae",
+														"aka": "common geckos",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Phelsuma madagascariensis",
-																"aka": "Madagascar day gecko",
-																"common": {
-																	"en": "Madagascar day gecko",
-																	"es": "gecko diurno de Madagascar"
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Phelsuma",
+																"aka": "day geckos",
+																"children": [
 																	{
-																		"link": "phelsuma-madagascariensis-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Phelsuma madagascariensis",
+																		"aka": "Madagascar day gecko",
+																		"common": {
+																			"en": "Madagascar day gecko",
+																			"es": "gecko diurno de Madagascar"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Phelsuma madagascariensis"
-																			},
-																			{
-																				"type": "span",
-																				"text": " in the vivarium of Lausanne, Switzerland"
+																				"link": "phelsuma-madagascariensis-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Phelsuma madagascariensis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in the vivarium of Lausanne, Switzerland"
+																					}
+																				]
 																			}
 																		]
 																	}
@@ -1337,7 +1379,7 @@
 													{
 														"level": "Family",
 														"name": "Liliaceae",
-														"aka": "lilies family",
+														"aka": "lilies",
 														"children": [
 															{
 																"level": "Genus",
@@ -1355,7 +1397,7 @@
 													{
 														"level": "Family",
 														"name": "Pandanaceae",
-														"aka": "screwpines family",
+														"aka": "screwpine family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1399,7 +1441,7 @@
 													{
 														"level": "Family",
 														"name": "Apiaceae",
-														"aka": "carrots family",
+														"aka": "carrot family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1459,7 +1501,7 @@
 													{
 														"level": "Family",
 														"name": "Apocynaceae",
-														"aka": "dogbanes family",
+														"aka": "dogbane family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1517,7 +1559,7 @@
 													{
 														"level": "Family",
 														"name": "Lamiaceae",
-														"aka": "mints family",
+														"aka": "mint family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1705,32 +1747,15 @@
 																				]
 																			},
 																			{
-																				"link": "ocimum-basilicum-var-thyrsiflora-1.webp",
+																				"link": "ocimum-basilicum-2.webp",
 																				"caption": [
 																					{
-																						"type": "i",
-																						"text": "Ocimum basilicum var. thyrsiflora"
-																					}
-																				]
-																			}
-																		],
-																		"children": [
-																			{
-																				"level": "Variety",
-																				"name": "Ocimum basilicum var. thyrsiflora",
-																				"aka": "thai basil",
-																				"common": {
-																					"en": "thai basil"
-																				},
-																				"images": [
+																						"type": "span",
+																						"text": "The thai basil is also a variety of "
+																					},
 																					{
-																						"link": "ocimum-basilicum-var-thyrsiflora-1.webp",
-																						"caption": [
-																							{
-																								"type": "i",
-																								"text": "Ocimum basilicum var. thyrsiflora"
-																							}
-																						]
+																						"type": "i",
+																						"text": "Ocimum basilicum"
 																					}
 																				]
 																			}
@@ -1855,7 +1880,7 @@
 													{
 														"level": "Family",
 														"name": "Anacardiaceae",
-														"aka": "cashews family",
+														"aka": "cashew family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1913,7 +1938,7 @@
 													{
 														"level": "Family",
 														"name": "Solanaceae",
-														"aka": "nightshades family",
+														"aka": "nightshade family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1970,7 +1995,7 @@
 											{
 												"level": "Family",
 												"name": "Equisetaceae",
-												"aka": "horsetails family",
+												"aka": "horsetail family",
 												"children": [
 													{
 														"level": "Genus",

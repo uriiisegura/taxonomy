@@ -763,6 +763,9 @@ Taxonomy Tree
 .level-symbol.purple {
 	background-color: #c08adb;
 }
+.level-symbol.sub-purple {
+	border: 1px solid #c08adb;
+}
 .level-symbol.orange {
 	background-color: #eb8f3a;
 }
