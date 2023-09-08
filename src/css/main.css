@@ -721,6 +721,7 @@ Taxonomy Tree
 	font-size: 0.75rem;
 	color: var(--grey-400);
 	padding-left: 7px;
+	user-select: none;
 }
 
 .taxonomy-tree .nested {
@@ -843,6 +844,7 @@ Taxonomy Item
 	height: 15px;
 	width: 20px;
 	margin-right: 5px;
+	user-select: none;
 }
 
 .tax-item-content {

@@ -1306,6 +1306,23 @@
 												]
 											}
 										]
+									},
+									{
+										"level": "Order",
+										"name": "Pandanales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Pandanaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Pandanus",
+														"aka": "pandans"
+													}
+												]
+											}
+										]
 									}
 								]
 							},
@@ -1802,6 +1819,29 @@
 																		]
 																	}
 																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Order",
+										"name": "Solanales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Solanaceae",
+												"aka": "nightshades",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Capsicum",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Capsicum annuum"
 															}
 														]
 													}
