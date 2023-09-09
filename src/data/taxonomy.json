@@ -152,6 +152,7 @@
 													{
 														"level": "Family",
 														"name": "Lycaenidae",
+														"aka": "gossamer-winged butterflies",
 														"children": [
 															{
 																"level": "Genus",
@@ -197,6 +198,70 @@
 													{
 														"level": "Family",
 														"name": "Nymphalidae",
+														"aka": "brush-footed butterflies",
+														"images": [
+															{
+																"link": "marpesia-zerynthia-1.jpeg",
+																"caption": [
+																	{
+																		"type": "span",
+																		"text": "A specimen of "
+																	},
+																	{
+																		"type": "i",
+																		"text": "Marpesia zerynthia"
+																	},
+																	{
+																		"type": "span",
+																		"text": " near Acevedo, Huila, Colombia"
+																	}
+																]
+															},
+															{
+																"link": "acraea-terpsicore-1.png",
+																"caption": [
+																	{
+																		"type": "span",
+																		"text": "An "
+																	},
+																	{
+																		"type": "i",
+																		"text": "Acraea terpsicore"
+																	},
+																	{
+																		"type": "span",
+																		"text": " with the two forlegs folded in Bombay, India"
+																	}
+																]
+															}
+														],
+														"text": [
+															{
+																"type": "h2",
+																"text": "Characteristics"
+															},
+															{
+																"type": "p",
+																"components": [
+																	{
+																		"type": "span",
+																		"text": "With over 6000 species, this is the largest family of butterflies. Butterflies from this family are usually medium to large size, and most have a reduced pair of forelegs and many hold their colourful wings flat when resting. They are called brush-footed butterflies because in some species the two forelegs have a brush-like set of hairs. They are also known as four-footed butterflies since they are known to stand on only four legs while the other two are curled up (as can be seen in "
+																	},
+																	{
+																		"type": "span",
+																		"props": {
+																			"className": "link",
+																			"onClick": "() => this.linkToSlide(2)"
+																		},
+																		"text": "this picture"
+																	},
+																	{
+																		"type": "span",
+																		"text": ")."
+																	}
+																]
+															}
+														],
 														"children": [
 															{
 																"level": "Genus",
@@ -265,6 +330,45 @@
 																		],
 																		"articles": [
 																			"blue-in-nature"
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
+																"name": "Lasiommata",
+																"aka": "wall browns",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Lasiommata megera",
+																		"aka": "wall brown",
+																		"common": {
+																			"ca": [
+																				"margenera comuna",
+																				"magera comuna"
+																			],
+																			"en": "wall brown",
+																			"es": "saltacercas"
+																		},
+																		"images": [
+																			{
+																				"link": "lasiommata-megera-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Lasiommata megera"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Prague, Czech Republic"
+																					}
+																				]
+																			}
 																		]
 																	}
 																]
@@ -437,6 +541,7 @@
 											{
 												"level": "Family",
 												"name": "Corvidae",
+												"aka": "crows, jays, and magpies",
 												"children": [
 													{
 														"level": "Genus",
@@ -493,6 +598,7 @@
 											{
 												"level": "Family",
 												"name": "Fringillidae",
+												"aka": "finches and euphonias",
 												"children": [
 													{
 														"level": "Genus",
@@ -603,6 +709,7 @@
 											{
 												"level": "Family",
 												"name": "Motacillidae",
+												"aka": "wagtails and pipits",
 												"images": [
 													{
 														"link": "macronyx-capensis-1.jpeg",
@@ -847,7 +954,50 @@
 											},
 											{
 												"level": "Family",
+												"name": "Muscicapidae",
+												"aka": "old world flycatchers and chats",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Muscicapa",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Muscicapa striata",
+																"aka": "spotted flycatcher",
+																"common": {
+																	"ca": "papamosques gris",
+																	"en": "spotted flycatcher",
+																	"es": "papamoscas gris"
+																},
+																"images": [
+																	{
+																		"link": "muscicapa-striata-1.jpg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Muscicapa striata"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Massalfassar, Comunitat Valenciana, Spain"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
 												"name": "Paridae",
+												"aka": "tits, chickadees, and titmice",
 												"children": [
 													{
 														"level": "Genus",
@@ -1019,6 +1169,7 @@
 											{
 												"level": "Family",
 												"name": "Sylviidae",
+												"aka": "sylviid warblers and parrotbills",
 												"children": [
 													{
 														"level": "Genus",
@@ -1394,6 +1545,49 @@
 																]
 															}
 														]
+													},
+													{
+														"level": "Family",
+														"name": "Lacertidae",
+														"aka": "wall lizards",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Timon",
+																"aka": "ocellated lizards",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Timon lepidus",
+																		"aka": "ocellated lizard",
+																		"common": {
+																			"ca": "llangardaix ocel·lat",
+																			"en": "ocellated lizard",
+																			"es": "lagarto ocelado"
+																		},
+																		"images": [
+																			{
+																				"link": "timon-lepidus-lepidus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "Two specimens of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Timon lepidus lepidus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Laroque-d'Olmes, Ariège, France"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
 													}
 												]
 											}
@@ -1663,6 +1857,7 @@
 															{
 																"level": "Genus",
 																"name": "Melissa",
+																"aka": "melissas",
 																"children": [
 																	{
 																		"level": "Species",
@@ -1865,6 +2060,7 @@
 															{
 																"level": "Genus",
 																"name": "Salvia",
+																"aka": "sages",
 																"children": [
 																	{
 																		"level": "Species",
