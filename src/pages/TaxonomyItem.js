@@ -26,15 +26,15 @@ class TaxonomyItem extends Component {
 	filterItem(item, level, name) {
 		if (MakeURL(item.level) === level && MakeURL(item.name) === name) {
 			ITEM = item;
-			path[item.level] = item.name;
+			path[item.level] = [item.name, item.aka];
 			return;
 		}
 		if (item.children === undefined)
 			return;
 		item.children.forEach(e => {
 			this.filterItem(e, level, name);
-			if (path[e.level] === e.name)
-				path[item.level] = item.name;
+			if (e.level in path && path[e.level][0] === e.name)
+				path[item.level] = [item.name, item.aka];
 		});
 	}
 	linkToSlide(n) {
@@ -135,7 +135,7 @@ class TaxonomyItem extends Component {
 			return <NotFound />;
 		
 		delete path[Object.keys(path)[0]];
-		
+
 		document.title = `Taxonomy | ${ITEM.name}`;
 
 		const extinct = ITEM.extinct !== undefined && ITEM.extinct;
@@ -159,7 +159,7 @@ class TaxonomyItem extends Component {
 				{Object.entries(path).length > 0 && <><span className="path-expand" onClick={this.showPath}>Taxonomic path...</span><ul className="tax-item-path">
 					{
 						Object.entries(path).reverse().map(([k, v], i) => {
-							return <li key={`tax-path-${i}`}>{SYMBOLS[k]}<NavLink to={`/taxonomy/${MakeURL(k)}/${MakeURL(v)}`}>{v}</NavLink></li>;
+							return <li key={`tax-path-${i}`}>{SYMBOLS[k]}<NavLink to={`/taxonomy/${MakeURL(k)}/${MakeURL(v[0])}`}>{v[0]}{v[1] && <span className="aka">{v[1]}</span>}</NavLink></li>;
 						})
 					}
 				</ul></>}
