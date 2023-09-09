@@ -811,6 +811,10 @@ Taxonomy Item
 ===============
 */
 
+.tax-item-title {
+	margin-bottom: 0.5rem;
+}
+
 .tax-item-title * {
 	margin: 0;
 	text-transform: none;

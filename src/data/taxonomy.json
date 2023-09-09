@@ -126,7 +126,7 @@
 													},
 													{
 														"type": "span",
-														"text": ", meaning 'scale'; and "
+														"text": ", meaning \"scale\"; and "
 													},
 													{
 														"type": "span",
@@ -138,7 +138,7 @@
 													},
 													{
 														"type": "span",
-														"text": ", meaning 'wing'. Refering to the presence of scales that cover the bodies and wings of the species from this order."
+														"text": ", meaning \"wing\". Refering to the presence of scales that cover the bodies and wings of the species from this order."
 													}
 												]
 											}
@@ -341,6 +341,94 @@
 										"level": "Order",
 										"name": "Passeriformes",
 										"aka": "perching birds",
+										"images": [
+											{
+												"link": "passer-domesticus-1.jpeg",
+												"caption": [
+													{
+														"type": "span",
+														"text": "Passerines get their name from their sparrow-like shape, like this "
+													},
+													{
+														"type": "i",
+														"text": "Passer domesticus"
+													},
+													{
+														"type": "span",
+														"text": " in Prospect Park, New York, United States"
+													}
+												]
+											},
+											{
+												"link": "mimus-polyglottos-1.jpg",
+												"caption": [
+													{
+														"type": "span",
+														"text": "Detail of the toes arrangement of a "
+													},
+													{
+														"type": "i",
+														"text": "Mimus polyglottos"
+													},
+													{
+														"type": "span",
+														"text": " near Monhegan, Louisiana, United States"
+													}
+												]
+											}
+										],
+										"text": [
+											{
+												"type": "h2",
+												"text": "Characteristics"
+											},
+											{
+												"type": "p",
+												"components": [
+													{
+														"type": "span",
+														"text": "Passerines birds includes more than half of all bird species. The word comes from Latin "
+													},
+													{
+														"type": "span",
+														"props": {
+															"className": "latin"
+														},
+														"text": "passer"
+													},
+													{
+														"type": "span",
+														"text": ", meaning \"sparrow\"; and "
+													},
+													{
+														"type": "span",
+														"props": {
+															"className": "latin"
+														},
+														"text": "formis"
+													},
+													{
+														"type": "span",
+														"text": ", meaning \"shaped\". These birds have an anisodactyl arrangement of their toes (three pointing forward and one backwards, as can be seen in "
+													},
+													{
+														"type": "span",
+														"props": {
+															"className": "link",
+															"onClick": "() => this.linkToSlide(2)"
+														},
+														"text": "this picture"
+													},
+													{
+														"type": "span",
+														"text": "), which facilitates perching."
+													}
+												]
+											}
+										],
+										"articles": [
+											"birds-toes-arrengement"
+										],
 										"children": [
 											{
 												"level": "Family",

@@ -1,34 +1,7 @@
 {
-	"monocots-vs-dicots": {
-		"title": "Differences between monocots and dicots",
-		"article": [
-			{
-				"type": "p",
-				"components": [
-					{
-						"type": "span",
-						"text": "Lorem ipsum "
-					},
-					{
-						"type": "i",
-						"components": [
-							{
-								"type": "span",
-								"text": "dolor "
-							},
-							{
-								"type": "u",
-								"text": "sit"
-							}
-						]
-					},
-					{
-						"type": "span",
-						"text": " amet..."
-					}
-				]
-			}
-		]
+	"birds-toes-arrengement": {
+		"title": "Arrengement of the toes in birds",
+		"article": []
 	},
 	"blue-in-nature": {
 		"title": "Blue in nature",
@@ -53,7 +26,7 @@
 					},
 					{
 						"type": "span",
-						"text": ") are a group of moths that evolved to be active during the day, and that gives them a great advantage because now they can use light to communicate. Colors are used in nature to send messages: ‘I am dangerous’, ‘look how pretty I am’, ‘you are in my territory’, etc."
+						"text": ") are a group of moths that evolved to be active during the day, and that gives them a great advantage because now they can use light to communicate. Colors are used in nature to send messages: \"I am dangerous\", \"look how pretty I am\", \"you are in my territory\", etc."
 					}
 				]
 			},
@@ -122,5 +95,9 @@
 				]
 			}
 		]
+	},
+	"monocots-vs-dicots": {
+		"title": "Differences between monocots and dicots",
+		"article": []
 	}
 }
