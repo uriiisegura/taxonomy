@@ -692,8 +692,8 @@ Taxonomy Tree
 	width: 1px;
 }
 
-.taxonomy-item {
-	width: fit-content;
+.taxomomy-item-wrap {
+	display: flex;
 }
 
 .caret {
@@ -710,6 +710,10 @@ Taxonomy Tree
 .caret-down::before {
 	transform: rotate(90deg);
 	font-style: normal !important;
+}
+
+.taxonomy-item {
+	width: fit-content;
 }
 
 .extinct:after {

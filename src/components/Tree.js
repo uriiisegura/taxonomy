@@ -46,7 +46,7 @@ class Tree extends Component {
 
 		if (level.children === undefined)
 			return (
-				<li key={key} className={`taxonomy-item ${unknown ? 'idk' : ''}`}>
+				<li key={key} className={`taxonomy-item ${unknown && 'idk'}`}>
 					{
 						unknown ? UNKNOWN_STRING
 						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(level.name)}`}>{extinct && <span className="extinct"></span>}{level.name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
@@ -54,10 +54,9 @@ class Tree extends Component {
 					{SYMBOLS[level.level]}
 				</li>
 			);
-		
 		return (
 			<li key={key}>
-				<span className={unknown ? 'idk' : ''}>
+				<span className={`taxomomy-item-wrap ${unknown && 'idk'}`}>
 					<span className="caret"></span>
 					<span className="taxonomy-item">
 						{
