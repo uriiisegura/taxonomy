@@ -756,6 +756,7 @@ Taxonomy Tree
 }
 .level-symbol.sub-green {
 	border: 1px solid #4bbb8d;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 .level-symbol.blue {
 	background-color: #4ad0f1;
@@ -765,6 +766,13 @@ Taxonomy Tree
 }
 .level-symbol.sub-purple {
 	border: 1px solid #c08adb;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
+.level-symbol.super-orange {
+	background-color: #eb8f3a;
+	border: 1px solid #844d19;
+	color: #844d19;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 .level-symbol.orange {
 	background-color: #eb8f3a;
@@ -780,6 +788,7 @@ Taxonomy Tree
 }
 .level-symbol.sub-ocre {
 	border: 1px solid #c6ba7b;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 
 .level-symbol * {
@@ -810,13 +819,15 @@ Taxonomy Item
 	font-style: italic;
 }
 
-.common-expand {
+.common-expand,
+.path-expand {
 	position: relative;
 	cursor: pointer;
 	user-select: none;
 	padding-left: 1rem;
 }
-.common-expand::before {
+.common-expand::before,
+.path-expand::before {
 	position: absolute;
 	left: 0;
 	top: -10%;
@@ -824,15 +835,18 @@ Taxonomy Item
 	transform: rotate(-90deg);
 	font-size: 0.9rem;
 }
-.common-expand.expand::before {
+.common-expand.expand::before,
+.path-expand.expand:before {
 	transform: none;
 }
 
-.common-names {
-	padding-left: 1.5rem;
+.common-names,
+.tax-item-path {
+	padding-left: calc(0.25rem + 20px);
 }
 
-.common-names:not(.expand) li {
+.common-names:not(.expand),
+.tax-item-path:not(.expand) {
 	display: none;
 }
 .common-names li {
@@ -851,6 +865,18 @@ Taxonomy Item
 	width: 20px;
 	margin-right: 5px;
 	user-select: none;
+}
+
+.tax-item-path li {
+	line-height: 1.2;
+}
+
+.tax-item-path .level-symbol {
+	margin: 0;
+}
+
+.tax-item-path a {
+	margin-left: 0.25rem;
 }
 
 .tax-item-content {

@@ -39,7 +39,23 @@
 			},
 			{
 				"type": "p",
-				"text": "Before trying to understand why is blue so rare, we first need to know what gives color to an animal. And when it comes to color there is a group of animals that displays the brightest and most colorful patterns: butterflies. Butterflies are a group of moths that evolved to be active during the day, and that gives them a great advantage because now they can use light to communicate. Colors are used in nature to send messages: ‘I am dangerous’, ‘look how pretty I am’, ‘you are in my territory’, etc."
+				"components": [
+					{
+						"type": "span",
+						"text": "Before trying to understand why is blue so rare, we first need to know what gives color to an animal. And when it comes to color there is a group of animals that displays the brightest and most colorful patterns: butterflies. Butterflies ("
+					},
+					{
+						"type": "a",
+						"text": "Papilionoidea",
+						"props": {
+							"href": "#/taxonomy/superfamily/papilionoidea"
+						}
+					},
+					{
+						"type": "span",
+						"text": ") are a group of moths that evolved to be active during the day, and that gives them a great advantage because now they can use light to communicate. Colors are used in nature to send messages: ‘I am dangerous’, ‘look how pretty I am’, ‘you are in my territory’, etc."
+					}
+				]
 			},
 			{
 				"type": "p",

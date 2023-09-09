@@ -145,121 +145,128 @@
 										],
 										"children": [
 											{
-												"level": "Family",
-												"name": "Lycaenidae",
+												"level": "Superfamily",
+												"name": "Papilionoidea",
+												"aka": "butterflies",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Glaucopsyche",
+														"level": "Family",
+														"name": "Lycaenidae",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Glaucopsyche xerces",
-																"extinct": true,
-																"aka": "Xerces blue",
-																"common": {
-																	"ca": "Xerces blau",
-																	"en": "Xerces blue",
-																	"es": "Xerces azul"
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Glaucopsyche",
+																"children": [
 																	{
-																		"link": "glaucopsyche-xerces-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Glaucopsyche xerces",
+																		"extinct": true,
+																		"aka": "Xerces blue",
+																		"common": {
+																			"ca": "Xerces blau",
+																			"en": "Xerces blue",
+																			"es": "Xerces azul"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "Twelve pinned "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Glaucopsyche xerces"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																				"link": "glaucopsyche-xerces-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "Twelve pinned "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Glaucopsyche xerces"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																					}
+																				]
 																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
 																		]
 																	}
-																],
-																"articles": [
-																	"blue-in-nature"
 																]
 															}
 														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Nymphalidae",
-												"children": [
+													},
 													{
-														"level": "Genus",
-														"name": "Morpho",
-														"aka": "morphos",
+														"level": "Family",
+														"name": "Nymphalidae",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Morpho didius",
-																"aka": "giant blue morpho",
-																"common": {
-																	"en": "giant blue morpho"
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Morpho",
+																"aka": "morphos",
+																"children": [
 																	{
-																		"link": "morpho-didius-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Morpho didius",
+																		"aka": "giant blue morpho",
+																		"common": {
+																			"en": "giant blue morpho"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A "
+																				"link": "morpho-didius-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Morpho didius"
+																					},
+																					{
+																						"type": "span",
+																						"text": " on a leaf"
+																					}
+																				]
 																			},
 																			{
-																				"type": "i",
-																				"text": "Morpho didius"
+																				"link": "morpho-didius-2.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Morpho didius"
+																					},
+																					{
+																						"type": "span",
+																						"text": " on a leaf showing the ventral side of its wings"
+																					}
+																				]
 																			},
 																			{
-																				"type": "span",
-																				"text": " on a leaf"
+																				"link": "morpho-didius-3.png",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "On the left, the dorsal view of a "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Morpho didius"
+																					},
+																					{
+																						"type": "span",
+																						"text": "; and on the right, its ventral view"
+																					}
+																				]
 																			}
-																		]
-																	},
-																	{
-																		"link": "morpho-didius-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Morpho didius"
-																			},
-																			{
-																				"type": "span",
-																				"text": " on a leaf showing the ventral side of its wings"
-																			}
-																		]
-																	},
-																	{
-																		"link": "morpho-didius-3.png",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "On the left, the dorsal view of a "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Morpho didius"
-																			},
-																			{
-																				"type": "span",
-																				"text": "; and on the right, its ventral view"
-																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
 																		]
 																	}
-																],
-																"articles": [
-																	"blue-in-nature"
 																]
 															}
 														]

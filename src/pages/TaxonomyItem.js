@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
+import SYMBOLS from "../components/Symbols";
 import Tree from "../components/Tree";
 import MakeURL from "./../functions/MakeURL";
 import CapitalizeFirst from "./../functions/CapitalizeFirst";
@@ -12,21 +13,28 @@ function withParams(Component) {
 }
 
 let ITEM = null;
+const path = {};
 let SLIDE_INDEX = 1;
 
 class TaxonomyItem extends Component {
+	componentWillUnmount() {
+		window.location.reload();
+	}
 	componentDidUpdate() {
 		window.location.reload();
 	}
 	filterItem(item, level, name) {
 		if (MakeURL(item.level) === level && MakeURL(item.name) === name) {
 			ITEM = item;
+			path[item.level] = item.name;
 			return;
 		}
 		if (item.children === undefined)
 			return;
 		item.children.forEach(e => {
 			this.filterItem(e, level, name);
+			if (path[e.level] === e.name)
+				path[item.level] = item.name;
 		});
 	}
 	linkToSlide(n) {
@@ -113,6 +121,10 @@ class TaxonomyItem extends Component {
 		document.getElementsByClassName('common-expand')[0].classList.toggle('expand');
 		document.getElementsByClassName('common-names')[0].classList.toggle('expand');
 	}
+	showPath() {
+		document.getElementsByClassName('path-expand')[0].classList.toggle('expand');
+		document.getElementsByClassName('tax-item-path')[0].classList.toggle('expand');
+	}
 	render() {
 		const { level, name } = this.props.params;
 		taxonomy.forEach(e => {
@@ -121,6 +133,8 @@ class TaxonomyItem extends Component {
 
 		if (ITEM === null)
 			return <NotFound />;
+		
+		delete path[Object.keys(path)[0]];
 		
 		document.title = `Taxonomy | ${ITEM.name}`;
 
@@ -141,6 +155,14 @@ class TaxonomyItem extends Component {
 						</ul></>
 					}
 				</div>
+
+				{Object.entries(path).length > 0 && <><span className="path-expand" onClick={this.showPath}>Taxonomic path...</span><ul className="tax-item-path">
+					{
+						Object.entries(path).reverse().map(([k, v], i) => {
+							return <li key={`tax-path-${i}`}>{SYMBOLS[k]}<NavLink to={`/taxonomy/${MakeURL(k)}/${MakeURL(v)}`}>{v}</NavLink></li>;
+						})
+					}
+				</ul></>}
 
 				<div className="tax-item-content">
 					{
