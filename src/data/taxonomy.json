@@ -199,6 +199,12 @@
 														"level": "Family",
 														"name": "Nymphalidae",
 														"aka": "brush-footed butterflies",
+														"common": {
+															"en": [
+																"brush-footed butterflies",
+																"four-footed butterflies"
+															]
+														},
 														"images": [
 															{
 																"link": "marpesia-zerynthia-1.jpeg",
@@ -389,47 +395,54 @@
 						"aka": "chordates",
 						"children": [
 							{
-								"level": "Class",
-								"name": "Aves",
-								"aka": "birds",
+								"level": "Subphylum",
+								"name": "Vertebrata",
+								"aka": "vertebrates",
 								"children": [
 									{
-										"level": "Order",
-										"name": "Bucerotiformes",
+										"level": "Class",
+										"name": "Aves",
+										"aka": "birds",
 										"children": [
 											{
-												"level": "Family",
-												"name": "Upupidae",
-												"aka": "hoopoes",
+												"level": "Order",
+												"name": "Bucerotiformes",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Upupa",
+														"level": "Family",
+														"name": "Upupidae",
 														"aka": "hoopoes",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Upupa epops",
-																"aka": "common hoopoe",
-																"common": {
-																	"ca": "puput",
-																	"en": [
-																		"common hoopoe",
-																		"Eurasian hoopoe"
-																	],
-																	"es": "abubilla"
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Upupa",
+																"aka": "hoopoes",
+																"children": [
 																	{
-																		"link": "upupa-epops-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Upupa epops",
+																		"aka": "common hoopoe",
+																		"common": {
+																			"ca": "puput",
+																			"en": [
+																				"common hoopoe",
+																				"Eurasian hoopoe"
+																			],
+																			"es": "abubilla"
+																		},
+																		"images": [
 																			{
-																				"type": "i",
-																				"text": "Upupa epops"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Sarıçam, Turkey"
+																				"link": "upupa-epops-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Upupa epops"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Sarıçam, Turkey"
+																					}
+																				]
 																			}
 																		]
 																	}
@@ -438,196 +451,48 @@
 														]
 													}
 												]
-											}
-										]
-									},
-									{
-										"level": "Order",
-										"name": "Passeriformes",
-										"aka": "perching birds",
-										"images": [
-											{
-												"link": "passer-domesticus-1.jpeg",
-												"caption": [
-													{
-														"type": "span",
-														"text": "Passerines get their name from their sparrow-like shape, like this "
-													},
-													{
-														"type": "i",
-														"text": "Passer domesticus"
-													},
-													{
-														"type": "span",
-														"text": " in Prospect Park, New York, United States"
-													}
-												]
 											},
 											{
-												"link": "mimus-polyglottos-1.jpg",
-												"caption": [
-													{
-														"type": "span",
-														"text": "Detail of the toes arrangement of a "
-													},
-													{
-														"type": "i",
-														"text": "Mimus polyglottos"
-													},
-													{
-														"type": "span",
-														"text": " near Monhegan, Louisiana, United States"
-													}
-												]
-											}
-										],
-										"text": [
-											{
-												"type": "h2",
-												"text": "Characteristics"
-											},
-											{
-												"type": "p",
-												"components": [
-													{
-														"type": "span",
-														"text": "Passerines birds includes more than half of all bird species. The word comes from Latin "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "latin"
-														},
-														"text": "passer"
-													},
-													{
-														"type": "span",
-														"text": ", meaning \"sparrow\"; and "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "latin"
-														},
-														"text": "formis"
-													},
-													{
-														"type": "span",
-														"text": ", meaning \"shaped\". These birds have an anisodactyl arrangement of their toes (three pointing forward and one backwards, as can be seen in "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "link",
-															"onClick": "() => this.linkToSlide(2)"
-														},
-														"text": "this picture"
-													},
-													{
-														"type": "span",
-														"text": "), which facilitates perching."
-													}
-												]
-											},
-											{
-												"type": "p",
-												"text": "With around 6500 identified species, it is the largest order of birds, representing about 60% of all the bird species."
-											}
-										],
-										"articles": [
-											"birds-toes-arrengement"
-										],
-										"children": [
-											{
-												"level": "Family",
-												"name": "Corvidae",
-												"aka": "crows, jays, and magpies",
+												"level": "Order",
+												"name": "Galliformes",
+												"aka": "landfowl",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Cyanocitta",
+														"level": "Family",
+														"name": "Phasianidae",
+														"aka": "pheasants and grouse",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Cyanocitta cristata",
-																"aka": "blue jay",
-																"common": {
-																	"ca": "gaig nord-americà",
-																	"en": "blue jay",
-																	"es": [
-																		"chara azul",
-																		"urraca azul"
-																	]
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Coturnix",
+																"aka": "Coturnix quails",
+																"children": [
 																	{
-																		"link": "cyanocitta-cristata-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Coturnix coturnix",
+																		"aka": "common quail",
+																		"common": {
+																			"ca": "guatlla comú",
+																			"en": "common quail",
+																			"es": "codorniz común"
+																		},
+																		"images": [
 																			{
-																				"type": "i",
-																				"text": "Cyanocitta cristata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Welland, Ontario, Canada"
-																			}
-																		]
-																	},
-																	{
-																		"link": "cyanocitta-cristata-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanocitta cristata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " in Algonquin Provincial Park, Canada"
-																			}
-																		]
-																	}
-																],
-																"articles": [
-																	"blue-in-nature"
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Fringillidae",
-												"aka": "finches and euphonias",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Serinus",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Serinus serinus",
-																"aka": "European serin",
-																"common": {
-																	"ca": "gafarró europeu",
-																	"en": "European serin",
-																	"es": "serín verdecillo"
-																},
-																"images": [
-																	{
-																		"link": "serinus-serinus-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A male specimen of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Serinus serinus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Souss-Massa National Park, Morocco"
+																				"link": "coturnix-coturnix-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Coturnix coturnix"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Fraunberg, Bayern, Deutschland"
+																					}
+																				]
 																			}
 																		]
 																	}
@@ -638,115 +503,41 @@
 												]
 											},
 											{
-												"level": "Family",
-												"name": "Monarchidae",
-												"aka": "monarch flycatchers",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Hypothymis",
-														"aka": "blue monarchs",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Hypothymis azurea",
-																"aka": "black-naped monarch",
-																"common": {
-																	"ca": "monarca blau coronat",
-																	"en": "black-naped monarch",
-																	"es": "monarca nuquinegro"
-																},
-																"images": [
-																	{
-																		"link": "hypothymis-azurea-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "An speciment of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Hypothymis azurea"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
-																			}
-																		]
-																	}
-																],
-																"text": [
-																	{
-																		"type": "h2",
-																		"text": "Trivia"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "This bird species inspired the "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Twitter"
-																			},
-																			{
-																				"type": "span",
-																				"text": " logo, and was named 'Larry' after the mythic Boston Celtics NBA player Larry Bird."
-																			}
-																		]
-																	}
-																],
-																"articles": [
-																	"blue-in-nature"
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Motacillidae",
-												"aka": "wagtails and pipits",
+												"level": "Order",
+												"name": "Passeriformes",
+												"aka": "perching birds",
 												"images": [
 													{
-														"link": "macronyx-capensis-1.jpeg",
+														"link": "passer-domesticus-1.jpeg",
 														"caption": [
 															{
+																"type": "span",
+																"text": "Passerines get their name from their sparrow-like shape, like this "
+															},
+															{
 																"type": "i",
-																"text": "Macronyx capensis"
+																"text": "Passer domesticus"
 															},
 															{
 																"type": "span",
-																"text": " at Krugersdorp Game Reserve, South Africa"
+																"text": " in Prospect Park, New York, United States"
 															}
 														]
 													},
 													{
-														"link": "motacilla-aguimp-1.jpeg",
+														"link": "mimus-polyglottos-1.jpg",
 														"caption": [
 															{
+																"type": "span",
+																"text": "Detail of the toes arrangement of a "
+															},
+															{
 																"type": "i",
-																"text": "Motacilla aguimp"
+																"text": "Mimus polyglottos"
 															},
 															{
 																"type": "span",
-																"text": " at Kruger National Park, South Africa"
-															}
-														]
-													},
-													{
-														"link": "macronyx-croceus-1.jpg",
-														"caption": [
-															{
-																"type": "i",
-																"text": "Macronyx croceus"
-															},
-															{
-																"type": "span",
-																"text": " eating a locust at Mikumi National Park, Tanzania"
+																"text": " near Monhegan, Louisiana, United States"
 															}
 														]
 													}
@@ -761,101 +552,104 @@
 														"components": [
 															{
 																"type": "span",
-																"text": "This family of birds consists of small "
-															},
-															{
-																"type": "a",
-																"props": {
-																	"href": "#/taxonomy/order/passeriformes"
-																},
-																"text": "passerines"
+																"text": "Passerines birds includes more than half of all bird species. The word comes from Latin "
 															},
 															{
 																"type": "span",
-																"text": " with medium to long tails."
+																"props": {
+																	"className": "latin"
+																},
+																"text": "passer"
+															},
+															{
+																"type": "span",
+																"text": ", meaning \"sparrow\"; and "
+															},
+															{
+																"type": "span",
+																"props": {
+																	"className": "latin"
+																},
+																"text": "formis"
+															},
+															{
+																"type": "span",
+																"text": ", meaning \"shaped\". These birds have an anisodactyl arrangement of their toes (three pointing forward and one backwards, as can be seen in "
+															},
+															{
+																"type": "span",
+																"props": {
+																	"className": "link",
+																	"onClick": "() => this.linkToSlide(2)"
+																},
+																"text": "this picture"
+															},
+															{
+																"type": "span",
+																"text": "), which facilitates perching."
 															}
 														]
 													},
 													{
 														"type": "p",
-														"text": "They are ground-feeding insectivores of slightly open country. They occupy almost all available habitats, from the shore to high mountains. A few species use forests and other species use forested mountain streams."
-													},
-													{
-														"type": "p",
-														"text": "Birds from this family exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat."
-													},
-													{
-														"type": "p",
-														"components": [
-															{
-																"type": "span",
-																"text": "With the exception of the "
-															},
-															{
-																"type": "a",
-																"props": {
-																	"className": "latin",
-																	"href": "#/taxonomy/species/dendronanthus-indicus"
-																},
-																"text": "Dendronanthus indicus"
-															},
-															{
-																"type": "span",
-																"text": " they nest on the ground, laying up to six speckled eggs."
-															}
-														]
-													},
-													{
-														"type": "h2",
-														"text": "Appearance"
-													},
-													{
-														"type": "p",
-														"text": "These birds range from 14 to 17 cm in length, with short necks and long tails. They have long, pale legs with long toes and claws, particularly the hind toe, which can be up to 4 cm in length in some longclaws. No sexual dimorphism in size is seen."
-													},
-													{
-														"type": "h2",
-														"text": "Diet"
-													},
-													{
-														"type": "p",
-														"text": "Motacillids take a wide range of invertebrate prey: insects are the most commonly taken, but also including spiders, worms, and small aquatic molluscs and arthropods. All species seem to be fairly catholic in their diets, and the most commonly taken prey for any particular species or population usually reflects local availability."
+														"text": "With around 6500 identified species, it is the largest order of birds, representing about 60% of all the bird species."
 													}
+												],
+												"articles": [
+													"birds-toes-arrengement"
 												],
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Dendronanthus",
-														"aka": "forest wagtails",
+														"level": "Family",
+														"name": "Corvidae",
+														"aka": "crows, jays, and magpies",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Dendronanthus indicus",
-																"aka": "forest wagtail",
-																"common": {
-																	"ca": "cuereta boscana",
-																	"en": "forest wagtail",
-																	"es": [
-																		"lavandera forestal",
-																		"lavandera de los bosques"
-																	]
-																},
-																"images": [
+																"level": "Genus",
+																"name": "Cyanocitta",
+																"children": [
 																	{
-																		"link": "dendronanthus-indicus-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Cyanocitta cristata",
+																		"aka": "blue jay",
+																		"common": {
+																			"ca": "gaig nord-americà",
+																			"en": "blue jay",
+																			"es": [
+																				"chara azul",
+																				"urraca azul"
+																			]
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A "
+																				"link": "cyanocitta-cristata-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Cyanocitta cristata"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Welland, Ontario, Canada"
+																					}
+																				]
 																			},
 																			{
-																				"type": "i",
-																				"text": "Dendronanthus indicus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
+																				"link": "cyanocitta-cristata-2.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Cyanocitta cristata"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Algonquin Provincial Park, Canada"
+																					}
+																				]
 																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
 																		]
 																	}
 																]
@@ -863,638 +657,38 @@
 														]
 													},
 													{
-														"level": "Genus",
-														"name": "Motacilla",
-														"aka": "wagtails",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Motacilla alba",
-																"aka": "white wagtail",
-																"common": {
-																	"ca": "cuereta blanca",
-																	"en": "white wagtail",
-																	"es": "lavandera blanca"
-																},
-																"images": [
-																	{
-																		"link": "motacilla-alba-1.jpg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Motacilla alba"
-																			},
-																			{
-																				"type": "span",
-																				"text": " in Sète, France"
-																			}
-																		]
-																	},
-																	{
-																		"link": "motacilla-alba-2.jpeg",
-																		"caption":  [
-																			{
-																				"type": "i",
-																				"text": "Motacilla alba"
-																			},
-																			{
-																				"type": "span",
-																				"text": " in Basel, Switzerland"
-																			}
-																		]
-																	}
-																],
-																"text": [
-																	{
-																		"type": "h2",
-																		"text": "Characteristics"
-																	},
-																	{
-																		"type": "p",
-																		"text": "It is an insectivorous bird of open country, often near habitation and water. It prefers bare areas for feeding, where it can see and pursue its prey. In urban areas it has adapted to foraging on paved areas such as car parks. It nests in crevices in stone walls and similar natural and man-made structures."
-																	},
-																	{
-																		"type": "p",
-																		"text": "Specimens of this species are around 18 cm long, with a wing span of about 25 cm. Depending on the gender and life phase they weight between 18 and 27 grams. Their life expectancy is around the 10 years."
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "Like all the species from the "
-																			},
-																			{
-																				"type": "a",
-																				"props": {
-																					"className": "latin",
-																					"href": "#/taxonomy/family/motacillidae"
-																				},
-																				"text": "Motacillidae"
-																			},
-																			{
-																				"type": "span",
-																				"text": " family, they exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat. That is why in most countries this species is known as \"white wagtail\"."
-																			}
-																		]
-																	},
-																	{
-																		"type": "h2",
-																		"text": "Distribution"
-																	},
-																	{
-																		"type": "p",
-																		"text": "Europe from the Iberian Peninsula to Ural Mountains, Turkey, the Levant, Iceland, the Faroe Islands and Greenland's eastern coast. Some migrate to the south of Europe and Africa down as far as Kenya and Malawi. Occasionally, they are found in Britain."
-																	}
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Muscicapidae",
-												"aka": "old world flycatchers and chats",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Muscicapa",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Muscicapa striata",
-																"aka": "spotted flycatcher",
-																"common": {
-																	"ca": "papamosques gris",
-																	"en": "spotted flycatcher",
-																	"es": "papamoscas gris"
-																},
-																"images": [
-																	{
-																		"link": "muscicapa-striata-1.jpg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A specimen of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Muscicapa striata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Massalfassar, Comunitat Valenciana, Spain"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Paridae",
-												"aka": "tits, chickadees, and titmice",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Cyanistes",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Cyanistes caeruleus",
-																"aka": "Eurasian blue tit",
-																"common": {
-																	"ca": "mallerenga blava",
-																	"en": "Eurasian blue tit",
-																	"es": "herrerillo común"
-																},
-																"images": [
-																	{
-																		"link": "cyanistes-caeruleus-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanistes caeruleus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Lancashire, UK"
-																			}
-																		]
-																	},
-																	{
-																		"link": "cyanistes-caeruleus-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanistes caeruleus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Baltasound, UK"
-																			}
-																		]
-																	},
-																	{
-																		"link": "cyanistes-caeruleus-3.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "Sexual dimorphism of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Cyanistes caeruleus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Regino Valley, Corsica, France. On the right there is a male, and on the left, a female"
-																			}
-																		]
-																	},
-																	{
-																		"link": "cyanistes-caeruleus-4.png",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Cyanistes caeruleus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " distribution map as for February 2013"
-																			}
-																		]
-																	}
-																],
-																"text": [
-																	{
-																		"type": "h2",
-																		"text": "Characteristics"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "It is a small "
-																			},
-																			{
-																				"type": "a",
-																				"props": {
-																					"href": "#/taxonomy/order/passeriformes"
-																				},
-																				"text": "passerine"
-																			},
-																			{
-																				"type": "span",
-																				"text": " bird easily recognisable by its blue and yellow plumage and small size. They are usually resident and non-migratory birds widespread throughout temperate and subarctic Europe and the western Palearctic in deciduous or mixed woodlands with a high proportion of oak. They usually nest in tree holes, although they easily adapt to nest boxes where necessary."
-																			}
-																		]
-																	},
-																	{
-																		"type": "p",
-																		"text": "This bird prefers insects and spiders for its diet. Outside the breeding season, they also eat seeds and other vegetable-based foods. The birds are famed for their acrobatic skills, as they can hold on to the outermost branches of trees and shrubs and hang upside down when looking for food."
-																	},
-																	{
-																		"type": "h2",
-																		"text": "Appearance"
-																	},
-																	{
-																		"type": "p",
-																		"text": "Specimens of this species are usually 12 cm long with a wingspan of 18 cm for both sexes, and weigh about 11 g. A speciment will have an azure-blue crown and dark blue line passing through the eye, and encircling the white cheeks to the chin, giving the bird a very distinctive appearance. The forehead and a bar on the wing are white. The nape, wings and tail are blue and the back is yellowish green. The underparts is mostly sulphur-yellow with a dark line down the abdomen —the yellowness is indicative of the number of yellowy- green caterpillars eaten, due to high levels of carotene pigments in the diet. The bill is black, the legs bluish grey, and the irides dark brown. Young specimens are noticeably more yellow."
-																	},
-																	{
-																		"type": "h4",
-																		"text": "Sexual dimorphism"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "The sexes are similar and often indistinguishable to human eyes, but under ultraviolet light, males have a brighter blue crown. Nevertheless, their sex can be told apart by the collar around their head. Males have a darker and wider stain, while females' collars are thinner and bluer. (This feature can be seen in "
-																			},
-																			{
-																				"type": "span",
-																				"props": {
-																					"className": "link",
-																					"onClick": "() => this.linkToSlide(3)"
-																				},
-																				"text": "this picture"
-																			},
-																			{
-																				"type": "span",
-																				"text": ".)"
-																			}
-																		]
-																	},
-																	{
-																		"type": "h2",
-																		"text": "Distribution"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "This bird and the related hybrids are considered native species in areas of the European continent with a mainly temperate or Mediterranean climate, and in parts of the Middle East. (Click "
-																			},
-																			{
-																				"type": "span",
-																				"props": {
-																					"className": "link",
-																					"onClick": "() => this.linkToSlide(4)"
-																				},
-																				"text": "here"
-																			},
-																			{
-																				"type": "span",
-																				"text": " to view the map.) In Great Britain the Eurasian blue tit can be found in a variety of environments, and is typically found in deciduous woodland, parks, gardens and even in the centre of towns."
-																			}
-																		]
-																	}
-																],
-																"articles": [
-																	"blue-in-nature"
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Sylviidae",
-												"aka": "sylviid warblers and parrotbills",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Curruca",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Curruca melanocephala",
-																"aka": "Sardinian warbler",
-																"common": {
-																	"ca": "tallarol capnegre",
-																	"en": "Sardinian warbler",
-																	"es": "curruca cabecinegra"
-																},
-																"images": [
-																	{
-																		"link": "curruca-melanocephala-1.jpg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Curruca melanocephala"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Las Palmas de Gran Canaria, Spain"
-																			}
-																		]
-																	},
-																	{
-																		"link": "curruca-melanocephala-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Curruca melanocephala leucogastra"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Las Palmas de Gran Canaria, Spain"
-																			}
-																		]
-																	},
-																	{
-																		"link": "curruca-melanocephala-3.jpeg",
-																		"caption": [
-																			{
-																				"type": "i",
-																				"text": "Curruca melanocephala momus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Yemişkumu, Turkey"
-																			}
-																		]
-																	},
-																	{
-																		"link": "curruca-melanocephala-4.png",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "On the left, a male specimen of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Curruca melanocephala"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Megalochori, Greece; and on the right, a female at Santarém, Portugal"
-																			}
-																		]
-																	}
-																],
-																"text": [
-																	{
-																		"type": "h2",
-																		"text": "Characteristics"
-																	},
-																	{
-																		"type": "p",
-																		"text": "This species is a bird from the Mediterranean region."
-																	},
-																	{
-																		"type": "h2",
-																		"text": "Sexual dimorphism"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "Like most "
-																			},
-																			{
-																				"type": "a",
-																				"props": {
-																					"className": "latin",
-																					"href": "#/taxonomy/genus/curruca"
-																				},
-																				"text": "Curruca"
-																			},
-																			{
-																				"type": "span",
-																				"text": " species, it has distinct male and female plumages. The adult male has a grey back, whitish underparts, black head, white throat and red eyes. Plumages are somewhat variable even in the same locality, with the intensity of a reddish hue on upper- and/or underside that varies from absent to (in some subspecies) pronounced. The female is mainly brown above and buff below, with a grey head. (In "
-																			},
-																			{
-																				"type": "span",
-																				"props": {
-																					"className": "link",
-																					"onClick": "() => this.linkToSlide(4)"
-																				},
-																				"text": "this image"
-																			},
-																			{
-																				"type": "span",
-																				"text": " the dimorphism can be seen.)"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"level": "Order",
-										"name": "Phoenicopteriformes",
-										"aka": "flamingos",
-										"children": [
-											{
-												"level": "Family",
-												"name": "Phoenicopteridae",
-												"aka": "flamingos"
-											}
-										]
-									},
-									{
-										"level": "Order",
-										"name": "Psittaciformes",
-										"aka": "parrots",
-										"children": [
-											{
-												"level": "Family",
-												"name": "Psittacidae",
-												"aka": "new world and african parrots",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Amazona",
-														"aka": "Amazon parrots",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Amazona vittata",
-																"aka": "Puerto Rican amazon",
-																"common": {
-																	"ca": "amazona de Puerto Rico",
-																	"en": [
-																		"Puerto Rican amazon",
-																		"Puerto Rican parrot",
-																		"iguaca"
-																	],
-																	"es": [
-																		"cotorra puertorriqueña",
-																		"amazona puertorriqueña",
-																		"iguaca"
-																	]
-																},
-																"images": [
-																	{
-																		"link": "amazona-vittata-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "An "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Amazona vittata"
-																			},
-																			{
-																				"type": "span",
-																				"text": " eating the fruits of a "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Miconia impetiolaris"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"level": "Class",
-								"name": "Elasmobranchii",
-								"children": [
-									{
-										"level": "Order",
-										"name": "Carcharhiniformes",
-										"aka": "ground sharks",
-										"children": [
-											{
-												"level": "Family",
-												"name": "Sphyrnidae",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Sphyrna",
-														"aka": "hammerhead sharks",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Sphyrna mokarran",
-																"aka": "great hammerhead",
-																"common": {
-																	"ca": [
-																		"tauró martell gegant",
-																		"peix martell gegant"
-																	],
-																	"en": "great hammerhead",
-																	"es": "tiburón martillo gigante"
-																},
-																"images": [
-																	{
-																		"link": "sphyrna-mokarran-1.jpg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A specimen of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Sphyrna mokarran"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"level": "Class",
-								"name": "Reptilia",
-								"aka": "reptiles",
-								"children": [
-									{
-										"level": "Order",
-										"name": "Squamata",
-										"aka": "snakes and lizards",
-										"children": [
-											{
-												"level": "Suborder",
-												"name": "Sauria",
-												"aka": "lizards",
-												"children": [
-													{
 														"level": "Family",
-														"name": "Anolidae",
-														"aka": "anoles",
+														"name": "Fringillidae",
+														"aka": "finches and euphonias",
 														"children": [
 															{
 																"level": "Genus",
-																"name": "Anolis",
-																"aka": "anoles",
+																"name": "Serinus",
 																"children": [
 																	{
 																		"level": "Species",
-																		"name": "Anolis carolinensis",
-																		"aka": "green anole",
+																		"name": "Serinus serinus",
+																		"aka": "European serin",
 																		"common": {
-																			"ca": "anolis verd",
-																			"en": [
-																				"green anole",
-																				"Carolina anole"
-																			],
-																			"es": "anolis verde"
+																			"ca": "gafarró europeu",
+																			"en": "European serin",
+																			"es": "serín verdecillo"
 																		},
 																		"images": [
 																			{
-																				"link": "anolis-carolinensis-1.jpeg",
+																				"link": "serinus-serinus-1.jpeg",
 																				"caption": [
 																					{
 																						"type": "span",
-																						"text": "A male "
+																						"text": "A male specimen of "
 																					},
 																					{
 																						"type": "i",
-																						"text": "Anolis carolinensis"
+																						"text": "Serinus serinus"
 																					},
 																					{
 																						"type": "span",
-																						"text": " showing its pink dewlap"
-																					}
-																				]
-																			},
-																			{
-																				"link": "anolis-carolinensis-2.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Female specimens of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Anolis carolinensis"
-																					},
-																					{
-																						"type": "span",
-																						"text": " have a prominent white stripe along their spine"
+																						"text": " at Souss-Massa National Park, Morocco"
 																					}
 																				]
 																			}
@@ -1506,25 +700,210 @@
 													},
 													{
 														"level": "Family",
-														"name": "Gekkonidae",
-														"aka": "common geckos",
+														"name": "Monarchidae",
+														"aka": "monarch flycatchers",
 														"children": [
 															{
 																"level": "Genus",
-																"name": "Phelsuma",
-																"aka": "day geckos",
+																"name": "Hypothymis",
+																"aka": "blue monarchs",
 																"children": [
 																	{
 																		"level": "Species",
-																		"name": "Phelsuma madagascariensis",
-																		"aka": "Madagascar day gecko",
+																		"name": "Hypothymis azurea",
+																		"aka": "black-naped monarch",
 																		"common": {
-																			"en": "Madagascar day gecko",
-																			"es": "gecko diurno de Madagascar"
+																			"ca": "monarca blau coronat",
+																			"en": "black-naped monarch",
+																			"es": "monarca nuquinegro"
 																		},
 																		"images": [
 																			{
-																				"link": "phelsuma-madagascariensis-1.jpeg",
+																				"link": "hypothymis-azurea-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An speciment of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Hypothymis azurea"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Trivia"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "This bird species inspired the "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Twitter"
+																					},
+																					{
+																						"type": "span",
+																						"text": " logo, and was named 'Larry' after the mythic Boston Celtics NBA player Larry Bird."
+																					}
+																				]
+																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Family",
+														"name": "Motacillidae",
+														"aka": "wagtails and pipits",
+														"images": [
+															{
+																"link": "macronyx-capensis-1.jpeg",
+																"caption": [
+																	{
+																		"type": "i",
+																		"text": "Macronyx capensis"
+																	},
+																	{
+																		"type": "span",
+																		"text": " at Krugersdorp Game Reserve, South Africa"
+																	}
+																]
+															},
+															{
+																"link": "motacilla-aguimp-1.jpeg",
+																"caption": [
+																	{
+																		"type": "i",
+																		"text": "Motacilla aguimp"
+																	},
+																	{
+																		"type": "span",
+																		"text": " at Kruger National Park, South Africa"
+																	}
+																]
+															},
+															{
+																"link": "macronyx-croceus-1.jpg",
+																"caption": [
+																	{
+																		"type": "i",
+																		"text": "Macronyx croceus"
+																	},
+																	{
+																		"type": "span",
+																		"text": " eating a locust at Mikumi National Park, Tanzania"
+																	}
+																]
+															}
+														],
+														"text": [
+															{
+																"type": "h2",
+																"text": "Characteristics"
+															},
+															{
+																"type": "p",
+																"components": [
+																	{
+																		"type": "span",
+																		"text": "This family of birds consists of small "
+																	},
+																	{
+																		"type": "a",
+																		"props": {
+																			"href": "#/taxonomy/order/passeriformes"
+																		},
+																		"text": "passerines"
+																	},
+																	{
+																		"type": "span",
+																		"text": " with medium to long tails."
+																	}
+																]
+															},
+															{
+																"type": "p",
+																"text": "They are ground-feeding insectivores of slightly open country. They occupy almost all available habitats, from the shore to high mountains. A few species use forests and other species use forested mountain streams."
+															},
+															{
+																"type": "p",
+																"text": "Birds from this family exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat."
+															},
+															{
+																"type": "p",
+																"components": [
+																	{
+																		"type": "span",
+																		"text": "With the exception of the "
+																	},
+																	{
+																		"type": "a",
+																		"props": {
+																			"className": "latin",
+																			"href": "#/taxonomy/species/dendronanthus-indicus"
+																		},
+																		"text": "Dendronanthus indicus"
+																	},
+																	{
+																		"type": "span",
+																		"text": " they nest on the ground, laying up to six speckled eggs."
+																	}
+																]
+															},
+															{
+																"type": "h2",
+																"text": "Appearance"
+															},
+															{
+																"type": "p",
+																"text": "These birds range from 14 to 17 cm in length, with short necks and long tails. They have long, pale legs with long toes and claws, particularly the hind toe, which can be up to 4 cm in length in some longclaws. No sexual dimorphism in size is seen."
+															},
+															{
+																"type": "h2",
+																"text": "Diet"
+															},
+															{
+																"type": "p",
+																"text": "Motacillids take a wide range of invertebrate prey: insects are the most commonly taken, but also including spiders, worms, and small aquatic molluscs and arthropods. All species seem to be fairly catholic in their diets, and the most commonly taken prey for any particular species or population usually reflects local availability."
+															}
+														],
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Dendronanthus",
+																"aka": "forest wagtails",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Dendronanthus indicus",
+																		"aka": "forest wagtail",
+																		"common": {
+																			"ca": "cuereta boscana",
+																			"en": "forest wagtail",
+																			"es": [
+																				"lavandera forestal",
+																				"lavandera de los bosques"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "dendronanthus-indicus-1.jpeg",
 																				"caption": [
 																					{
 																						"type": "span",
@@ -1532,11 +911,141 @@
 																					},
 																					{
 																						"type": "i",
-																						"text": "Phelsuma madagascariensis"
+																						"text": "Dendronanthus indicus"
 																					},
 																					{
 																						"type": "span",
-																						"text": " in the vivarium of Lausanne, Switzerland"
+																						"text": " at Kaeng Krachan National Park, Phetchaburi, Thailand"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
+																"name": "Motacilla",
+																"aka": "wagtails",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Motacilla alba",
+																		"aka": "white wagtail",
+																		"common": {
+																			"ca": "cuereta blanca",
+																			"en": "white wagtail",
+																			"es": "lavandera blanca"
+																		},
+																		"images": [
+																			{
+																				"link": "motacilla-alba-1.jpg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Motacilla alba"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Sète, France"
+																					}
+																				]
+																			},
+																			{
+																				"link": "motacilla-alba-2.jpeg",
+																				"caption":  [
+																					{
+																						"type": "i",
+																						"text": "Motacilla alba"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Basel, Switzerland"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"text": "It is an insectivorous bird of open country, often near habitation and water. It prefers bare areas for feeding, where it can see and pursue its prey. In urban areas it has adapted to foraging on paved areas such as car parks. It nests in crevices in stone walls and similar natural and man-made structures."
+																			},
+																			{
+																				"type": "p",
+																				"text": "Specimens of this species are around 18 cm long, with a wing span of about 25 cm. Depending on the gender and life phase they weight between 18 and 27 grams. Their life expectancy is around the 10 years."
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "Like all the species from the "
+																					},
+																					{
+																						"type": "a",
+																						"props": {
+																							"className": "latin",
+																							"href": "#/taxonomy/family/motacillidae"
+																						},
+																						"text": "Motacillidae"
+																					},
+																					{
+																						"type": "span",
+																						"text": " family, they exhibit a characteristic tail-wagging behaviour as they search along the ground and nearby waterways for insects to eat. That is why in most countries this species is known as \"white wagtail\"."
+																					}
+																				]
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Distribution"
+																			},
+																			{
+																				"type": "p",
+																				"text": "Europe from the Iberian Peninsula to Ural Mountains, Turkey, the Levant, Iceland, the Faroe Islands and Greenland's eastern coast. Some migrate to the south of Europe and Africa down as far as Kenya and Malawi. Occasionally, they are found in Britain."
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Family",
+														"name": "Muscicapidae",
+														"aka": "old world flycatchers and chats",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Muscicapa",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Muscicapa striata",
+																		"aka": "spotted flycatcher",
+																		"common": {
+																			"ca": "papamosques gris",
+																			"en": "spotted flycatcher",
+																			"es": "papamoscas gris"
+																		},
+																		"images": [
+																			{
+																				"link": "muscicapa-striata-1.jpg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Muscicapa striata"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Massalfassar, Comunitat Valenciana, Spain"
 																					}
 																				]
 																			}
@@ -1548,38 +1057,592 @@
 													},
 													{
 														"level": "Family",
-														"name": "Lacertidae",
-														"aka": "wall lizards",
+														"name": "Paridae",
+														"aka": "tits, chickadees, and titmice",
 														"children": [
 															{
 																"level": "Genus",
-																"name": "Timon",
-																"aka": "ocellated lizards",
+																"name": "Cyanistes",
 																"children": [
 																	{
 																		"level": "Species",
-																		"name": "Timon lepidus",
-																		"aka": "ocellated lizard",
+																		"name": "Cyanistes caeruleus",
+																		"aka": "Eurasian blue tit",
 																		"common": {
-																			"ca": "llangardaix ocel·lat",
-																			"en": "ocellated lizard",
-																			"es": "lagarto ocelado"
+																			"ca": "mallerenga blava",
+																			"en": "Eurasian blue tit",
+																			"es": "herrerillo común"
 																		},
 																		"images": [
 																			{
-																				"link": "timon-lepidus-lepidus-1.jpeg",
+																				"link": "cyanistes-caeruleus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Cyanistes caeruleus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Lancashire, UK"
+																					}
+																				]
+																			},
+																			{
+																				"link": "cyanistes-caeruleus-2.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Cyanistes caeruleus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Baltasound, UK"
+																					}
+																				]
+																			},
+																			{
+																				"link": "cyanistes-caeruleus-3.jpeg",
 																				"caption": [
 																					{
 																						"type": "span",
-																						"text": "Two specimens of "
+																						"text": "Sexual dimorphism of "
 																					},
 																					{
 																						"type": "i",
-																						"text": "Timon lepidus lepidus"
+																						"text": "Cyanistes caeruleus"
 																					},
 																					{
 																						"type": "span",
-																						"text": " at Laroque-d'Olmes, Ariège, France"
+																						"text": " at Regino Valley, Corsica, France. On the right there is a male, and on the left, a female"
+																					}
+																				]
+																			},
+																			{
+																				"link": "cyanistes-caeruleus-4.png",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Cyanistes caeruleus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " distribution map as for February 2013"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "It is a small "
+																					},
+																					{
+																						"type": "a",
+																						"props": {
+																							"href": "#/taxonomy/order/passeriformes"
+																						},
+																						"text": "passerine"
+																					},
+																					{
+																						"type": "span",
+																						"text": " bird easily recognisable by its blue and yellow plumage and small size. They are usually resident and non-migratory birds widespread throughout temperate and subarctic Europe and the western Palearctic in deciduous or mixed woodlands with a high proportion of oak. They usually nest in tree holes, although they easily adapt to nest boxes where necessary."
+																					}
+																				]
+																			},
+																			{
+																				"type": "p",
+																				"text": "This bird prefers insects and spiders for its diet. Outside the breeding season, they also eat seeds and other vegetable-based foods. The birds are famed for their acrobatic skills, as they can hold on to the outermost branches of trees and shrubs and hang upside down when looking for food."
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Appearance"
+																			},
+																			{
+																				"type": "p",
+																				"text": "Specimens of this species are usually 12 cm long with a wingspan of 18 cm for both sexes, and weigh about 11 g. A speciment will have an azure-blue crown and dark blue line passing through the eye, and encircling the white cheeks to the chin, giving the bird a very distinctive appearance. The forehead and a bar on the wing are white. The nape, wings and tail are blue and the back is yellowish green. The underparts is mostly sulphur-yellow with a dark line down the abdomen —the yellowness is indicative of the number of yellowy- green caterpillars eaten, due to high levels of carotene pigments in the diet. The bill is black, the legs bluish grey, and the irides dark brown. Young specimens are noticeably more yellow."
+																			},
+																			{
+																				"type": "h4",
+																				"text": "Sexual dimorphism"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "The sexes are similar and often indistinguishable to human eyes, but under ultraviolet light, males have a brighter blue crown. Nevertheless, their sex can be told apart by the collar around their head. Males have a darker and wider stain, while females' collars are thinner and bluer. (This feature can be seen in "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(3)"
+																						},
+																						"text": "this picture"
+																					},
+																					{
+																						"type": "span",
+																						"text": ".)"
+																					}
+																				]
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Distribution"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "This bird and the related hybrids are considered native species in areas of the European continent with a mainly temperate or Mediterranean climate, and in parts of the Middle East. (Click "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(4)"
+																						},
+																						"text": "here"
+																					},
+																					{
+																						"type": "span",
+																						"text": " to view the map.) In Great Britain the Eurasian blue tit can be found in a variety of environments, and is typically found in deciduous woodland, parks, gardens and even in the centre of towns."
+																					}
+																				]
+																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Family",
+														"name": "Sylviidae",
+														"aka": "sylviid warblers and parrotbills",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Curruca",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Curruca melanocephala",
+																		"aka": "Sardinian warbler",
+																		"common": {
+																			"ca": "tallarol capnegre",
+																			"en": "Sardinian warbler",
+																			"es": "curruca cabecinegra"
+																		},
+																		"images": [
+																			{
+																				"link": "curruca-melanocephala-1.jpg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Curruca melanocephala"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Las Palmas de Gran Canaria, Spain"
+																					}
+																				]
+																			},
+																			{
+																				"link": "curruca-melanocephala-2.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Curruca melanocephala leucogastra"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Las Palmas de Gran Canaria, Spain"
+																					}
+																				]
+																			},
+																			{
+																				"link": "curruca-melanocephala-3.jpeg",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Curruca melanocephala momus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Yemişkumu, Turkey"
+																					}
+																				]
+																			},
+																			{
+																				"link": "curruca-melanocephala-4.png",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "On the left, a male specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Curruca melanocephala"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Megalochori, Greece; and on the right, a female at Santarém, Portugal"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"text": "This species is a bird from the Mediterranean region."
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Sexual dimorphism"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "Like most "
+																					},
+																					{
+																						"type": "a",
+																						"props": {
+																							"className": "latin",
+																							"href": "#/taxonomy/genus/curruca"
+																						},
+																						"text": "Curruca"
+																					},
+																					{
+																						"type": "span",
+																						"text": " species, it has distinct male and female plumages. The adult male has a grey back, whitish underparts, black head, white throat and red eyes. Plumages are somewhat variable even in the same locality, with the intensity of a reddish hue on upper- and/or underside that varies from absent to (in some subspecies) pronounced. The female is mainly brown above and buff below, with a grey head. (In "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(4)"
+																						},
+																						"text": "this image"
+																					},
+																					{
+																						"type": "span",
+																						"text": " the dimorphism can be seen.)"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Order",
+												"name": "Phoenicopteriformes",
+												"aka": "flamingos",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Phoenicopteridae",
+														"aka": "flamingos"
+													}
+												]
+											},
+											{
+												"level": "Order",
+												"name": "Psittaciformes",
+												"aka": "parrots",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Psittacidae",
+														"aka": "new world and african parrots",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Amazona",
+																"aka": "Amazon parrots",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Amazona vittata",
+																		"aka": "Puerto Rican amazon",
+																		"common": {
+																			"ca": "amazona de Puerto Rico",
+																			"en": [
+																				"Puerto Rican amazon",
+																				"Puerto Rican parrot",
+																				"iguaca"
+																			],
+																			"es": [
+																				"cotorra puertorriqueña",
+																				"amazona puertorriqueña",
+																				"iguaca"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "amazona-vittata-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Amazona vittata"
+																					},
+																					{
+																						"type": "span",
+																						"text": " eating the fruits of a "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Miconia impetiolaris"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Class",
+										"name": "Elasmobranchii",
+										"children": [
+											{
+												"level": "Order",
+												"name": "Carcharhiniformes",
+												"aka": "ground sharks",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Sphyrnidae",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Sphyrna",
+																"aka": "hammerhead sharks",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Sphyrna mokarran",
+																		"aka": "great hammerhead",
+																		"common": {
+																			"ca": [
+																				"tauró martell gegant",
+																				"peix martell gegant"
+																			],
+																			"en": "great hammerhead",
+																			"es": "tiburón martillo gigante"
+																		},
+																		"images": [
+																			{
+																				"link": "sphyrna-mokarran-1.jpg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Sphyrna mokarran"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Class",
+										"name": "Reptilia",
+										"aka": "reptiles",
+										"children": [
+											{
+												"level": "Order",
+												"name": "Squamata",
+												"aka": "snakes and lizards",
+												"children": [
+													{
+														"level": "Suborder",
+														"name": "Sauria",
+														"aka": "lizards",
+														"children": [
+															{
+																"level": "Family",
+																"name": "Anolidae",
+																"aka": "anoles",
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Anolis",
+																		"aka": "anoles",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Anolis carolinensis",
+																				"aka": "green anole",
+																				"common": {
+																					"ca": "anolis verd",
+																					"en": [
+																						"green anole",
+																						"Carolina anole"
+																					],
+																					"es": "anolis verde"
+																				},
+																				"images": [
+																					{
+																						"link": "anolis-carolinensis-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A male "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Anolis carolinensis"
+																							},
+																							{
+																								"type": "span",
+																								"text": " showing its pink dewlap"
+																							}
+																						]
+																					},
+																					{
+																						"link": "anolis-carolinensis-2.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "Female specimens of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Anolis carolinensis"
+																							},
+																							{
+																								"type": "span",
+																								"text": " have a prominent white stripe along their spine"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Family",
+																"name": "Gekkonidae",
+																"aka": "common geckos",
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Phelsuma",
+																		"aka": "day geckos",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Phelsuma madagascariensis",
+																				"aka": "Madagascar day gecko",
+																				"common": {
+																					"en": "Madagascar day gecko",
+																					"es": "gecko diurno de Madagascar"
+																				},
+																				"images": [
+																					{
+																						"link": "phelsuma-madagascariensis-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Phelsuma madagascariensis"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in the vivarium of Lausanne, Switzerland"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Family",
+																"name": "Lacertidae",
+																"aka": "wall lizards",
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Timon",
+																		"aka": "ocellated lizards",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Timon lepidus",
+																				"aka": "ocellated lizard",
+																				"common": {
+																					"ca": "llangardaix ocel·lat",
+																					"en": "ocellated lizard",
+																					"es": "lagarto ocelado"
+																				},
+																				"images": [
+																					{
+																						"link": "timon-lepidus-lepidus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "Two specimens of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Timon lepidus lepidus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Laroque-d'Olmes, Ariège, France"
+																							}
+																						]
 																					}
 																				]
 																			}
