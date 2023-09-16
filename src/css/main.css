@@ -781,6 +781,10 @@ Taxonomy Tree
 .level-symbol.orange {
 	background-color: #eb8f3a;
 }
+.level-symbol.sub-orange {
+	border: 1px solid #eb8f3a;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
 .level-symbol.caramel {
 	background-color: #e1b364;
 }
