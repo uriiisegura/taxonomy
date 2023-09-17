@@ -1860,6 +1860,7 @@
 							{
 								"level": "Subphylum",
 								"name": "Angiospermae",
+								"aka": "flowering plants",
 								"children": [
 									{
 										"level": "Class",
@@ -1872,10 +1873,12 @@
 											{
 												"level": "Order",
 												"name": "Alismatales",
+												"aka": "aroids, water-plantains, seagrass",
 												"children": [
 													{
 														"level": "Family",
 														"name": "Araceae",
+														"aka": "arum family",
 														"children": [
 															{
 																"level": "Genus",
@@ -1889,14 +1892,17 @@
 											{
 												"level": "Order",
 												"name": "Asparagales",
+												"aka": "agaves, orchids, and irises",
 												"children": [
 													{
 														"level": "Family",
 														"name": "Asparagaceae",
+														"aka": "agave",
 														"children": [
 															{
 																"level": "Genus",
-																"name": "Agave"
+																"name": "Agave",
+																"aka": "agave"
 															}
 														]
 													},
