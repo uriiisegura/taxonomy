@@ -77,6 +77,42 @@
 						"children": [
 							{
 								"level": "Class",
+								"name": "Arachnida",
+								"aka": "arachnids",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Araneae",
+										"aka": "spiders",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Araneidae",
+												"aka": "orbweavers",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Araneus",
+														"aka": "angulate and roundshouldered orbweavers",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Araneus angulatus",
+																"aka": "angular orbweaver",
+																"common": {
+																	"en": "angular orbweaver"
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"level": "Class",
 								"name": "Insecta",
 								"aka": "insects",
 								"children": [
