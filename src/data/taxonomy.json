@@ -101,7 +101,26 @@
 																"aka": "angular orbweaver",
 																"common": {
 																	"en": "angular orbweaver"
-																}
+																},
+																"images": [
+																	{
+																		"link": "araneus-angulatus-1.jpg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A speciment of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Araneus angulatus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Cervelló, Catalunya, Spain"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -1866,6 +1885,69 @@
 																						]
 																					}
 																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
+						"name": "Mollusca",
+						"aka": "molluscs",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Gastropoda",
+								"aka": "gastropods",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Stylommatophora",
+										"aka": "common land snails and slugs",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Helicidae",
+												"aka": "helix snails",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Cornu",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Cornu aspersum",
+																"aka": "garden snail",
+																"common": {
+																	"ca": "cargol bover",
+																	"en": "garden snail",
+																	"es": "caracol de jardín"
+																},
+																"images": [
+																	{
+																		"link": "cornu-aspersum-1.jpg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An adult "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Cornu aspersum"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Alòs de Balaguer, Catalunya, Spain"
 																			}
 																		]
 																	}
