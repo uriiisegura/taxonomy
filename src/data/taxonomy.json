@@ -1260,6 +1260,41 @@
 														"children": [
 															{
 																"level": "Genus",
+																"name": "Erithacus",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Erithacus rubecula",
+																		"aka": "European robin",
+																		"common": {
+																			"ca": "pit-roig",
+																			"en": "European robin",
+																			"es": "petirrojo"
+																		},
+																		"images": [
+																			{
+																				"link": "erithacus-rubecula-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Erithacus rubecula"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Balcomie, Scotland, United Kingdom"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
 																"name": "Muscicapa",
 																"children": [
 																	{
