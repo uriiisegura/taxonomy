@@ -525,6 +525,49 @@
 														]
 													}
 												]
+											},
+											{
+												"level": "Family",
+												"name": "Sphingidae",
+												"aka": "sphinx moths",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Macroglossum",
+														"aka": "hummingbird hawkmoths",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Macroglossum stellatarum",
+																"aka": "Eurasian hummingbird hawkmoth",
+																"common": {
+																	"ca": "bufaforats",
+																	"en": "Eurasian hummingbird hawkmoth",
+																	"es": "polilla esfinge colibrí"
+																},
+																"images": [
+																	{
+																		"link": "macroglossum-stellatarum-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An adult "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Macroglossum stellatarum"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Leipzig, Sachsen, Germany"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
 											}
 										]
 									}
