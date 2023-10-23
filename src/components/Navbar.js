@@ -17,7 +17,7 @@ class Navbar extends Component {
 				<div className="nav-center">
 					<div className="nav-header">
 						<NavLink to="/" className="nav-logo">
-							<img src="logo.svg" alt="Taxonomy" />
+							<img src="/logo.svg" alt="Taxonomy" />
 						</NavLink>
 					</div>
 					<div className="nav-expand">

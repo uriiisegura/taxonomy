@@ -137,6 +137,51 @@
 								"children": [
 									{
 										"level": "Order",
+										"name": "Hemiptera",
+										"aka": "true bugs, hoppers, and aphids",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Pentatomidae",
+												"aka": "stink bugs",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Nezara",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Nezara viridula",
+																"aka": "southern green stink bug",
+																"common": {
+																	"ca": "bernat pudent",
+																	"en": "southern green stink bug",
+																	"es": "chinche verde"
+																},
+																"images": [
+																	{
+																		"link": "nezara-viridula-1.jpg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An adult "
+																			},
+																			{
+																				"type": "i",
+																				"text":  "Nezara viridula"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"level": "Order",
 										"name": "Lepidoptera",
 										"aka": "butterflies and moths",
 										"images": [
@@ -528,6 +573,64 @@
 											},
 											{
 												"level": "Family",
+												"name": "Noctuidae",
+												"aka": "cutworm moths",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Trichoplusia",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Trichoplusia ni",
+																"aka": "cabbage looper moth",
+																"common": {
+																	"en": "cabbage looper moth",
+																	"es": "oruga de la col"
+																},
+																"images": [
+																	{
+																		"link": "trichoplusia-ni-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "An adult "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Trichoplusia ni"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Reston, Virginia, United States"
+																			}
+																		]
+																	},
+																	{
+																		"link": "trichoplusia-ni-2.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Trichoplusia ni"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at his larva stage near Kiryat Yam, Haifa Bay , Israel"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Family",
 												"name": "Sphingidae",
 												"aka": "sphinx moths",
 												"children": [
@@ -590,6 +693,56 @@
 										"name": "Aves",
 										"aka": "birds",
 										"children": [
+											{
+												"level": "Order",
+												"name": "Anseriformes",
+												"aka": "waterfowl",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Anatidae",
+														"aka": "ducks, geese, and swans",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Tadorna",
+																"aka": "typical shelducks",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Tadorna ferruginea",
+																		"aka": "ruddy shelduck",
+																		"common": {
+																			"ca": "ànec canyella",
+																			"en": "ruddy shelduck",
+																			"es": "tarro canelo"
+																		},
+																		"images": [
+																			{
+																				"link": "tadorna-ferruginea-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An adult "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Tadorna ferruginea"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Moscow, Russia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
 											{
 												"level": "Order",
 												"name": "Bucerotiformes",
@@ -756,6 +909,59 @@
 													}
 												]
 											},
+											{
+												"level": "Order",
+												"name": "Gruiformes",
+												"aka": "cranes and rails",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Rallidae",
+														"aka": "rails, gallinues, and coots",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Gallinula",
+																"aka": "typical moorhens",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Gallinula chloropus",
+																		"aka": "common moorhen",
+																		"common": {
+																			"ca": "polla d'aigua",
+																			"en": "common moorhen",
+																			"es": [
+																				"gallineta común",
+																				"tingua piquirroja europea"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "gallinula-chloropus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An adult "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Gallinula chloropus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near London, England, United Kingdom"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},	
 											{
 												"level": "Order",
 												"name": "Passeriformes",
@@ -1081,7 +1287,7 @@
 																	{
 																		"type": "a",
 																		"props": {
-																			"href": "#/taxonomy/order/passeriformes"
+																			"href": "/taxonomy/order/passeriformes"
 																		},
 																		"text": "passerines"
 																	},
@@ -1110,7 +1316,7 @@
 																		"type": "a",
 																		"props": {
 																			"className": "latin",
-																			"href": "#/taxonomy/species/dendronanthus-indicus"
+																			"href": "/taxonomy/species/dendronanthus-indicus"
 																		},
 																		"text": "Dendronanthus indicus"
 																	},
@@ -1243,7 +1449,7 @@
 																						"type": "a",
 																						"props": {
 																							"className": "latin",
-																							"href": "#/taxonomy/family/motacillidae"
+																							"href": "/taxonomy/family/motacillidae"
 																						},
 																						"text": "Motacillidae"
 																					},
@@ -1464,7 +1670,7 @@
 																					{
 																						"type": "a",
 																						"props": {
-																							"href": "#/taxonomy/order/passeriformes"
+																							"href": "/taxonomy/order/passeriformes"
 																						},
 																						"text": "passerine"
 																					},
@@ -1645,7 +1851,7 @@
 																						"type": "a",
 																						"props": {
 																							"className": "latin",
-																							"href": "#/taxonomy/genus/curruca"
+																							"href": "/taxonomy/genus/curruca"
 																						},
 																						"text": "Curruca"
 																					},

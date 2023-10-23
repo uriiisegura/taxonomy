@@ -71,7 +71,7 @@ class TaxonomyItem extends Component {
 							{
 								images.length > 1 ? <div className="counter">{i+1} / {images.length}</div> : <></>
 							}
-							<img className="slide-img" src={`species/${e.link}`} alt={ITEM.name} />
+							<img className="slide-img" src={`/species/${e.link}`} alt={ITEM.name} />
 							{
 								e.caption ?
 									<div className="caption">{
@@ -149,7 +149,7 @@ class TaxonomyItem extends Component {
 					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
 							{
 								Object.entries(ITEM.common).map(([l, c], i) => {
-									return <li key={`common-${i}`}><img src={`flags/${l}.png`} alt={l} />{Array.isArray(c) ? c.join(', ') : c}</li>;
+									return <li key={`common-${i}`}><img src={`/flags/${l}.png`} alt={l} />{Array.isArray(c) ? c.join(', ') : c}</li>;
 								})
 							}
 						</ul></>
