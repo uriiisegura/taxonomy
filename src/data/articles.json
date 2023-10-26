@@ -21,7 +21,7 @@
 						"type": "a",
 						"text": "Papilionoidea",
 						"props": {
-							"href": "/taxonomy/superfamily/papilionoidea"
+							"href": "#/taxonomy/superfamily/papilionoidea"
 						}
 					},
 					{
@@ -41,7 +41,7 @@
 						"type": "a",
 						"text": "Phoenicopteridae",
 						"props": {
-							"href": "/taxonomy/family/phoenicopteridae"
+							"href": "#/taxonomy/family/phoenicopteridae"
 						}
 					},
 					{
@@ -61,7 +61,7 @@
 						"type": "a",
 						"text": "Morpho didius",
 						"props": {
-							"href": "/taxonomy/species/morpho-didius"
+							"href": "#/taxonomy/species/morpho-didius"
 						}
 					},
 					{
@@ -85,7 +85,7 @@
 						"type": "a",
 						"text": "Cyanocitta cristata",
 						"props": {
-							"href": "/taxonomy/species/cyanocitta-cristata"
+							"href": "#/taxonomy/species/cyanocitta-cristata"
 						}
 					},
 					{

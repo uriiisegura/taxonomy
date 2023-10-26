@@ -1287,7 +1287,7 @@
 																	{
 																		"type": "a",
 																		"props": {
-																			"href": "/taxonomy/order/passeriformes"
+																			"href": "#/taxonomy/order/passeriformes"
 																		},
 																		"text": "passerines"
 																	},
@@ -1316,7 +1316,7 @@
 																		"type": "a",
 																		"props": {
 																			"className": "latin",
-																			"href": "/taxonomy/species/dendronanthus-indicus"
+																			"href": "#/taxonomy/species/dendronanthus-indicus"
 																		},
 																		"text": "Dendronanthus indicus"
 																	},
@@ -1449,7 +1449,7 @@
 																						"type": "a",
 																						"props": {
 																							"className": "latin",
-																							"href": "/taxonomy/family/motacillidae"
+																							"href": "#/taxonomy/family/motacillidae"
 																						},
 																						"text": "Motacillidae"
 																					},
@@ -1670,7 +1670,7 @@
 																					{
 																						"type": "a",
 																						"props": {
-																							"href": "/taxonomy/order/passeriformes"
+																							"href": "#/taxonomy/order/passeriformes"
 																						},
 																						"text": "passerine"
 																					},
@@ -1894,7 +1894,7 @@
 																						"type": "a",
 																						"props": {
 																							"className": "latin",
-																							"href": "/taxonomy/genus/curruca"
+																							"href": "#/taxonomy/genus/curruca"
 																						},
 																						"text": "Curruca"
 																					},
