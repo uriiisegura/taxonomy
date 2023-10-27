@@ -854,6 +854,45 @@
 																		]
 																	}
 																]
+															},
+															{
+																"level": "Genus",
+																"name": "Megaceryle",
+																"aka": "large crested kingfishers",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Megaceryle alcyon",
+																		"aka": "belted kingfisher",
+																		"common": {
+																			"ca": "alció gegant nord-americà",
+																			"en": "belted kingfisher",
+																			"es": [
+																				"Martín pescador norteño",
+																				"Martín gigante norteamericano"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "megaceryle-alcyon-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An adult female of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Megaceryle alcyon"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near San José, California, United States"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -1123,7 +1162,44 @@
 														"children": [
 															{
 																"level": "Genus",
+																"name": "Pyrrhula",
+																"aka": "bullfinches",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Pyrrhula pyrrhula",
+																		"aka": "Eurasian bullfinch",
+																		"common": {
+																			"ca": "pinsà borroner",
+																			"en": "Eurasian bullfinch",
+																			"es": "camachuelo común"
+																		},
+																		"images": [
+																			{
+																				"link": "pyrrhula-pyrrhula-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Pyrrhula pyrrhula"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Moscow, Russia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
 																"name": "Serinus",
+																"aka": "Eurasian serins and canaries",
 																"children": [
 																	{
 																		"level": "Species",
@@ -1544,7 +1620,44 @@
 															},
 															{
 																"level": "Genus",
+																"name": "Larvivora",
+																"aka": "blue robins and Japanese robins",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Larvivora akahige",
+																		"aka": "Japanese robin",
+																		"common": {
+																			"ca": "rossinyol del Japó",
+																			"en": "Japanese robin",
+																			"es": "ruiseñor japonés"
+																		},
+																		"images": [
+																			{
+																				"link": "larvivora-akahige-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Larvivora akahige"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Tai Po, Hong Kong"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
 																"name": "Muscicapa",
+																"aka": "Muscicapa flycatchers",
 																"children": [
 																	{
 																		"level": "Species",
