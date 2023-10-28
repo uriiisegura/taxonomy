@@ -90,7 +90,38 @@
 					},
 					{
 						"type": "span",
-						"text": " feather."
+						"text": " feather. If we look through it the blue color disappears completely, turning brown. This is because there is no blue pigment at all. Each feather bristle contains light-scattering microscopic beads, spaced so everything but blue light is canceled out. Similar to what happened on the "
+					},
+					{
+						"type": "a",
+						"text": "Morpho didius",
+						"props": {
+							"href": "#/taxonomy/species/morpho-didius"
+						}
+					},
+					{
+						"type": "span",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "If we take a look to other blue colors in animals, we will see that all those blues come the structure of the skin, feathers, or wherever that blue comes from. Even human blue eyes are coloreds by structures, not pigments. No vertebrate, not a single bird, or mammal, or reptile that we know, makes a blue pigment on its body. In fact, there's only one known butterfly that has cracked the code for making a true blue pigment: the "
+					},
+					{
+						"type": "a",
+						"text": "Nessaea obrinus",
+						"props": {
+							"href": "#/taxonomy/species/nessaea-obrinus"
+						}
+					},
+					{
+						"type": "span",
+						"text": "."
 					}
 				]
 			}
