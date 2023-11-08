@@ -2,6 +2,7 @@
 	{
 		"level": "Domain",
 		"name": "Eukaryota",
+		"aka": "eukaryotes",
 		"images": [
 			{
 				"link": "aptenodytes-forsteri-1.jpeg",
@@ -2150,44 +2151,105 @@
 									{
 										"level": "Class",
 										"name": "Elasmobranchii",
+										"aka": "elasmobranchs",
 										"children": [
 											{
-												"level": "Order",
-												"name": "Carcharhiniformes",
-												"aka": "ground sharks",
+												"level": "Subclass",
+												"name": "Neoselachii",
+												"aka": "sharks and rays",
 												"children": [
 													{
-														"level": "Family",
-														"name": "Sphyrnidae",
+														"level": "Infraclass",
+														"name": "Selachii",
+														"aka": "sharks",
 														"children": [
 															{
-																"level": "Genus",
-																"name": "Sphyrna",
-																"aka": "hammerhead sharks",
+																"level": "Order",
+																"name": "Carcharhiniformes",
+																"aka": "ground sharks",
 																"children": [
 																	{
-																		"level": "Species",
-																		"name": "Sphyrna mokarran",
-																		"aka": "great hammerhead",
-																		"common": {
-																			"ca": [
-																				"tauró martell gegant",
-																				"peix martell gegant"
-																			],
-																			"en": "great hammerhead",
-																			"es": "tiburón martillo gigante"
-																		},
-																		"images": [
+																		"level": "Family",
+																		"name": "Carcharhinidae",
+																		"aka": "requiem sharks",
+																		"children": [
 																			{
-																				"link": "sphyrna-mokarran-1.jpg",
-																				"caption": [
+																				"level": "Genus",
+																				"name": "Prionace",
+																				"children": [
 																					{
-																						"type": "span",
-																						"text": "A specimen of "
-																					},
+																						"level": "Species",
+																						"name": "Prionace glauca",
+																						"aka": "blue shark",
+																						"common": {
+																							"ca": "tintorera",
+																							"en": "blue shark",
+																							"es": [
+																								"tintorera",
+																								"tiburón azul"
+																							]
+																						},
+																						"images": [
+																							{
+																								"link": "prionace-glauca-1.jpeg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "An adult "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Prionace glauca"
+																									},
+																									{
+																										"type": "span",
+																										"text": " near the coast of Ilha do Faial, Azzorre, Portugal"
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"level": "Family",
+																		"name": "Sphyrnidae",
+																		"aka": "hammerhead and winghead",
+																		"children": [
+																			{
+																				"level": "Genus",
+																				"name": "Sphyrna",
+																				"aka": "hammerhead sharks",
+																				"children": [
 																					{
-																						"type": "i",
-																						"text": "Sphyrna mokarran"
+																						"level": "Species",
+																						"name": "Sphyrna mokarran",
+																						"aka": "great hammerhead",
+																						"common": {
+																							"ca": [
+																								"tauró martell gegant",
+																								"peix martell gegant"
+																							],
+																							"en": "great hammerhead",
+																							"es": "tiburón martillo gigante"
+																						},
+																						"images": [
+																							{
+																								"link": "sphyrna-mokarran-1.jpg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "A specimen of "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Sphyrna mokarran"
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
 																			}

@@ -765,6 +765,15 @@ Taxonomy Tree
 .level-symbol.blue {
 	background-color: #4ad0f1;
 }
+.level-symbol.sub-blue {
+	border: 1px solid #4ad0f1;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
+.level-symbol.infra-blue {
+	border: 1px solid #4ad0f1;
+	border-style: dashed;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
 .level-symbol.purple {
 	background-color: #c08adb;
 }
