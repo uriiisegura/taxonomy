@@ -1,7 +1,93 @@
 {
 	"birds-toes-arrengement": {
 		"title": "Arrengement of the toes in birds",
-		"article": []
+		"article": [
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "In biology, the arrangement of digits (both fingers and toes) on the hands, feet, or wings of a tetrapod animal is called \"dactyly\". It comes from the Greek "
+					},
+					{
+						"type": "span",
+						"props": {
+							"className": "greek",
+							"title": "dáktylos"
+						},
+						"text": "δακτυλος"
+					},
+					{
+						"type": "span",
+						"text": " that means \"finger\". The anamoty of bird toes is diverse, encompassing many accommodations to perform a wide variety of functions."
+					}
+				]
+			},
+			{
+				"type": "p",
+				"text": "Before jumping to the types of toe arrangements in birds, we have to learn how to number digits. We will assign a number (starting at 1) to each toe, but we cannot do it randomly! So we will start from the innermost digit (hallux), that would be our big toe, and give it a 1. Then we will move outwards numbering each digit consecutively until we run out of digits."
+			},
+			{
+				"type": "p",
+				"text": "The typical toe arrangements in birds are: anisodactyl, zygodactyl, heterodactyl,syndactyl, and pamprodactyl."
+			},
+			{
+				"type": "h5",
+				"text": "Anisodactyl"
+			},
+			{
+				"type": "p",
+				"components": [
+					{
+						"type": "span",
+						"text": "The word \"anisodactyl\" literaly means \"unequal toes\". The prefix \"aniso-\", from the Greek "
+					},
+					{
+						"type": "span",
+						"props": {
+							"className": "greek",
+							"title": "ánisos"
+						},
+						"text": "ανισος"
+					},
+					{
+						"type": "span",
+						"text": " means \"unequal\", and we already know "
+					},
+					{
+						"type": "span",
+						"props": {
+							"className": "greek",
+							"title": "dáktylos"
+						},
+						"text": "δακτυλος"
+					},
+					{
+						"type": "span",
+						"text": " ,\"finger\". In the anisodactly arrengement the hallux (digit 1) is behind and the other three toes are in front. This toe arrengement is present in nearly all "
+					},
+					{
+						"type": "a",
+						"text": "Passeriformes",
+						"props": {
+							"href": "#/taxonomy/order/passeriformes"
+						}
+					},
+					{
+						"type": "span",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "h5",
+				"text": "Zygodactyl"
+			},
+			{
+				"type": "p",
+				"components": []
+			}
+		]
 	},
 	"blue-in-nature": {
 		"title": "Blue in nature",
@@ -58,15 +144,70 @@
 						"text": "If we take a look at a blue butterfly like the "
 					},
 					{
-						"type": "a",
-						"text": "Morpho didius",
-						"props": {
-							"href": "#/taxonomy/species/morpho-didius"
-						}
+						"type": "i",
+						"components": [
+							{
+								"type": "a",
+								"text": "Morpho didius",
+								"props": {
+									"href": "#/taxonomy/species/morpho-didius"
+								}
+							}
+						]
 					},
 					{
 						"type": "span",
 						"text": " you can notice, as you turn around the animal, that the color changes, it does not display the same blue tone from all angles. This is because there is no blue pigment in their scales. They look blue, but they are not blue at all. If we zoom in on those scales we can see that they look like small trees. Those shapes, and more precisely their size, give that blue color. A light wave defines its color by its wavelength, and for most colors the wave reflected by the tree and the wave coming out after bouncing on the butterfly will be out of phase, which means that they cancel each other out. But this does not happen with blue. Blue has the precise right wavelength so that the reflected light waves are in sync and they make it to our eye. It is like a hall of mirrors that only lets blue light escape. There is even a pigment at the base that absorbs stray red and green light to make the blue even more pure."
+					}
+				]
+			},
+			{
+				"type": "figure",
+				"props": {
+					"style": {
+						"maxWidth": "400px"
+					}
+				},
+				"components": [
+					{
+						"type": "img",
+						"props": {
+							"className": "article-img",
+							"src": "articles/morpho-didius-tree-structure.png",
+							"alt": "M. didius tree structure"
+						}
+					},
+					{
+						"type": "figcaption",
+						"components": [
+							{
+								"type": "span",
+								"text": "Figure 1.",
+								"props": {
+									"className": "article-figtitle"
+								}
+							},
+							{
+								"type": "span",
+								"text": " Lamellae-structured ridges from a "
+							},
+							{
+								"type": "i",
+								"components": [
+									{
+										"type": "a",
+										"text": "Morpho didius",
+										"props": {
+											"href": "#/taxonomy/species/morpho-didius"
+										}
+									}
+								]
+							},
+							{
+								"type": "span",
+								"text": "."
+							}
+						]
 					}
 				]
 			},
@@ -82,22 +223,32 @@
 						"text": "We now know where butterflies get their blue from. But what about other animals? The concept is always the same, but the structure varies from one species to another. Let's now take a look at a "
 					},
 					{
-						"type": "a",
-						"text": "Cyanocitta cristata",
-						"props": {
-							"href": "#/taxonomy/species/cyanocitta-cristata"
-						}
+						"type": "i",
+						"components": [
+							{
+								"type": "a",
+								"text": "Cyanocitta cristata",
+								"props": {
+									"href": "#/taxonomy/species/cyanocitta-cristata"
+								}
+							}
+						]
 					},
 					{
 						"type": "span",
 						"text": " feather. If we look through it the blue color disappears completely, turning brown. This is because there is no blue pigment at all. Each feather bristle contains light-scattering microscopic beads, spaced so everything but blue light is canceled out. Similar to what happened on the "
 					},
 					{
-						"type": "a",
-						"text": "Morpho didius",
-						"props": {
-							"href": "#/taxonomy/species/morpho-didius"
-						}
+						"type": "i",
+						"components": [
+							{
+								"type": "a",
+								"text": "Morpho didius",
+								"props": {
+									"href": "#/taxonomy/species/morpho-didius"
+								}
+							}
+						]
 					},
 					{
 						"type": "span",
@@ -113,11 +264,16 @@
 						"text": "If we take a look to other blue colors in animals, we will see that all those blues come the structure of the skin, feathers, or wherever that blue comes from. Even human blue eyes are coloreds by structures, not pigments. No vertebrate, not a single bird, or mammal, or reptile that we know, makes a blue pigment on its body. In fact, there's only one known butterfly that has cracked the code for making a true blue pigment: the "
 					},
 					{
-						"type": "a",
-						"text": "Nessaea obrinus",
-						"props": {
-							"href": "#/taxonomy/species/nessaea-obrinus"
-						}
+						"type": "i",
+						"components": [
+							{
+								"type": "a",
+								"text": "Nessaea obrinus",
+								"props": {
+									"href": "#/taxonomy/species/nessaea-obrinus"
+								}
+							}
+						]
 					},
 					{
 						"type": "span",

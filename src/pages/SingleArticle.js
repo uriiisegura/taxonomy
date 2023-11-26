@@ -18,11 +18,13 @@ class SingleArticle extends Component {
 			props.onClick = eval(props.onClick)
 		if (c.text) {
 			component = React.createElement(c.type, props, c.text);
-		} else {
+		} else if (c.components) {
 			const children = c.components.map((e, j) => {
 				return this.renderComponent(e, j);
 			});
 			component = React.createElement(c.type, props, children);
+		} else {
+			component = React.createElement(c.type, props);
 		}
 		
 		return component;
