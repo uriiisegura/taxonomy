@@ -8,6 +8,7 @@ const SYMBOLS = {
 	'Infraclass': <span className="level-symbol infra-blue"><span className="view">ic</span><span className="full">infraclass</span></span>,
 	'Order': <span className="level-symbol purple"><span className="view">O</span><span className="full">Order</span></span>,
 	'Suborder': <span className="level-symbol sub-purple"><span className="view">so</span><span className="full">suborder</span></span>,
+	'Infraorder': <span className="level-symbol infra-purple"><span className="view">io</span><span className="full">infraorder</span></span>,
 	'Superfamily': <span className="level-symbol super-orange"><span className="view">SF</span><span className="full">Superfamily</span></span>,
 	'Family': <span className="level-symbol orange"><span className="view">F</span><span className="full">Family</span></span>,
 	'Subfamily': <span className="level-symbol sub-orange"><span className="view">sf</span><span className="full">subfamily</span></span>,
