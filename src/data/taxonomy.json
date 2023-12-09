@@ -3274,6 +3274,64 @@
 																		]
 																	}
 																]
+															},
+															{
+																"level": "Species",
+																"name": "Juniperus oxycedrus",
+																"aka": "cade juniper",
+																"common": {
+																	"ca": "càdec",
+																	"en": "cade juniper",
+																	"es": "enebro de la miera"
+																},
+																"images": [
+																	{
+																		"link": "juniperus-oxycedrus-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A specimen of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Juniperus oxycedrus"
+																			},
+																			{
+																				"type": "span",
+																				"text": " at Güvenç, Ankara, Turkey"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Species",
+																"name": "Juniperus phoenicea",
+																"aka": "Phoenicean juniper",
+																"common": {
+																	"ca": "savina",
+																	"en": "Phoenicean juniper",
+																	"es": "sabina negral"
+																},
+																"images": [
+																	{
+																		"link": "juniperus-phoenicea-1.jpeg",
+																		"caption": [
+																			{
+																				"type": "span",
+																				"text": "A plant of "
+																			},
+																			{
+																				"type": "i",
+																				"text": "Juniperus phoenicea"
+																			},
+																			{
+																				"type": "span",
+																				"text": " near Zaragona, Aragón, Spain"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
