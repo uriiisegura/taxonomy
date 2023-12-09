@@ -3243,11 +3243,39 @@
 											{
 												"level": "Family",
 												"name": "Cupressaceae",
+												"aka": "cypress family",
 												"children": [
 													{
 														"level": "Genus",
 														"name": "Juniperus",
-														"aka": "junipers"
+														"aka": "junipers",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Juniperus communis",
+																"aka": "common juniper",
+																"common": {
+																	"ca": "ginebre",
+																	"en": "common juniper",
+																	"es": "enebro común"
+																},
+																"images": [
+																	{
+																		"link": "juniperus-communis-1.jpeg",
+																		"caption": [
+																			{
+																				"text": "Juniperus communis",
+																				"type": "i"
+																			},
+																			{
+																				"text": " near Helsinki, Uusimaa, Finland",
+																				"type": "span"
+																			}
+																		]
+																	}
+																]
+															}
+														]
 													}
 												]
 											}
