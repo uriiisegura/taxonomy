@@ -1844,6 +1844,7 @@
 															{
 																"level": "Genus",
 																"name": "Cyanistes",
+																"aka": "blue and azure tits",
 																"children": [
 																	{
 																		"level": "Species",
@@ -2002,6 +2003,42 @@
 																		],
 																		"articles": [
 																			"blue-in-nature"
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
+																"name": "Parus",
+																"aka": "great tits",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Parus major",
+																		"aka": "great tit",
+																		"common": {
+																			"ca": "mallerenga carbonera",
+																			"en": "great tit",
+																			"es": "carbonero común"
+																		},
+																		"images": [
+																			{
+																				"link": "parus-major-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Parus major"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Shchekino, Shchyokinsky, Russia"
+																					}
+																				]
+																			}
 																		]
 																	}
 																]
