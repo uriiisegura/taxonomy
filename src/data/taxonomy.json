@@ -935,6 +935,56 @@
 											},
 											{
 												"level": "Order",
+												"name": "Cuculiformes",
+												"aka": "cuckoos",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Cuculidae",
+														"aka": "cuckoos",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Clamator",
+																"aka": "Old World cuckoos",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Clamator glandarius",
+																		"aka": "great spotted cuckoo",
+																		"common": {
+																			"ca": "cucut reial",
+																			"en": "great spotted cuckoo",
+																			"es": "críalo europeo"
+																		},
+																		"images": [
+																			{
+																				"link": "clamator-glandarius-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Clamator glandarius"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Valladolid, Castilla y León, Spain"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Order",
 												"name": "Galliformes",
 												"aka": "landfowl",
 												"children": [
@@ -2086,6 +2136,56 @@
 											},
 											{
 												"level": "Order",
+												"name": "Piciformes",
+												"aka": "woodpeckers and barbets",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Picidae",
+														"aka": "woodpeckers",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Dendrocopos",
+																"aka": "Eurasian pied woodpeckers",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Dendrocopos major",
+																		"aka": "great spotted woodpecker",
+																		"common": {
+																			"ca": "picot garser gros",
+																			"en": "great spotted woodpecker",
+																			"es": "pico picapinos"
+																		},
+																		"images": [
+																			{
+																				"link": "dendrocopos-major-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Dendrocopos major"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Novosibirsk, Novosibirsk, Russia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Order",
 												"name": "Psittaciformes",
 												"aka": "parrots",
 												"children": [
@@ -2135,6 +2235,56 @@
 																					{
 																						"type": "i",
 																						"text": "Miconia impetiolaris"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"level": "Order",
+												"name": "Trogoniformes",
+												"aka": "trogons and quetzals",
+												"children": [
+													{
+														"level": "Family",
+														"name": "Trogonidae",
+														"aka": "trogons",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Pharomachrus",
+																"aka": "typical quetzals",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Pharomachrus mocinno",
+																		"aka": "resplendent quetzal",
+																		"common": {
+																			"ca": "quetzal esplèndid",
+																			"en": "resplendent quetzal",
+																			"es": "quetzal guatemalteco"
+																		},
+																		"images": [
+																			{
+																				"link": "pharomachrus-mocinno-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Pharomachrus mocinno"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near San José, San José, Costa Rica"
 																					}
 																				]
 																			}
