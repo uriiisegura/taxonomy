@@ -3251,83 +3251,90 @@
 														"aka": "junipers",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Juniperus communis",
-																"aka": "common juniper",
-																"common": {
-																	"ca": "ginebre",
-																	"en": "common juniper",
-																	"es": "enebro común"
-																},
-																"images": [
+																"level": "Section",
+																"name": "Juniperus",
+																"aka": "needle-leaf junipers",
+																"children": [
 																	{
-																		"link": "juniperus-communis-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Juniperus communis",
+																		"aka": "common juniper",
+																		"common": {
+																			"ca": "ginebre",
+																			"en": "common juniper",
+																			"es": "enebro común"
+																		},
+																		"images": [
 																			{
-																				"text": "Juniperus communis",
-																				"type": "i"
-																			},
-																			{
-																				"text": " near Helsinki, Uusimaa, Finland",
-																				"type": "span"
+																				"link": "juniperus-communis-1.jpeg",
+																				"caption": [
+																					{
+																						"text": "Juniperus communis",
+																						"type": "i"
+																					},
+																					{
+																						"text": " near Helsinki, Uusimaa, Finland",
+																						"type": "span"
+																					}
+																				]
 																			}
 																		]
-																	}
-																]
-															},
-															{
-																"level": "Species",
-																"name": "Juniperus oxycedrus",
-																"aka": "cade juniper",
-																"common": {
-																	"ca": "càdec",
-																	"en": "cade juniper",
-																	"es": "enebro de la miera"
-																},
-																"images": [
+																	},
 																	{
-																		"link": "juniperus-oxycedrus-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Juniperus oxycedrus",
+																		"aka": "cade juniper",
+																		"common": {
+																			"ca": "càdec",
+																			"en": "cade juniper",
+																			"es": "enebro de la miera"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A specimen of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Juniperus oxycedrus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at Güvenç, Ankara, Turkey"
+																				"link": "juniperus-oxycedrus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Juniperus oxycedrus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Güvenç, Ankara, Turkey"
+																					}
+																				]
 																			}
 																		]
-																	}
-																]
-															},
-															{
-																"level": "Species",
-																"name": "Juniperus phoenicea",
-																"aka": "Phoenicean juniper",
-																"common": {
-																	"ca": "savina",
-																	"en": "Phoenicean juniper",
-																	"es": "sabina negral"
-																},
-																"images": [
+																	},
 																	{
-																		"link": "juniperus-phoenicea-1.jpeg",
-																		"caption": [
+																		"level": "Species",
+																		"name": "Juniperus phoenicea",
+																		"aka": "Phoenicean juniper",
+																		"common": {
+																			"ca": "savina",
+																			"en": "Phoenicean juniper",
+																			"es": "sabina negral"
+																		},
+																		"images": [
 																			{
-																				"type": "span",
-																				"text": "A plant of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Juniperus phoenicea"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Zaragona, Aragón, Spain"
+																				"link": "juniperus-phoenicea-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A plant of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Juniperus phoenicea"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Zaragona, Aragón, Spain"
+																					}
+																				]
 																			}
 																		]
 																	}
