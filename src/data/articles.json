@@ -85,7 +85,68 @@
 			},
 			{
 				"type": "p",
-				"components": []
+				"components": [
+					{
+						"type": "span",
+						"text": "The word \"zygodactyl\" literaly means \"yoke-toed\". The prefix \"zygo-\", from the Greek "
+					},
+					{
+						"type": "span",
+						"props": {
+							"className": "greek",
+							"title": "zygós"
+						},
+						"text": "ζυγος"
+					},
+					{
+						"type": "span",
+						"text": " means \"yoke\", and referes to the occurrence of toes in pairs. In the zygodactyly arrengement digits 1 and 4 are directed backwards, and digits 2 and 3 are directed forwards. This toe arrengement is present in "
+					},
+					{
+						"type": "a",
+						"text": "Cuculiformes",
+						"props": {
+							"href": "#/taxonomy/order/cuculiformes"
+						}
+					},
+					{
+						"type": "span",
+						"text": ", "
+					},
+					{
+						"type": "a",
+						"text": "Piciformes",
+						"props": {
+							"href": "#/taxonomy/order/piciformes"
+						}
+					},
+					{
+						"type": "span",
+						"text": ", "
+					},
+					{
+						"type": "a",
+						"text": "Psittaciformes",
+						"props": {
+							"href": "#/taxonomy/order/psittaciformes"
+						}
+					},
+					{
+						"type": "span",
+						"text": " and "
+					},
+					{
+						"type": "a",
+						"text": "Trogoniformes",
+						"props": {
+							"href": "#/taxonomy/order/trogoniformes"
+						}
+					},
+					{
+						"type": "span",
+						"text": "."
+					}
+				]
 			}
 		]
 	},
