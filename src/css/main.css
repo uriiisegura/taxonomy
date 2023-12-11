@@ -848,21 +848,28 @@ Taxonomy Item
 	font-style: italic;
 }
 
+.details-wrap {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
 .common-expand,
 .path-expand {
 	position: relative;
 	cursor: pointer;
 	user-select: none;
 	padding-left: 1rem;
+	line-height: 1.25;
 }
 .common-expand::before,
 .path-expand::before {
 	position: absolute;
 	left: 0;
-	top: -10%;
+	top: 10%;
 	content: '\25BC';
 	transform: rotate(-90deg);
-	font-size: 0.9rem;
+	font-size: 0.75rem;
 }
 .common-expand.expand::before,
 .path-expand.expand:before {
@@ -872,6 +879,13 @@ Taxonomy Item
 .common-names,
 .tax-item-path {
 	padding-left: calc(0.25rem + 20px);
+	margin-bottom: 0.5rem;
+	width: fit-content;
+}
+
+.common-names li,
+.tax-item-path li {
+	padding-right: 1rem;
 }
 
 .common-names:not(.expand),
@@ -887,6 +901,7 @@ Taxonomy Item
 	color: var(--grey-400);
 	display: flex;
 	margin-bottom: 2px;
+	width: 100%;
 }
 
 .common-names li img {
@@ -894,6 +909,10 @@ Taxonomy Item
 	width: 20px;
 	margin-right: 5px;
 	user-select: none;
+	opacity: 0.5;
+}
+.common-names li:hover img {
+	opacity: 1;
 }
 
 .tax-item-path li {

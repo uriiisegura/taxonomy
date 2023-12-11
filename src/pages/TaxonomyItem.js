@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
 import SYMBOLS from "../components/Symbols";
+import LANGUAGES from "../components/Languages";
 import Tree from "../components/Tree";
 import MakeURL from "./../functions/MakeURL";
 import CapitalizeFirst from "./../functions/CapitalizeFirst";
@@ -145,24 +146,30 @@ class TaxonomyItem extends Component {
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
-					{ITEM.aka && !ITEM.common && <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
-					{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
-							{
-								Object.entries(ITEM.common).map(([l, c], i) => {
-									return <li key={`common-${i}`}><img src={`flags/${l}.png`} alt={l} />{Array.isArray(c) ? c.join(', ') : c}</li>;
-								})
-							}
-						</ul></>
-					}
-				</div>
+					{ITEM.aka && /* !ITEM.common && */ <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
 
-				{Object.entries(path).length > 0 && <><span className="path-expand" onClick={this.showPath}>Taxonomic path...</span><ul className="tax-item-path">
-					{
-						Object.entries(path).reverse().map(([k, v], i) => {
-							return <li key={`tax-path-${i}`}>{SYMBOLS[k]}<NavLink to={`/taxonomy/${MakeURL(k)}/${MakeURL(v[0])}`}>{v[0]}{v[1] && <span className="aka">{v[1]}</span>}</NavLink></li>;
-						})
-					}
-				</ul></>}
+					<div className="details-wrap">
+						{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">
+								{
+									Object.entries(ITEM.common).map(([l, c], i) => {
+										return <li key={`common-${i}`}><img src={`flags/${l}.png`} title={LANGUAGES[l]} alt={l} />{Array.isArray(c) ? c.join(', ') : c}</li>;
+									})
+								}
+							</ul></>
+						}
+
+						{Object.entries(path).length > 0 && <>
+							<span className="path-expand" onClick={this.showPath}>Taxonomic path...</span>
+							<ul className="tax-item-path">
+									{
+										Object.entries(path).reverse().map(([k, v], i) => {
+											return <li key={`tax-path-${i}`}>{SYMBOLS[k]}<NavLink to={`/taxonomy/${MakeURL(k)}/${MakeURL(v[0])}`}>{v[0]}{v[1] && <span className="aka">{v[1]}</span>}</NavLink></li>;
+										})
+									}
+							</ul>
+						</>}
+					</div>
+				</div>
 
 				<div className="tax-item-content">
 					{
