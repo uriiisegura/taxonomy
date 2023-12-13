@@ -721,6 +721,10 @@ Taxonomy Tree
 	font-style: normal !important;
 }
 
+.ssp-var {
+	font-style: normal;
+}
+
 .aka {
 	font-size: 0.75rem;
 	color: var(--grey-400);

@@ -25,17 +25,22 @@ class TaxonomyItem extends Component {
 		window.location.reload();
 	}
 	filterItem(item, level, name) {
-		if (MakeURL(item.level) === level && MakeURL(item.name) === name) {
+		const searchName = level === 'subspecies' ? item.species + ' ssp. ' + item.name : item.name;
+
+		if (MakeURL(item.level) === level && MakeURL(searchName) === name) {
 			ITEM = item;
-			path[item.level] = [item.name, item.aka];
+			path[item.level] = [searchName, item.aka];
 			return;
 		}
-		if (item.children === undefined)
-			return;
+		
+		if (item.children === undefined) return;
+
+		const iName = item.level === 'subspecies' ? item.species + ' ssp. ' + item.name : item.name;
 		item.children.forEach(e => {
 			this.filterItem(e, level, name);
-			if (e.level in path && path[e.level][0] === e.name)
-				path[item.level] = [item.name, item.aka];
+			const eName = e.level === 'Subspecies' ? e.species + ' ssp. ' + e.name : e.name;
+			if (e.level in path && path[e.level][0] === eName)
+				path[item.level] = [iName, item.aka];
 		});
 	}
 	linkToSlide(n) {
@@ -145,7 +150,7 @@ class TaxonomyItem extends Component {
 			<section>
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
-					<h1>{extinct && <span className="extinct"></span>}{ITEM.name}</h1>
+					<h1>{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
 					{ITEM.aka && /* !ITEM.common && */ <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
 
 					<div className="details-wrap">
