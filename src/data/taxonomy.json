@@ -285,35 +285,50 @@
 																"children": [
 																	{
 																		"level": "Species",
-																		"name": "Glaucopsyche xerces",
-																		"extinct": true,
-																		"aka": "Xerces blue",
+																		"name": "Glaucopsyche lygdamus",
+																		"aka": "silvery blue",
 																		"common": {
-																			"ca": "Xerces blau",
-																			"en": "Xerces blue",
-																			"es": "Xerces azul"
+																			"ca": "blava argentada",
+																			"en": "silvery blue"
 																		},
-																		"images": [
-																			{
-																				"link": "glaucopsyche-xerces-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Twelve pinned "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Glaucopsyche xerces"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
-																					}
-																				]
-																			}
-																		],
 																		"articles": [
 																			"blue-in-nature"
+																		],
+																		"children": [
+																			{
+																				"level": "Subspecies",
+																				"species": "Glaucopsyche lygdamus",
+																				"name": "xerces",
+																				"aka": "Xerces blue",
+																				"common": {
+																					"ca": "Xerces blau",
+																					"en": "Xerces blue",
+																					"es": "Xerces azul"
+																				},
+																				"extinct": true,
+																				"images": [
+																					{
+																						"link": "glaucopsyche-xerces-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "Twelve pinned "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Glaucopsyche xerces"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																							}
+																						]
+																					}
+																				],
+																				"articles": [
+																					"blue-in-nature"
+																				]
+																			}
 																		]
 																	}
 																]
@@ -395,37 +410,86 @@
 														],
 														"children": [
 															{
-																"level": "Genus",
-																"name": "Lasiommata",
-																"aka": "wall browns",
+																"level": "Subfamily",
+																"name": "Biblidinae",
+																"aka": "tropical brushfoots",
 																"children": [
 																	{
-																		"level": "Species",
-																		"name": "Lasiommata megera",
-																		"aka": "wall brown",
-																		"common": {
-																			"ca": [
-																				"margenera comuna",
-																				"magera comuna"
-																			],
-																			"en": "wall brown",
-																			"es": "saltacercas"
-																		},
-																		"images": [
+																		"level": "Genus",
+																		"name": "Nessaea",
+																		"aka": "olivewings",
+																		"children": [
 																			{
-																				"link": "lasiommata-megera-1.jpeg",
-																				"caption": [
+																				"level": "Species",
+																				"name": "Nessaea obrinus",
+																				"aka": "obrina olivewing",
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "A "
-																					},
+																						"link": "nessaea-obrinus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A male "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Nessaea obrinus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Shushufindi, Sucumbíos, Ecuador"
+																							}
+																						]
+																					}
+																				],
+																				"articles": [
+																					"blue-in-nature"
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Subfamily",
+																"name": "Heliconiinae",
+																"aka": "fritillaries and longwings",
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Dione",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Dione vanillae",
+																				"aka": "gulf fritillary",
+																				"common": {
+																					"en": [
+																						"gulf fritillary",
+																						"passion butterfly"
+																					],
+																					"es": [
+																						"mariposa pasionaria motas blancas",
+																						"nacarada del Golfo"
+																					]
+																				},
+																				"images": [
 																					{
-																						"type": "i",
-																						"text": "Lasiommata megera"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Prague, Czech Republic"
+																						"link": "dione-vanillae-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Dione vanillae"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Berkeley County, South Carolina, United States"
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -434,140 +498,159 @@
 																]
 															},
 															{
-																"level": "Genus",
-																"name": "Morpho",
-																"aka": "morphos",
+																"level": "Subfamily",
+																"name": "Nymphalinae",
+																"aka": "checkerspots, anglewings, and peacocks",
 																"children": [
 																	{
-																		"level": "Species",
-																		"name": "Morpho didius",
-																		"aka": "giant blue morpho",
-																		"common": {
-																			"en": "giant blue morpho"
-																		},
-																		"images": [
+																		"level": "Genus",
+																		"name": "Vanessa",
+																		"aka": "ladies and related admirals",
+																		"children": [
 																			{
-																				"link": "morpho-didius-1.jpeg",
-																				"caption": [
+																				"level": "Species",
+																				"name": "Vanessa atalanta",
+																				"aka": "red admiral",
+																				"common": {
+																					"ca": "atalanta",
+																					"en": "red admiral",
+																					"es": "almirante rojo"
+																				},
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "A "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Morpho didius"
-																					},
-																					{
-																						"type": "span",
-																						"text": " on a leaf"
-																					}
-																				]
-																			},
-																			{
-																				"link": "morpho-didius-2.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Morpho didius"
-																					},
-																					{
-																						"type": "span",
-																						"text": " on a leaf showing the ventral side of its wings"
-																					}
-																				]
-																			},
-																			{
-																				"link": "morpho-didius-3.png",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "On the left, the dorsal view of a "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Morpho didius"
-																					},
-																					{
-																						"type": "span",
-																						"text": "; and on the right, its ventral view"
+																						"link": "vanessa-atalanta-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "An adult "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Vanessa atalanta"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Frederiksberg, Hovedstaden, Denmark"
+																							}
+																						]
 																					}
 																				]
 																			}
-																		],
-																		"articles": [
-																			"blue-in-nature"
 																		]
 																	}
 																]
 															},
 															{
-																"level": "Genus",
-																"name": "Nessaea",
-																"aka": "olivewings",
+																"level": "Subfamily",
+																"name": "Satyrinae",
+																"aka": "satyrs and morphos",
 																"children": [
 																	{
-																		"level": "Species",
-																		"name": "Nessaea obrinus",
-																		"aka": "obrina olivewing",
-																		"images": [
+																		"level": "Genus",
+																		"name": "Lasiommata",
+																		"aka": "wall browns",
+																		"children": [
 																			{
-																				"link": "nessaea-obrinus-1.jpeg",
-																				"caption": [
+																				"level": "Species",
+																				"name": "Lasiommata megera",
+																				"aka": "wall brown",
+																				"common": {
+																					"ca": [
+																						"margenera comuna",
+																						"magera comuna"
+																					],
+																					"en": "wall brown",
+																					"es": "saltacercas"
+																				},
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "A male "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Nessaea obrinus"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Shushufindi, Sucumbíos, Ecuador"
+																						"link": "lasiommata-megera-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Lasiommata megera"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Prague, Czech Republic"
+																							}
+																						]
 																					}
 																				]
 																			}
-																		],
-																		"articles": [
-																			"blue-in-nature"
 																		]
-																	}
-																]
-															},
-															{
-																"level": "Genus",
-																"name": "Vanessa",
-																"aka": "ladies and related admirals",
-																"children": [
+																	},
 																	{
-																		"level": "Species",
-																		"name": "Vanessa atalanta",
-																		"aka": "red admiral",
-																		"common": {
-																			"ca": "atalanta",
-																			"en": "red admiral",
-																			"es": "almirante rojo"
-																		},
-																		"images": [
+																		"level": "Genus",
+																		"name": "Morpho",
+																		"aka": "morphos",
+																		"children": [
 																			{
-																				"link": "vanessa-atalanta-1.jpeg",
-																				"caption": [
+																				"level": "Species",
+																				"name": "Morpho didius",
+																				"aka": "giant blue morpho",
+																				"common": {
+																					"en": "giant blue morpho"
+																				},
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "An adult "
+																						"link": "morpho-didius-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Morpho didius"
+																							},
+																							{
+																								"type": "span",
+																								"text": " on a leaf"
+																							}
+																						]
 																					},
 																					{
-																						"type": "i",
-																						"text": "Vanessa atalanta"
+																						"link": "morpho-didius-2.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Morpho didius"
+																							},
+																							{
+																								"type": "span",
+																								"text": " on a leaf showing the ventral side of its wings"
+																							}
+																						]
 																					},
 																					{
-																						"type": "span",
-																						"text": " near Frederiksberg, Hovedstaden, Denmark"
+																						"link": "morpho-didius-3.png",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "On the left, the dorsal view of a "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Morpho didius"
+																							},
+																							{
+																								"type": "span",
+																								"text": "; and on the right, its ventral view"
+																							}
+																						]
 																					}
+																				],
+																				"articles": [
+																					"blue-in-nature"
 																				]
 																			}
 																		]
@@ -1268,12 +1351,56 @@
 												"children": [
 													{
 														"level": "Family",
+														"name": "Cardinalidae",
+														"aka": "cardinals and grosbeaks",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Cardinalis",
+																"aka": "tipical cardinals",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Cardinalis cardinalis",
+																		"aka": "northern cardinal",
+																		"common": {
+																			"ca": "cardenal vermell",
+																			"en": "northern cardinal",
+																			"es": "cardenal rojo"
+																		},
+																		"images": [
+																			{
+																				"link": "cardinalis-cardinalis-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An adult "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Cardinalis cardinalis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Boston, Massachusetts, United States"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Family",
 														"name": "Corvidae",
 														"aka": "crows, jays, and magpies",
 														"children": [
 															{
 																"level": "Genus",
 																"name": "Cyanocitta",
+																"aka": "blue and steller's jays",
 																"children": [
 																	{
 																		"level": "Species",
@@ -1317,6 +1444,42 @@
 																		],
 																		"articles": [
 																			"blue-in-nature"
+																		]
+																	}
+																]
+															},
+															{
+																"level": "Genus",
+																"name": "Pica",
+																"aka": "true magpies",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Pica pica",
+																		"aka": "Eurasian magpie",
+																		"common": {
+																			"ca": "garsa",
+																			"en": "Eurasian magpie",
+																			"es": "urraca común"
+																		},
+																		"images": [
+																			{
+																				"link": "pica-pica-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A wild "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Pica pica"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Lewes, England, United Kingdom"
+																					}
+																				]
+																			}
 																		]
 																	}
 																]
@@ -2125,6 +2288,7 @@
 															{
 																"level": "Genus",
 																"name": "Curruca",
+																"aka": "curruca warblers",
 																"children": [
 																	{
 																		"level": "Species",
