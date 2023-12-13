@@ -190,8 +190,24 @@
 												"link": "parthenos-sylvia-philippensis-1.jpeg",
 												"caption": [
 													{
+														"type": "span",
+														"text": "A "
+													},
+													{
 														"type": "i",
-														"text": "Parthenos sylvia philippinensis"
+														"text": "Parthenos sylvia "
+													},
+													{
+														"type": "span",
+														"text": "ssp."
+													},
+													{
+														"type": "i",
+														"text": " philippinensis"
+													},
+													{
+														"type": "span",
+														"text": " near Sorsogon City, Sorsogon, Philippines"
 													}
 												]
 											},
@@ -199,8 +215,16 @@
 												"link": "attacus-atlas-1.jpeg",
 												"caption": [
 													{
+														"type": "span",
+														"text": "A wild "
+													},
+													{
 														"type": "i",
 														"text": "Attacus atlas"
+													},
+													{
+														"type": "i",
+														"text": " near Jinghong, Yunnan, China"
 													}
 												]
 											}
