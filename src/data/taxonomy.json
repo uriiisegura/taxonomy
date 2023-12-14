@@ -591,14 +591,14 @@
 																		"children": [
 																			{
 																				"level": "Species",
-																				"name": "Morpho didius",
-																				"aka": "giant blue morpho",
+																				"name": "Morpho menelaus",
+																				"aka": "blue morpho",
 																				"common": {
-																					"en": "giant blue morpho"
+																					"en": "blue morpho"
 																				},
 																				"images": [
 																					{
-																						"link": "morpho-didius-1.jpeg",
+																						"link": "morpho-menelaus-1.jpeg",
 																						"caption": [
 																							{
 																								"type": "span",
@@ -606,7 +606,7 @@
 																							},
 																							{
 																								"type": "i",
-																								"text": "Morpho didius"
+																								"text": "Morpho menelaus"
 																							},
 																							{
 																								"type": "span",
@@ -615,7 +615,7 @@
 																						]
 																					},
 																					{
-																						"link": "morpho-didius-2.jpeg",
+																						"link": "morpho-menelaus-2.jpeg",
 																						"caption": [
 																							{
 																								"type": "span",
@@ -623,7 +623,7 @@
 																							},
 																							{
 																								"type": "i",
-																								"text": "Morpho didius"
+																								"text": "Morpho menelaus"
 																							},
 																							{
 																								"type": "span",
@@ -632,7 +632,7 @@
 																						]
 																					},
 																					{
-																						"link": "morpho-didius-3.png",
+																						"link": "morpho-menelaus-3.png",
 																						"caption": [
 																							{
 																								"type": "span",
@@ -640,7 +640,7 @@
 																							},
 																							{
 																								"type": "i",
-																								"text": "Morpho didius"
+																								"text": "Morpho menelaus"
 																							},
 																							{
 																								"type": "span",

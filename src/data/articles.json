@@ -209,9 +209,9 @@
 						"components": [
 							{
 								"type": "a",
-								"text": "Morpho didius",
+								"text": "Morpho menelaus",
 								"props": {
-									"href": "#/taxonomy/species/morpho-didius"
+									"href": "#/taxonomy/species/morpho-menelaus"
 								}
 							}
 						]
@@ -234,8 +234,8 @@
 						"type": "img",
 						"props": {
 							"className": "article-img",
-							"src": "articles/morpho-didius-tree-structure.png",
-							"alt": "M. didius tree structure"
+							"src": "articles/morpho-menelaus-tree-structure.png",
+							"alt": "M. menelaus tree structure"
 						}
 					},
 					{
@@ -257,9 +257,9 @@
 								"components": [
 									{
 										"type": "a",
-										"text": "Morpho didius",
+										"text": "Morpho menelaus",
 										"props": {
-											"href": "#/taxonomy/species/morpho-didius"
+											"href": "#/taxonomy/species/morpho-menelaus"
 										}
 									}
 								]
@@ -304,9 +304,9 @@
 						"components": [
 							{
 								"type": "a",
-								"text": "Morpho didius",
+								"text": "Morpho menelaus",
 								"props": {
-									"href": "#/taxonomy/species/morpho-didius"
+									"href": "#/taxonomy/species/morpho-menelaus"
 								}
 							}
 						]
