@@ -295,6 +295,7 @@ Navbar
 	background-color: var(--primary-400);
 	z-index: 99999;
 	height: var(--navbar-height);
+	user-select: none;
 }
 
 .nav-center {
@@ -318,7 +319,6 @@ Navbar
 .nav-header img {
 	margin-right: 0.7rem;
 	height: 3rem;
-	user-select: none;
 }
 
 .header-name {
@@ -329,7 +329,6 @@ Navbar
 	margin: 0;
 	height: 3rem;
 	white-space: nowrap;
-	user-select: none;
 }
 .header-name span {
 	font-weight: 700;
@@ -359,7 +358,7 @@ Navbar
 	transition: var(--transition);
 	border-top: 3px solid transparent;
 	border-bottom: 3px solid transparent;
-	user-select: none;
+	position: relative;
 }
 .nav-link:hover{
 	border-bottom: 3px solid var(--white);
@@ -387,7 +386,8 @@ Navbar
 	display: none;
 	position: absolute;
 	background-color: var(--grey-50);
-	top: var(--navbar-height);
+	top: calc(var(--navbar-height) - 3px);
+	right: 0;
 	padding: 1rem;
 }
 .nav-link:hover .sub-menus {
@@ -410,6 +410,7 @@ Navbar
 .sub-menu li {
 	text-align: left;
 	font-size: 0.8rem;
+	white-space: nowrap;
 }
 
 .nav-btn {
@@ -437,7 +438,7 @@ Navbar
 }
 
 /* TODO: change width */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
 	.nav-expand {
 		display: flex;
 		justify-content: flex-end;
@@ -481,6 +482,10 @@ Navbar
 		padding: 0;
 		width: 100%;
 		margin: 0;
+	}
+	.nav-link:hover,
+	.nav-link:has(a.active) {
+		border-bottom: none;
 	}
 
 	.nav-link > a,
@@ -1006,7 +1011,7 @@ Taxonomy Item
 	vertical-align: middle;
 	object-fit: cover;
 	width: 100%;
-	aspect-ratio: 1.5;
+	aspect-ratio: 3/2;
 }
 
 .slide .caption {
@@ -1118,6 +1123,61 @@ Single Article
 
 .article-figtitle {
 	font-weight: 600;
+}
+
+/*
+=============== 
+Gallery
+===============
+*/
+
+.gallery-header {
+	margin-bottom: 3rem;
+}
+
+.gallery-header h1 {
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+.gallery-header h5 {
+	text-transform: none;
+	width: fit-content;
+}
+.gallery-header h5:hover {
+	text-decoration: underline;
+}
+
+.gallery-wrap {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.gallery-item {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	line-height: 1;
+}
+.gallery-item:hover .gallery-item-title {
+	text-decoration: underline;
+}
+
+.gallery-item img {
+	width: 100%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
+	user-select: none;
+}
+.gallery-item img.null-img {
+	opacity: 0.5;
+}
+
+.gallery-item-title {
+	font-style: italic;
+	font-size: 0.8rem;
+	width: 100%;
 }
 
 /*
