@@ -2757,6 +2757,63 @@
 												"children": [
 													{
 														"level": "Suborder",
+														"name": "Amphisbaenia",
+														"aka": "amphisbaenians",
+														"common": {
+															"ca": "amfisbenis",
+															"en": "amphisbaenians",
+															"es": "anfisbénidos"
+														},
+														"children": [
+															{
+																"level": "Family",
+																"name": "Bipedidae",
+																"aka": "two-legged worm lizards",
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Bipes",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Bipes biporus",
+																				"aka": "Mexican mole lizard",
+																				"common": {
+																					"ca": "llangardaix cuc de dues potes",
+																					"en": [
+																						"Mexican mole lizard",
+																						"five-toed worm lizard"
+																					],
+																					"es": "lagartija topo de cindo dedos"
+																				},
+																				"images": [
+																					{
+																						"link": "bipes-biporus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A specimen of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Bipes biporus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Comodú Municipality, Baja California Sur, Mexico"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Suborder",
 														"name": "Sauria",
 														"aka": "lizards",
 														"children": [
@@ -2899,6 +2956,66 @@
 																							{
 																								"type": "span",
 																								"text": " at Laroque-d'Olmes, Ariège, France"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Suborder",
+														"name": "Serpentes",
+														"aka": "snakes",
+														"common": {
+															"ca": "serps",
+															"en": "snakes",
+															"es": "serpientes"
+														},
+														"children": [
+															{
+																"level": "Family",
+																"name": "Viperidae",
+																"aka": "vipers",
+																"common": {
+																	"ca": "escurçons",
+																	"en": "vipers",
+																	"es": "víboras"
+																},
+																"children": [
+																	{
+																		"level": "Genus",
+																		"name": "Vipera",
+																		"aka": "Eurasian vipers",
+																		"children": [
+																			{
+																				"level": "Species",
+																				"name": "Vipera latastei",
+																				"aka": "Lataste's viper",
+																				"common": {
+																					"ca": "escurçó ibèric",
+																					"en": "Lataste's viper",
+																					"es": "víbora hocicuda"
+																				},
+																				"images": [
+																					{
+																						"link": "vipera-latastei-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A wild "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Vipera latastei"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Province of Huesca, Aragón, Spain"
 																							}
 																						]
 																					}
