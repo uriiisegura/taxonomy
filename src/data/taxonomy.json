@@ -291,6 +291,25 @@
 																			"ca": "blava argentada",
 																			"en": "silvery blue"
 																		},
+																		"images": [
+																			{
+																				"link": "glaucopsyche-lygdamus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Glaucopsyche lygdamus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Lyle, Washington, United States"
+																					}
+																				]
+																			}
+																		],
 																		"articles": [
 																			"blue-in-nature"
 																		],
@@ -316,7 +335,15 @@
 																							},
 																							{
 																								"type": "i",
-																								"text": "Glaucopsyche xerces"
+																								"text": "Glaucopsyche lygdamus "
+																							},
+																							{
+																								"type": "span",
+																								"text": "ssp."
+																							},
+																							{
+																								"type": "i",
+																								"text": " xerces"
 																							},
 																							{
 																								"type": "span",
