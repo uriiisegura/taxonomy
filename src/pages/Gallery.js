@@ -64,7 +64,7 @@ class Gallery extends Component {
 					{
 						ELEMENTS.map((e, i) => {
 							const name = e.level === 'Subspecies' ? `${e.species} ssp. ${e.name}` : e.name;
-							let image = 'species/_null.png';
+							let image = 'species/default.png';
 							if (e.images !== undefined) image = `species/${e.images[0].link}`;
 							return (<div className="gallery-item" key={`gallery-${i}`}>
 								<NavLink to={`/taxonomy/${MakeURL(e.level)}/${MakeURL(name)}`}>
