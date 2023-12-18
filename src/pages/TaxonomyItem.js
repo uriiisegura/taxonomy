@@ -152,6 +152,7 @@ class TaxonomyItem extends Component {
 					<h3>{ITEM.level}</h3>
 					<h1>{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
 					{ITEM.aka && /* !ITEM.common && */ <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
+					{ITEM.iNatId && <p className="inat"><a href={`https://www.inaturalist.org/taxa/${ITEM.iNatId}`} target="_blank" rel="noopener noreferrer">Go to <img src="inat.png" alt="iNaturalist" />iNaturalist taxon page</a></p>}
 
 					<div className="details-wrap">
 						{ITEM.common && <><span className="common-expand" onClick={this.showCommonNames}>Common names...</span><ul className="common-names">

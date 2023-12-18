@@ -857,6 +857,23 @@ Taxonomy Item
 	font-style: italic;
 }
 
+.inat {
+	font-size: 0.8rem;
+	padding-right: 1rem;
+	color: var(--grey-600);
+	font-style: italic;
+	width: fit-content;
+	cursor: pointer;
+}
+.inat:hover {
+	text-decoration: underline;
+}
+
+.inat img {
+	height: 17px;
+	margin-bottom: -2px;
+}
+
 .details-wrap {
 	display: flex;
 	flex-direction: column;
