@@ -687,6 +687,52 @@
 														]
 													},
 													{
+														"iNatId": 47223,
+														"level": "Family",
+														"name": "Papilionidae",
+														"aka": "swallowtails and parnassians",
+														"children": [
+															{
+																"iNatId": 47225,
+																"level": "Genus",
+																"name": "Papilio",
+																"aka": "common swallowtails",
+																"children": [
+																	{
+																		"iNatId": 56529,
+																		"level": "Species",
+																		"name": "Papilio machaon",
+																		"aka": "Old World swallowtail",
+																		"common": {
+																			"ca": "papallona reina",
+																			"en": "Old World swallowtail",
+																			"es": "mariposa cometa macaón"
+																		},
+																		"images": [
+																			{
+																				"link": "papilio-machaon-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Papilio machaon"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at Tuapsinsky District, Krasnodar Krai, Russia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
 														"level": "Family",
 														"name": "Pieridae",
 														"aka": "whites, yellows, and sulphurs",
@@ -749,6 +795,7 @@
 																"aka": "tailed blue metalmarks",
 																"children": [
 																	{
+																		"iNatId": 332390,
 																		"level": "Species",
 																		"name": "Rethus dysonii",
 																		"aka": "blue doctor",
