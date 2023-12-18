@@ -737,6 +737,47 @@
 																]
 															}
 														]
+													},
+													{
+														"level": "Family",
+														"name": "Riodinidae",
+														"aka": "metalmark butterflies",
+														"children": [
+															{
+																"level": "Genus",
+																"name": "Rhetus",
+																"aka": "tailed blue metalmarks",
+																"children": [
+																	{
+																		"level": "Species",
+																		"name": "Rethus dysonii",
+																		"aka": "blue doctor",
+																		"common": {
+																			"en": "blue doctor"
+																		},
+																		"images": [
+																			{
+																				"link": "rhetus-dysonii-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Rhetus dysonii"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Acevedo, Huila, Colombia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
 													}
 												]
 											},
