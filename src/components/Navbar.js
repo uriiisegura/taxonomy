@@ -33,6 +33,7 @@ class Navbar extends Component {
 									<h4 className="sub-menu-title">Invertebrates</h4>
 									<ul>
 										<li><NavLink to="/galleries/superfamily/papilionoidea">Papilionoidea (butterflies)</NavLink></li>
+										<li><NavLink to="/galleries/class/aves">Aves (birds)</NavLink></li>
 									</ul>
 								</div>
 							</div>
