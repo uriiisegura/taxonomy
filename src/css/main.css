@@ -858,6 +858,7 @@ Taxonomy Item
 }
 
 .inat {
+	margin-top: 0.1rem;
 	font-size: 0.8rem;
 	padding-right: 1rem;
 	color: var(--grey-600);
@@ -1171,6 +1172,12 @@ Gallery
 	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
+@media screen and (max-width: 800px) {
+	.gallery-wrap {
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	}
+}
+
 .gallery-item {
 	display: flex;
 	flex-direction: column;
@@ -1193,7 +1200,7 @@ Gallery
 
 .gallery-item-title {
 	font-style: italic;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	width: 100%;
 }
 
