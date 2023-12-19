@@ -1005,6 +1005,7 @@
 								"aka": "vertebrates",
 								"children": [
 									{
+										"iNatId": 3,
 										"level": "Class",
 										"name": "Aves",
 										"aka": "birds",
@@ -1368,6 +1369,7 @@
 												]
 											},	
 											{
+												"iNatId": 7251,
 												"level": "Order",
 												"name": "Passeriformes",
 												"aka": "perching birds",
@@ -1602,10 +1604,49 @@
 														]
 													},
 													{
+														"iNatId": 9079,
 														"level": "Family",
 														"name": "Fringillidae",
 														"aka": "finches and euphonias",
 														"children": [
+															{
+																"iNatId": 9358,
+																"level": "Genus",
+																"name": "Carduelis",
+																"aka": "Eurasian goldfinches and citril finches",
+																"children": [
+																	{
+																		"iNatId": 9398,
+																		"level": "Species",
+																		"name": "Carduelis carduelis",
+																		"aka": "European goldfinch",
+																		"common": {
+																			"ca": "cadernera",
+																			"en": "European goldfinch",
+																			"es": "jilguero europeo"
+																		},
+																		"images": [
+																			{
+																				"link": "carduelis-carduelis-1.jpg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Carduelis carduelis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Lower Beeding, England, United Kingdom"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
 															{
 																"level": "Genus",
 																"name": "Pyrrhula",
