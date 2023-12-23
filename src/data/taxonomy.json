@@ -1129,7 +1129,7 @@
 																					},
 																					{
 																						"type": "span",
-																						"text": " at Moscow, Russia"
+																						"text": " in Moscow, Russia"
 																					}
 																				]
 																			}
@@ -1179,6 +1179,106 @@
 																					{
 																						"type": "span",
 																						"text": " at Sarıçam, Turkey"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"iNatId": 67561,
+												"level": "Order",
+												"name": "Charadriiformes",
+												"aka": "shorebirds",
+												"children": [
+													{
+														"iNatId": 4783,
+														"level": "Family",
+														"name": "Charadriidae",
+														"aka": "plovers and lapwings",
+														"children": [
+															{
+																"iNatId": 4853,
+																"level": "Genus",
+																"name": "Vanellus",
+																"aka": "lapwings",
+																"children": [
+																	{
+																		"iNatId": 4854,
+																		"level": "Species",
+																		"name": "Vanellus vanellus",
+																		"aka": "northern lapwing",
+																		"common": {
+																			"ca": "fredeluga",
+																			"en": "northern lapwing",
+																			"es": "avefría europea"
+																		},
+																		"images": [
+																			{
+																				"link": "vanellus-vanellus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Vanellus vanellus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Saint Petersburg, Russia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"iNatId": 3835,
+														"level": "Family",
+														"name": "Scoloparidae",
+														"aka": "sandpipers",
+														"children": [
+															{
+																"iNatId": 3874,
+																"level": "Genus",
+																"name": "Tringa",
+																"aka": "shanks and tattlers",
+																"children": [
+																	{
+																		"iNatId": 3878,
+																		"level": "Species",
+																		"name": "Tringa nebularia",
+																		"aka": "common greenshank",
+																		"common": {
+																			"ca": "gamba verda",
+																			"en": "common greenshank",
+																			"es": "archibebe claro"
+																		},
+																		"images": [
+																			{
+																				"link": "tringa-nebularia-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Tringa nebularia"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Del Norte County, California, United States"
 																					}
 																				]
 																			}
@@ -2895,6 +2995,109 @@
 												]
 											},
 											{
+												"iNatId": 67566,
+												"level": "Order",
+												"name": "Pelecaniformes",
+												"aka": "pelicans, herons, and ibises",
+												"children": [
+													{
+														"iNatId": 4929,
+														"level": "Family",
+														"name": "Ardeidae",
+														"aka": "herons, egrets, and bitterns",
+														"children": [
+															{
+																"iNatId": 597395,
+																"level": "Subfamily",
+																"name": "Ardeinae",
+																"aka": "typical herons and egrets",
+																"children": [
+																	{
+																		"iNatId": 4950,
+																		"level": "Genus",
+																		"name": "Ardea",
+																		"aka": "great herons",
+																		"children": [
+																			{
+																				"iNatId": 144455,
+																				"level": "Species",
+																				"name": "Ardea alba",
+																				"aka": "great egret",
+																				"common": {
+																					"ca": "agró blanc",
+																					"en": "great egret",
+																					"es": [
+																						"garza blanca",
+																						"garza real"
+																					]
+																				},
+																				"images": [
+																					{
+																						"link": "ardea-alba-1.jpg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "An "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Ardea alba"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Chincoteague National Wildlife Refuge, Virginia, United States"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 4933,
+																		"level": "Genus",
+																		"name": "Egretta",
+																		"aka": "typical egrets",
+																		"children": [
+																			{
+																				"iNatId": 4934,
+																				"level": "Species",
+																				"name": "Egretta garzetta",
+																				"aka": "little egret",
+																				"common": {
+																					"ca": "martinet blanc",
+																					"en": "little egret",
+																					"es": "garceta común"
+																				},
+																				"images": [
+																					{
+																						"link": "egretta-garzetta-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Egretta garzetta"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Saki, Crimea, Ukraine"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
 												"level": "Order",
 												"name": "Phoenicopteriformes",
 												"aka": "flamingos",
@@ -3019,21 +3222,79 @@
 												]
 											},
 											{
+												"iNatId": 19350,
+												"level": "Order",
+												"name": "Strigiformes",
+												"aka": "owls",
+												"children": [
+													{
+														"iNatId": 19728,
+														"level": "Family",
+														"name": "Strigidae",
+														"aka": "typical owls",
+														"children": [
+															{
+																"iNatId": 19974,
+																"level": "Genus",
+																"name": "Athene",
+																"aka": "little owls",
+																"children": [
+																	{
+																		"iNatId": 19975,
+																		"level": "Species",
+																		"name": "Athene noctua",
+																		"aka": "little owl",
+																		"common": {
+																			"ca": "mussol comú",
+																			"en": "little owl",
+																			"es": "mochuelo europeo"
+																		},
+																		"images": [
+																			{
+																				"link": "athene-noctua-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Athene noctua"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Castro Marim, Algarve, Portugal"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"iNatId": 20715,
 												"level": "Order",
 												"name": "Trogoniformes",
 												"aka": "trogons and quetzals",
 												"children": [
 													{
+														"iNatId": 20716,
 														"level": "Family",
 														"name": "Trogonidae",
-														"aka": "trogons",
+														"aka": "trogons and quetzals",
 														"children": [
 															{
+																"iNatId": 20848,
 																"level": "Genus",
 																"name": "Pharomachrus",
 																"aka": "typical quetzals",
 																"children": [
 																	{
+																		"iNatId": 20856,
 																		"level": "Species",
 																		"name": "Pharomachrus mocinno",
 																		"aka": "resplendent quetzal",
