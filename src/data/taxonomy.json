@@ -73,10 +73,153 @@
 				"aka": "animals",
 				"children": [
 					{
+						"iNatId": 47120,
 						"level": "Phylum",
 						"name": "Arthropoda",
 						"aka": "arthropods",
 						"children": [
+							{
+								"iNatId": 85493,
+								"level": "Subphylum",
+								"name": "Crustacea",
+								"aka": "crustaceans",
+								"children": [
+									{
+										"iNatId": 473790,
+										"level": "Superclass",
+										"name": "Multicrustacea",
+										"aka": "typical crustaceans",
+										"children": [
+											{
+												"iNatId": 47187,
+												"level": "Class",
+												"name": "Malacostraca",
+												"aka": "malacostracans",
+												"children": [
+													{
+														"iNatId": 7747775,
+														"level": "Subclass",
+														"name": "Eumalacostraca",
+														"aka": "decapods and isopods",
+														"children": [
+															{
+																"iNatId": 144113,
+																"level": "Superorder",
+																"name": "Eucarida",
+																"aka": "decapods and krill",
+																"children": [
+																	{
+																		"iNatId": 47186,
+																		"level": "Order",
+																		"name": "Decapoda",
+																		"aka": "decapods",
+																		"children": [
+																			{
+																				"iNatId": 118451,
+																				"level": "Suborder",
+																				"name": "Pleocyemata",
+																				"aka": "crabs, lobsters, and shrimps",
+																				"children": [
+																					{
+																						"iNatId": 121639,
+																						"level": "Infraorder",
+																						"name": "Brachyura",
+																						"aka": "true crabs",
+																						"children": [
+																							{
+																								"iNatId": 706185,
+																								"level": "Zoosection",
+																								"name": "Eubrachyura",
+																								"aka": "eubrachyuran crabs",
+																								"children": [
+																									{
+																										"iNatId": 447514,
+																										"level": "Zoosubsection",
+																										"name": "Heterotremata",
+																										"aka": "heterotrematan crabs",
+																										"children": [
+																											{
+																												"iNatId": 47612,
+																												"level": "Superfamily",
+																												"name": "Xanthoidea",
+																												"aka": "xanthoid crabs",
+																												"children": [
+																													{
+																														"iNatId": 51176,
+																														"level": "Family",
+																														"name": "Xanthidae",
+																														"aka": "round crabs",
+																														"children": [
+																															{
+																																"iNatId": 774253,
+																																"level": "Subfamily",
+																																"name": "Polydectinae",
+																																"children": [
+																																	{
+																																		"iNatId": 51175,
+																																		"level": "Genus",
+																																		"name": "Lybia",
+																																		"children": [
+																																			{
+																																				"iNatId": 51177,
+																																				"level": "Species",
+																																				"name": "Lybia tessellata",
+																																				"aka": "boxer crab",
+																																				"common": {
+																																					"en": "boxer crab",
+																																					"es": [
+																																						"cangrejo boxeador",
+																																						"cangrejo pom pom"
+																																					]
+																																				},
+																																				"images": [
+																																					{
+																																						"link": "lybia-tessellata-1.jpeg",
+																																						"caption": [
+																																							{
+																																								"type": "span",
+																																								"text": "A specimen of "
+																																							},
+																																							{
+																																								"type": "i",
+																																								"text": "Lybia tessellata"
+																																							},
+																																							{
+																																								"type": "span",
+																																								"text": " near the coast of Tulamben, Bali, Indonesia"
+																																							}
+																																						]
+																																					}
+																																				]
+																																			}
+																																		]
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
 							{
 								"level": "Class",
 								"name": "Arachnida",
@@ -1012,6 +1155,71 @@
 										"name": "Actinopterygii",
 										"aka": "ray-finned fishes",
 										"children": [
+											{
+												"iNatId": 1303736,
+												"level": "Order",
+												"name": "Cichliformes",
+												"aka": "cichlids and damselfishes",
+												"children": [
+													{
+														"iNatId": 48313,
+														"level": "Family",
+														"name": "Pomacentridae",
+														"aka": "damselfishes",
+														"children": [
+															{
+																"iNatId": 606190,
+																"level": "Subfamily",
+																"name": "Pomacentrinae",
+																"aka": "typical damselfishes and anemonefishes",
+																"children": [
+																	{
+																		"iNatId": 57742,
+																		"level": "Genus",
+																		"name": "Amphiprion",
+																		"aka": "anemonefishes",
+																		"children": [
+																			{
+																				"iNatId": 132688,
+																				"level": "Species",
+																				"name": "Amphiprion ocellaris",
+																				"aka": "ocellaris clownfish",
+																				"common": {
+																					"ca": "peixe pallasso",
+																					"en": [
+																						"ocellaris clownfish",
+																						"common clownfish"
+																					],
+																					"es": "pez payaso común"
+																				},
+																				"images": [
+																					{
+																						"link": "amphiprion-ocellaris-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A wild "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Amphiprion ocellaris"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near the coast of Tulamben, Bali, Indonesia"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
 											{
 												"iNatId": 47245,
 												"level": "Order",

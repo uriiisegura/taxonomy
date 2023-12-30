@@ -771,6 +771,12 @@ Taxonomy Tree
 	border: 1px solid #4bbb8d;
 	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
+.level-symbol.super-blue {
+	background-color: #4ad0f1;
+	border: 1px solid #105f73;
+	color: #105f73;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
 .level-symbol.blue {
 	background-color: #4ad0f1;
 }
@@ -781,6 +787,12 @@ Taxonomy Tree
 .level-symbol.infra-blue {
 	border: 1px solid #4ad0f1;
 	border-style: dashed;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
+.level-symbol.super-purple {
+	background-color: #c08adb;
+	border: 1px solid #4f2a6d;
+	color: #4f2a6d;
 	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 .level-symbol.purple {
@@ -816,6 +828,10 @@ Taxonomy Tree
 }
 .level-symbol.goldenbrown {
 	background-color: #e1b364;
+}
+.level-symbol.sub-goldenbrown {
+	border: 1px solid #e1b364;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 .level-symbol.ocre {
 	background-color: #c6ba7b;
