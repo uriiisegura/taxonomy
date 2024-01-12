@@ -3730,6 +3730,244 @@
 										]
 									},
 									{
+										"iNatId": 40151,
+										"level": "Class",
+										"name": "Mammalia",
+										"aka": "mammals",
+										"children": [
+											{
+												"iNatId": 848317,
+												"level": "Subclass",
+												"name": "Theria",
+												"aka": "therians",
+												"children": [
+													{
+														"iNatId": 848320,
+														"level": "Infraclass",
+														"name": "Placentalia",
+														"aka": "placental mammals",
+														"children": [
+															{
+																"iNatId": 848324,
+																"level": "Superorder",
+																"name": "Laurasiatheria",
+																"aka": "ungulates and carnivorans",
+																"children": [
+																	{
+																		"iNatId": 41573,
+																		"level": "Order",
+																		"name": "Carnivora",
+																		"aka": "carnivorans",
+																		"children": [
+																			{
+																				"iNatId": 41944,
+																				"level": "Family",
+																				"name": "Felidae",
+																				"aka": "felids",
+																				"children": [
+																					{
+																						"iNatId": 846273,
+																						"level": "Subfamily",
+																						"name": "Pantherinae",
+																						"aka": "big cats",
+																						"children": [
+																							{
+																								"iNatId": 41962,
+																								"level": "Genus",
+																								"name": "Panthera",
+																								"aka": "roaring cats",
+																								"children": [
+																									{
+																										"iNatId": 41964,
+																										"level": "Species",
+																										"name": "Panthera leo",
+																										"aka": "lion",
+																										"common": {
+																											"ca": "lleó",
+																											"en": "lion",
+																											"es": "león"
+																										},
+																										"images": [
+																											{
+																												"link": "panthera-leo-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A male adult "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Panthera leo"
+																													},
+																													{
+																														"type": "span",
+																														"text": " ssp. "
+																													},
+																													{
+																														"type": "i",
+																														"text": "melanochaita"
+																													},
+																													{
+																														"type": "span",
+																														"text": " in Umkhanyakude, KwaZulu-Natal, South Africa"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"iNatId": 41970,
+																										"level": "Species",
+																										"name": "Panthera onca",
+																										"aka": "jaguar",
+																										"common": {
+																											"ca": "jaguar",
+																											"en": "jaguar",
+																											"es": "jaguar"
+																										},
+																										"images": [
+																											{
+																												"link": "panthera-onca-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "An adult "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Panthera onca"
+																													},
+																													{
+																														"type": "span",
+																														"text": " in Poconé, Mato Grosso, Brazil"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"iNatId": 41963,
+																										"level": "Species",
+																										"name": "Panthera pardus",
+																										"aka": "leopard",
+																										"common": {
+																											"ca": "lleopard",
+																											"en": "leopard",
+																											"es": "leopardo"
+																										},
+																										"images": [
+																											{
+																												"link": "panthera-pardus-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Panthera pardus"
+																													},
+																													{
+																														"type": "span",
+																														"text": " ssp. "
+																													},
+																													{
+																														"type": "i",
+																														"text": "pardus"
+																													},
+																													{
+																														"type": "span",
+																														"text": " in Laikipia, Kenya"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"iNatId": 41967,
+																										"level": "Species",
+																										"name": "Panthera tigris",
+																										"aka": "tiger",
+																										"common": {
+																											"ca": "tigre",
+																											"en": "tiger",
+																											"es": "tigre"
+																										},
+																										"images": [
+																											{
+																												"link": "panthera-tigris-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Panthera tigris"
+																													},
+																													{
+																														"type": "span",
+																														"text": " ssp. "
+																													},
+																													{
+																														"type": "i",
+																														"text": "tigris"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Chandrapur, Maharashtra, India"
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"iNatId": 74831,
+																										"level": "Species",
+																										"name": "Panthera uncia",
+																										"aka": "snow leopard",
+																										"common": {
+																											"ca": "lleopard de les neus",
+																											"en": "snow leopard",
+																											"es": "leopardo de las nieves"
+																										},
+																										"images": [
+																											{
+																												"link": "panthera-uncia-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "Two "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Panthera uncia"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Lahul and Spiti, Himachal Pradesh, India"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
 										"level": "Class",
 										"name": "Reptilia",
 										"aka": "reptiles",
@@ -4085,21 +4323,25 @@
 				]
 			},
 			{
+				"iNatId": 47126,
 				"level": "Kingdom",
 				"name": "Plantae",
 				"aka": "plants",
 				"children": [
 					{
+						"iNatId": 211194,
 						"level": "Phylum",
 						"name": "Tracheophyta",
 						"aka": "vascular plants",
 						"children": [
 							{
+								"iNatId": 47125,
 								"level": "Subphylum",
 								"name": "Angiospermae",
 								"aka": "flowering plants",
 								"children": [
 									{
+										"iNatId": 47163,
 										"level": "Class",
 										"name": "Liliopsida",
 										"aka": "Monocotyledoneae",
@@ -4108,16 +4350,19 @@
 										],
 										"children": [
 											{
+												"iNatId": 48073,
 												"level": "Order",
 												"name": "Alismatales",
 												"aka": "aroids, water-plantains, seagrass",
 												"children": [
 													{
+														"iNatId": 48536,
 														"level": "Family",
 														"name": "Araceae",
 														"aka": "arum family",
 														"children": [
 															{
+																"iNatId": 122522,
 																"level": "Genus",
 																"name": "Monstera",
 																"aka": "monsteras"
@@ -4127,16 +4372,19 @@
 												]
 											},
 											{
+												"iNatId": 47218,
 												"level": "Order",
 												"name": "Asparagales",
 												"aka": "agaves, orchids, and irises",
 												"children": [
 													{
+														"iNatId": 47599,
 														"level": "Family",
 														"name": "Asparagaceae",
 														"aka": "agave",
 														"children": [
 															{
+																"iNatId": 50822,
 																"level": "Genus",
 																"name": "Agave",
 																"aka": "agave"
@@ -4144,10 +4392,12 @@
 														]
 													},
 													{
+														"iNatId": 47781,
 														"level": "Family",
 														"name": "Iridaceae",
 														"children": [
 															{
+																"iNatId": 68333,
 																"level": "Genus",
 																"name": "Freesia",
 																"aka": "freesias"
@@ -4157,15 +4407,18 @@
 												]
 											},
 											{
+												"iNatId": 47329,
 												"level": "Order",
 												"name": "Liliales",
 												"children": [
 													{
+														"iNatId": 47328,
 														"level": "Family",
 														"name": "Liliaceae",
 														"aka": "lilies",
 														"children": [
 															{
+																"iNatId": 48928,
 																"level": "Genus",
 																"name": "Lilium",
 																"aka": "true lilies"
@@ -4175,15 +4428,18 @@
 												]
 											},
 											{
+												"iNatId": 62488,
 												"level": "Order",
 												"name": "Pandanales",
 												"children": [
 													{
+														"iNatId": 70024,
 														"level": "Family",
 														"name": "Pandanaceae",
 														"aka": "screwpine family",
 														"children": [
 															{
+																"iNatId": 70025,
 																"level": "Genus",
 																"name": "Pandanus",
 																"aka": "screwpines"
@@ -4193,14 +4449,17 @@
 												]
 											},
 											{
+												"iNatId": 48318,
 												"level": "Order",
 												"name": "Zingiberales",
 												"children": [
 													{
+														"iNatId": 48317,
 														"level": "Family",
 														"name": "Strelitziaceae",
 														"children": [
 															{
+																"iNatId": 48316,
 																"level": "Genus",
 																"name": "Strelitzia"
 															}
@@ -4211,6 +4470,7 @@
 										]
 									},
 									{
+										"iNatId": 47124,
 										"level": "Class",
 										"name": "Magnoliopsida",
 										"aka": "Dicotyledoneae",
@@ -4219,19 +4479,24 @@
 										],
 										"children": [
 											{
+												"iNatId": 48700,
 												"level": "Order",
 												"name": "Apiales",
+												"aka": "carrots and ivies",
 												"children": [
 													{
+														"iNatId": 48699,
 														"level": "Family",
 														"name": "Apiaceae",
 														"aka": "carrot family",
 														"children": [
 															{
+																"iNatId": 53053,
 																"level": "Genus",
 																"name": "Foeniculum",
 																"children": [
 																	{
+																		"iNatId": 53052,
 																		"level": "Species",
 																		"name": "Foeniculum vulgare",
 																		"aka": "fennel",
@@ -4279,19 +4544,23 @@
 												]
 											},
 											{
+												"iNatId": 47363,
 												"level": "Order",
 												"name": "Gentianales",
 												"children": [
 													{
+														"iNatId": 47362,
 														"level": "Family",
 														"name": "Apocynaceae",
 														"aka": "dogbane family",
 														"children": [
 															{
+																"iNatId": 47564,
 																"level": "Genus",
 																"name": "Nerium",
 																"children": [
 																	{
+																		"iNatId": 47563,
 																		"level": "Species",
 																		"name": "Nerium oleander",
 																		"aka": "oleander",
@@ -4337,20 +4606,24 @@
 												]
 											},
 											{
+												"iNatId": 48151,
 												"level": "Order",
 												"name": "Lamiales",
 												"children": [
 													{
+														"iNatId": 48623,
 														"level": "Family",
 														"name": "Lamiaceae",
 														"aka": "mint family",
 														"children": [
 															{
+																"iNatId": 59902,
 																"level": "Genus",
 																"name": "Melissa",
 																"aka": "melissas",
 																"children": [
 																	{
+																		"iNatId": 59901,
 																		"level": "Species",
 																		"name": "Melissa officinalis",
 																		"aka": "lemon balm",
@@ -4385,11 +4658,13 @@
 																]
 															},
 															{
+																"iNatId": 54570,
 																"level": "Genus",
 																"name": "Mentha",
 																"aka": "mints",
 																"children": [
 																	{
+																		"iNatId": 77990,
 																		"level": "Species",
 																		"name": "Mentha aquatica",
 																		"aka": "water mint",
@@ -4414,6 +4689,7 @@
 																		]
 																	},
 																	{
+																		"iNatId": 346986,
 																		"level": "Species",
 																		"name": "Mentha requienii",
 																		"aka": "Corsician mint",
@@ -4433,6 +4709,7 @@
 																		]
 																	},
 																	{
+																		"iNatId": 62652,
 																		"level": "Species",
 																		"name": "Mentha spicata",
 																		"aka": "spearmint",
@@ -4497,11 +4774,13 @@
 																]
 															},
 															{
+																"iNatId": 61399,
 																"level": "Genus",
 																"name": "Ocimum",
 																"aka": "basils",
 																"children": [
 																	{
+																		"iNatId": 61398,
 																		"level": "Species",
 																		"name": "Ocimum basilicum",
 																		"aka": "sweet basil",
@@ -4549,11 +4828,13 @@
 																]
 															},
 															{
+																"iNatId": 50644,
 																"level": "Genus",
 																"name": "Salvia",
 																"aka": "sages",
 																"children": [
 																	{
+																		"iNatId": 636795,
 																		"level": "Species",
 																		"name": "Salvia rosmarinus",
 																		"aka": "rosemary",
@@ -4585,11 +4866,13 @@
 																]
 															},
 															{
+																"iNatId": 81754,
 																"level": "Genus",
 																"name": "Thymus",
 																"aka": "thymes",
 																"children": [
 																	{
+																		"iNatId": 85469,
 																		"level": "Species",
 																		"name": "Thymus vulgaris",
 																		"aka": "common thyme",
@@ -4660,16 +4943,19 @@
 												]
 											},
 											{
+												"iNatId": 48796,
 												"level": "Order",
 												"name": "Malvales",
 												"aka": "mallows and rock-roses",
 												"children": [
 													{
+														"iNatId": 48797,
 														"level": "Family",
 														"name": "Malvaceae",
 														"aka": "mallows and hibiscus",
 														"children": [
 															{
+																"iNatId": 64341,
 																"level": "Genus",
 																"name": "Theobroma",
 																"text": [
@@ -4713,6 +4999,7 @@
 																],
 																"children": [
 																	{
+																		"iNatId": 64340,
 																		"level": "Species",
 																		"name": "Theobroma cacao",
 																		"aka": "cacao tree",
@@ -4729,20 +5016,24 @@
 												]
 											},
 											{
+												"iNatId": 47729,
 												"level": "Order",
 												"name": "Sapindales",
 												"children": [
 													{
+														"iNatId": 48874,
 														"level": "Family",
 														"name": "Anacardiaceae",
 														"aka": "cashew family",
 														"children": [
 															{
+																"iNatId": 72301,
 																"level": "Genus",
 																"name": "Pistacia",
 																"aka": "pistaches",
 																"children": [
 																	{
+																		"iNatId": 82600,
 																		"level": "Species",
 																		"name": "Pistacia lentiscus",
 																		"aka": "lentisk",
@@ -4787,20 +5078,24 @@
 												]
 											},
 											{
+												"iNatId": 48515,
 												"level": "Order",
 												"name": "Solanales",
 												"children": [
 													{
+														"iNatId": 48516,
 														"level": "Family",
 														"name": "Solanaceae",
 														"aka": "nightshade family",
 														"children": [
 															{
+																"iNatId": 48517,
 																"level": "Genus",
 																"name": "Capsicum",
 																"aka": "peppers",
 																"children": [
 																	{
+																		"iNatId": 48514,
 																		"level": "Species",
 																		"name": "Capsicum annuum"
 																	}
@@ -4815,30 +5110,36 @@
 								]
 							},
 							{
+								"iNatId": 136329,
 								"level": "Class",
 								"name": "Pinopsida",
 								"aka": "conifers",
 								"children": [
 									{
+										"iNatId": 47375,
 										"level": "Order",
 										"name": "Pinales",
 										"children": [
 											{
+												"iNatId": 47374,
 												"level": "Family",
 												"name": "Cupressaceae",
 												"aka": "cypress family",
 												"children": [
 													{
+														"iNatId": 47574,
 														"level": "Genus",
 														"name": "Juniperus",
 														"aka": "junipers",
 														"children": [
 															{
+																"iNatId": 701535,
 																"level": "Section",
 																"name": "Juniperus",
 																"aka": "needle-leaf junipers",
 																"children": [
 																	{
+																		"iNatId": 58725,
 																		"level": "Species",
 																		"name": "Juniperus communis",
 																		"aka": "common juniper",
@@ -4864,6 +5165,7 @@
 																		]
 																	},
 																	{
+																		"iNatId": 133994,
 																		"level": "Species",
 																		"name": "Juniperus oxycedrus",
 																		"aka": "cade juniper",
@@ -4891,8 +5193,17 @@
 																				]
 																			}
 																		]
-																	},
+																	}
+																]
+															},
+															{
+																"iNatId": 701533,
+																"level": "Section",
+																"name": "Sabina",
+																"aka": "scale-leaf junipers",
+																"children": [
 																	{
+																		"iNatId": 774737,
 																		"level": "Species",
 																		"name": "Juniperus phoenicea",
 																		"aka": "Phoenicean juniper",
@@ -4932,20 +5243,24 @@
 								]
 							},
 							{
+								"iNatId": 121943,
 								"level": "Class",
 								"name": "Polypodiopsida",
 								"aka": "ferns",
 								"children": [
 									{
+										"iNatId": 47748,
 										"level": "Order",
 										"name": "Equisetales",
 										"children": [
 											{
+												"iNatId": 47747,
 												"level": "Family",
 												"name": "Equisetaceae",
 												"aka": "horsetail family",
 												"children": [
 													{
+														"iNatId": 47746,
 														"level": "Genus",
 														"name": "Equisetum",
 														"aka": "horsetails"
