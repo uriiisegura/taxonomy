@@ -79,6 +79,106 @@
 						"aka": "arthropods",
 						"children": [
 							{
+								"iNatId": 245097,
+								"level": "Subphylum",
+								"name": "Chelicerata",
+								"aka": "chelicerates",
+								"children": [
+									{
+										"iNatId": 47119,
+										"level": "Class",
+										"name": "Arachnida",
+										"aka": "arachnids",
+										"children": [
+											{
+												"iNatId": 47118,
+												"level": "Order",
+												"name": "Araneae",
+												"aka": "spiders",
+												"children": [
+													{
+														"iNatId": 120474,
+														"level": "Suborder",
+														"name": "Araneomorphae",
+														"aka": "typical spiders",
+														"children": [
+															{
+																"iNatId": 342614,
+																"level": "Infraorder",
+																"name": "Entelegynae",
+																"aka": "entelegyne spiders",
+																"children": [
+																	{
+																		"iNatId": 319384,
+																		"level": "Superfamily",
+																		"name": "Aranedoidea",
+																		"aka": "araneoid spiders",
+																		"children": [
+																			{
+																				"iNatId": 47535,
+																				"level": "Family",
+																				"name": "Araneidae",
+																				"aka": "orbweavers",
+																				"children": [
+																					{
+																						"iNatId": 417879,
+																						"level": "Subfamily",
+																						"name": "Araninae",
+																						"aka": "typical orbweavers",
+																						"children": [
+																							{
+																								"iNatId": 52629,
+																								"level": "Genus",
+																								"name": "Araneus",
+																								"aka": "angulate and roundshouldered orbweavers",
+																								"children": [
+																									{
+																										"iNatId": 121769,
+																										"level": "Species",
+																										"name": "Araneus angulatus",
+																										"aka": "angular orbweaver",
+																										"common": {
+																											"en": "angular orbweaver"
+																										},
+																										"images": [
+																											{
+																												"link": "araneus-angulatus-1.jpg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A speciment of "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Araneus angulatus"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Cervelló, Catalunya, Spain"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
 								"iNatId": 85493,
 								"level": "Subphylum",
 								"name": "Crustacea",
@@ -221,283 +321,94 @@
 								]
 							},
 							{
-								"level": "Class",
-								"name": "Arachnida",
-								"aka": "arachnids",
+								"iNatId": 372739,
+								"level": "Subphylum",
+								"name": "Hexapoda",
+								"aka": "hexapods",
 								"children": [
 									{
-										"level": "Order",
-										"name": "Araneae",
-										"aka": "spiders",
+										"iNatId": 47158,
+										"level": "Class",
+										"name": "Insecta",
+										"aka": "insects",
 										"children": [
 											{
-												"level": "Family",
-												"name": "Araneidae",
-												"aka": "orbweavers",
+												"iNatId": 184884,
+												"level": "Subclass",
+												"name": "Pterygota",
+												"aka": "winged and once-winged insects",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Araneus",
-														"aka": "angulate and roundshouldered orbweavers",
+														"iNatId": 47744,
+														"level": "Order",
+														"name": "Hemiptera",
+														"aka": "true bugs, hoppers, and aphids",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Araneus angulatus",
-																"aka": "angular orbweaver",
-																"common": {
-																	"en": "angular orbweaver"
-																},
-																"images": [
-																	{
-																		"link": "araneus-angulatus-1.jpg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A speciment of "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Araneus angulatus"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Cervelló, Catalunya, Spain"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"level": "Class",
-								"name": "Insecta",
-								"aka": "insects",
-								"children": [
-									{
-										"level": "Order",
-										"name": "Hemiptera",
-										"aka": "true bugs, hoppers, and aphids",
-										"children": [
-											{
-												"level": "Family",
-												"name": "Pentatomidae",
-												"aka": "stink bugs",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Nezara",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Nezara viridula",
-																"aka": "southern green stink bug",
-																"common": {
-																	"ca": "bernat pudent",
-																	"en": "southern green stink bug",
-																	"es": "chinche verde"
-																},
-																"images": [
-																	{
-																		"link": "nezara-viridula-1.jpg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "An adult "
-																			},
-																			{
-																				"type": "i",
-																				"text":  "Nezara viridula"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"level": "Order",
-										"name": "Lepidoptera",
-										"aka": "butterflies and moths",
-										"images": [
-											{
-												"link": "parthenos-sylvia-philippensis-1.jpeg",
-												"caption": [
-													{
-														"type": "span",
-														"text": "A "
-													},
-													{
-														"type": "i",
-														"text": "Parthenos sylvia "
-													},
-													{
-														"type": "span",
-														"text": "ssp."
-													},
-													{
-														"type": "i",
-														"text": " philippinensis"
-													},
-													{
-														"type": "span",
-														"text": " near Sorsogon City, Sorsogon, Philippines"
-													}
-												]
-											},
-											{
-												"link": "attacus-atlas-1.jpeg",
-												"caption": [
-													{
-														"type": "span",
-														"text": "A wild "
-													},
-													{
-														"type": "i",
-														"text": "Attacus atlas"
-													},
-													{
-														"type": "i",
-														"text": " near Jinghong, Yunnan, China"
-													}
-												]
-											}
-										],
-										"text": [
-											{
-												"type": "h2",
-												"text": "Etymology"
-											},
-											{
-												"type": "p",
-												"components": [
-													{
-														"type": "span",
-														"text": "The term comes from Greek "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "greek",
-															"title": "lepís"
-														},
-														"text": "λεπίς"
-													},
-													{
-														"type": "span",
-														"text": ", meaning \"scale\"; and "
-													},
-													{
-														"type": "span",
-														"props": {
-															"className": "greek",
-															"title": "pterós"
-														},
-														"text": "πτερόν"
-													},
-													{
-														"type": "span",
-														"text": ", meaning \"wing\". Refering to the presence of scales that cover the bodies and wings of the species from this order."
-													}
-												]
-											}
-										],
-										"children": [
-											{
-												"level": "Superfamily",
-												"name": "Papilionoidea",
-												"aka": "butterflies",
-												"children": [
-													{
-														"level": "Family",
-														"name": "Lycaenidae",
-														"aka": "gossamer-winged butterflies",
-														"children": [
-															{
-																"level": "Genus",
-																"name": "Glaucopsyche",
+																"iNatId": 372868,
+																"level": "Infraorder",
+																"name": "Pentatomomorpha",
+																"aka": "pentatomomorph bugs",
 																"children": [
 																	{
-																		"level": "Species",
-																		"name": "Glaucopsyche lygdamus",
-																		"aka": "silvery blue",
-																		"common": {
-																			"ca": "blava argentada",
-																			"en": "silvery blue"
-																		},
-																		"images": [
-																			{
-																				"link": "glaucopsyche-lygdamus-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Glaucopsyche lygdamus"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Lyle, Washington, United States"
-																					}
-																				]
-																			}
-																		],
-																		"articles": [
-																			"blue-in-nature"
-																		],
+																		"iNatId": 47743,
+																		"level": "Superfamily",
+																		"name": "Pentatomoidea",
+																		"aka": "stink bugs and shield bugs",
 																		"children": [
 																			{
-																				"level": "Subspecies",
-																				"species": "Glaucopsyche lygdamus",
-																				"name": "xerces",
-																				"aka": "Xerces blue",
-																				"common": {
-																					"ca": "Xerces blau",
-																					"en": "Xerces blue",
-																					"es": "Xerces azul"
-																				},
-																				"extinct": true,
-																				"images": [
+																				"iNatId": 47742,
+																				"level": "Family",
+																				"name": "Pentatomidae",
+																				"aka": "stink bugs",
+																				"children": [
 																					{
-																						"link": "glaucopsyche-xerces-1.jpeg",
-																						"caption": [
+																						"iNatId": 51276,
+																						"level": "Subfamily",
+																						"name": "Pentatominae",
+																						"children": [
 																							{
-																								"type": "span",
-																								"text": "Twelve pinned "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Glaucopsyche lygdamus "
-																							},
-																							{
-																								"type": "span",
-																								"text": "ssp."
-																							},
-																							{
-																								"type": "i",
-																								"text": " xerces"
-																							},
-																							{
-																								"type": "span",
-																								"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																								"iNatId": 712842,
+																								"level": "Tribe",
+																								"name": "Nezarini",
+																								"children": [
+																									{
+																										"iNatId": 141726,
+																										"level": "Genus",
+																										"name": "Nezara",
+																										"children": [
+																											{
+																												"iNatId": 141725,
+																												"level": "Species",
+																												"name": "Nezara viridula",
+																												"aka": "southern green stink bug",
+																												"common": {
+																													"ca": "bernat pudent",
+																													"en": "southern green stink bug",
+																													"es": "chinche verde"
+																												},
+																												"images": [
+																													{
+																														"link": "nezara-viridula-1.jpg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "An adult "
+																															},
+																															{
+																																"type": "i",
+																																"text":  "Nezara viridula"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
 																							}
 																						]
 																					}
-																				],
-																				"articles": [
-																					"blue-in-nature"
 																				]
 																			}
 																		]
@@ -507,47 +418,50 @@
 														]
 													},
 													{
-														"level": "Family",
-														"name": "Nymphalidae",
-														"aka": "brush-footed butterflies",
-														"common": {
-															"en": [
-																"brush-footed butterflies",
-																"four-footed butterflies"
-															]
-														},
+														"iNatId": 47157,
+														"level": "Order",
+														"name": "Lepidoptera",
+														"aka": "butterflies and moths",
 														"images": [
 															{
-																"link": "marpesia-zerynthia-1.jpeg",
+																"link": "parthenos-sylvia-philippensis-1.jpeg",
 																"caption": [
 																	{
 																		"type": "span",
-																		"text": "A specimen of "
+																		"text": "A "
 																	},
 																	{
 																		"type": "i",
-																		"text": "Marpesia zerynthia"
+																		"text": "Parthenos sylvia "
 																	},
 																	{
 																		"type": "span",
-																		"text": " near Acevedo, Huila, Colombia"
+																		"text": "ssp."
+																	},
+																	{
+																		"type": "i",
+																		"text": " philippinensis"
+																	},
+																	{
+																		"type": "span",
+																		"text": " near Sorsogon City, Sorsogon, Philippines"
 																	}
 																]
 															},
 															{
-																"link": "acraea-terpsicore-1.png",
+																"link": "attacus-atlas-1.jpeg",
 																"caption": [
 																	{
 																		"type": "span",
-																		"text": "An "
+																		"text": "A wild "
 																	},
 																	{
 																		"type": "i",
-																		"text": "Acraea terpsicore"
+																		"text": "Attacus atlas"
 																	},
 																	{
-																		"type": "span",
-																		"text": " with the two forlegs folded in Bombay, India"
+																		"type": "i",
+																		"text": " near Jinghong, Yunnan, China"
 																	}
 																]
 															}
@@ -555,66 +469,764 @@
 														"text": [
 															{
 																"type": "h2",
-																"text": "Characteristics"
+																"text": "Etymology"
 															},
 															{
 																"type": "p",
 																"components": [
 																	{
 																		"type": "span",
-																		"text": "With over 6000 species, this is the largest family of butterflies. Butterflies from this family are usually medium to large size, and most have a reduced pair of forelegs and many hold their colourful wings flat when resting. They are called brush-footed butterflies because in some species the two forelegs have a brush-like set of hairs. They are also known as four-footed butterflies since they are known to stand on only four legs while the other two are curled up (as can be seen in "
+																		"text": "The term comes from Greek "
 																	},
 																	{
 																		"type": "span",
 																		"props": {
-																			"className": "link",
-																			"onClick": "() => this.linkToSlide(2)"
+																			"className": "greek",
+																			"title": "lepís"
 																		},
-																		"text": "this picture"
+																		"text": "λεπίς"
 																	},
 																	{
 																		"type": "span",
-																		"text": ")."
+																		"text": ", meaning \"scale\"; and "
+																	},
+																	{
+																		"type": "span",
+																		"props": {
+																			"className": "greek",
+																			"title": "pterós"
+																		},
+																		"text": "πτερόν"
+																	},
+																	{
+																		"type": "span",
+																		"text": ", meaning \"wing\". Refering to the presence of scales that cover the bodies and wings of the species from this order."
 																	}
 																]
 															}
 														],
 														"children": [
 															{
-																"level": "Subfamily",
-																"name": "Biblidinae",
-																"aka": "tropical brushfoots",
+																"iNatId": 47224,
+																"level": "Superfamily",
+																"name": "Papilionoidea",
+																"aka": "butterflies",
 																"children": [
 																	{
-																		"level": "Genus",
-																		"name": "Nessaea",
-																		"aka": "olivewings",
+																		"iNatId": 47923,
+																		"level": "Family",
+																		"name": "Lycaenidae",
+																		"aka": "gossamer-winged butterflies",
 																		"children": [
 																			{
-																				"level": "Species",
-																				"name": "Nessaea obrinus",
-																				"aka": "obrina olivewing",
-																				"images": [
+																				"iNatId": 58558,
+																				"level": "Subfamily",
+																				"name": "Polyommatinae",
+																				"aka": "blues",
+																				"children": [
 																					{
-																						"link": "nessaea-obrinus-1.jpeg",
-																						"caption": [
+																						"iNatId": 125833,
+																						"level": "Tribe",
+																						"name": "Polyommatini",
+																						"aka": "typical blues",
+																						"children": [
 																							{
-																								"type": "span",
-																								"text": "A male "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Nessaea obrinus"
-																							},
-																							{
-																								"type": "span",
-																								"text": " near Shushufindi, Sucumbíos, Ecuador"
+																								"iNatId": 522674,
+																								"level": "Subtribe",
+																								"name": "Scolitantidina",
+																								"children": [
+																									{
+																										"iNatId": 56777,
+																										"level": "Genus",
+																										"name": "Glaucopsyche",
+																										"children": [
+																											{
+																												"iNatId": 1456510,
+																												"level": "Subgenus",
+																												"name": "Glaucopsyche",
+																												"children": [
+																													{
+																														"iNatId": 56776,
+																														"level": "Species",
+																														"name": "Glaucopsyche lygdamus",
+																														"aka": "silvery blue",
+																														"common": {
+																															"ca": "blava argentada",
+																															"en": "silvery blue"
+																														},
+																														"images": [
+																															{
+																																"link": "glaucopsyche-lygdamus-1.jpeg",
+																																"caption": [
+																																	{
+																																		"type": "span",
+																																		"text": "A "
+																																	},
+																																	{
+																																		"type": "i",
+																																		"text": "Glaucopsyche lygdamus"
+																																	},
+																																	{
+																																		"type": "span",
+																																		"text": " near Lyle, Washington, United States"
+																																	}
+																																]
+																															}
+																														],
+																														"articles": [
+																															"blue-in-nature"
+																														],
+																														"children": [
+																															{
+																																"iNatId": 236270,
+																																"level": "Subspecies",
+																																"species": "Glaucopsyche lygdamus",
+																																"name": "xerces",
+																																"aka": "Xerces blue",
+																																"extinct": true,
+																																"common": {
+																																	"ca": "Xerces blau",
+																																	"en": "Xerces blue",
+																																	"es": "Xerces azul"
+																																},
+																																"images": [
+																																	{
+																																		"link": "glaucopsyche-xerces-1.jpeg",
+																																		"caption": [
+																																			{
+																																				"type": "span",
+																																				"text": "Twelve pinned "
+																																			},
+																																			{
+																																				"type": "i",
+																																				"text": "Glaucopsyche lygdamus "
+																																			},
+																																			{
+																																				"type": "span",
+																																				"text": "ssp."
+																																			},
+																																			{
+																																				"type": "i",
+																																				"text": " xerces"
+																																			},
+																																			{
+																																				"type": "span",
+																																				"text": " at the Maguire Center for Lepidoptera and Biodiversity, Gainesville, Florida, United States"
+																																			}
+																																		]
+																																	}
+																																],
+																																"articles": [
+																																	"blue-in-nature"
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
 																							}
 																						]
 																					}
-																				],
-																				"articles": [
-																					"blue-in-nature"
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 47922,
+																		"level": "Family",
+																		"name": "Nymphalidae",
+																		"aka": "brush-footed butterflies",
+																		"common": {
+																			"en": [
+																				"brush-footed butterflies",
+																				"four-footed butterflies"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "marpesia-zerynthia-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A specimen of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Marpesia zerynthia"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Acevedo, Huila, Colombia"
+																					}
+																				]
+																			},
+																			{
+																				"link": "acraea-terpsicore-1.png",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Acraea terpsicore"
+																					},
+																					{
+																						"type": "span",
+																						"text": " with the two forlegs folded in Bombay, India"
+																					}
+																				]
+																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "With over 6000 species, this is the largest family of butterflies. Butterflies from this family are usually medium to large size, and most have a reduced pair of forelegs and many hold their colourful wings flat when resting. They are called brush-footed butterflies because in some species the two forelegs have a brush-like set of hairs. They are also known as four-footed butterflies since they are known to stand on only four legs while the other two are curled up (as can be seen in "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(2)"
+																						},
+																						"text": "this picture"
+																					},
+																					{
+																						"type": "span",
+																						"text": ")."
+																					}
+																				]
+																			}
+																		],
+																		"children": [
+																			{
+																				"iNatId": 134159,
+																				"level": "Subfamily",
+																				"name": "Biblidinae",
+																				"aka": "tropical brushfoots",
+																				"children": [
+																					{
+																						"iNatId": 522908,
+																						"level": "Tribe",
+																						"name": "Catonephelini",
+																						"children": [
+																							{
+																								"iNatId": 148633,
+																								"level": "Genus",
+																								"name": "Nessaea",
+																								"aka": "olivewings",
+																								"children": [
+																									{
+																										"iNatId": 486636,
+																										"level": "Species",
+																										"name": "Nessaea obrinus",
+																										"aka": "obrina olivewing",
+																										"images": [
+																											{
+																												"link": "nessaea-obrinus-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A male "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Nessaea obrinus"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Shushufindi, Sucumbíos, Ecuador"
+																													}
+																												]
+																											}
+																										],
+																										"articles": [
+																											"blue-in-nature"
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 60854,
+																				"level": "Subfamily",
+																				"name": "Heliconiinae",
+																				"aka": "fritillaries and longwings",
+																				"children": [
+																					{
+																						"iNatId": 134173,
+																						"level": "Tribe",
+																						"name": "Heliconiini",
+																						"aka": "longwings",
+																						"children": [
+																							{
+																								"iNatId": 130349,
+																								"level": "Genus",
+																								"name": "Dione",
+																								"children": [
+																									{
+																										"iNatId": 49151,
+																										"level": "Subgenus",
+																										"name": "Agraulis",
+																										"children": [
+																											{
+																												"iNatId": 49150,
+																												"level": "Species",
+																												"name": "Dione vanillae",
+																												"aka": "gulf fritillary",
+																												"common": {
+																													"en": [
+																														"gulf fritillary",
+																														"passion butterfly"
+																													],
+																													"es": [
+																														"mariposa pasionaria motas blancas",
+																														"nacarada del Golfo"
+																													]
+																												},
+																												"images": [
+																													{
+																														"link": "dione-vanillae-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Dione vanillae"
+																															},
+																															{
+																																"type": "span",
+																																"text": " at Berkeley County, South Carolina, United States"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 202067,
+																				"level": "Subfamily",
+																				"name": "Nymphalinae",
+																				"aka": "checkerspots, anglewings, and peacocks",
+																				"children": [
+																					{
+																						"iNatId": 202066,
+																						"level": "Tribe",
+																						"name": "Nymphalini",
+																						"aka": "ladies and anglewings",
+																						"children": [
+																							{
+																								"iNatId": 48507,
+																								"level": "Genus",
+																								"name": "Vanessa",
+																								"aka": "ladies and related admirals",
+																								"children": [
+																									{
+																										"iNatId": 49133,
+																										"level": "Species",
+																										"name": "Vanessa atalanta",
+																										"aka": "red admiral",
+																										"common": {
+																											"ca": "atalanta",
+																											"en": "red admiral",
+																											"es": "almirante rojo"
+																										},
+																										"images": [
+																											{
+																												"link": "vanessa-atalanta-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "An adult "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Vanessa atalanta"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Frederiksberg, Hovedstaden, Denmark"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 58597,
+																				"level": "Subfamily",
+																				"name": "Satyrinae",
+																				"aka": "satyrs and morphos",
+																				"children": [
+																					{
+																						"iNatId": 202069,
+																						"level": "Tribe",
+																						"name": "Morphini",
+																						"aka": "morphos",
+																						"children": [
+																							{
+																								"iNatId": 522923,
+																								"level": "Subtribe",
+																								"name": "Morphina",
+																								"children": [
+																									{
+																										"iNatId": 68755,
+																										"level": "Genus",
+																										"name": "Morpho",
+																										"aka": "morphos",
+																										"children": [
+																											{
+																												"iNatId": 68756,
+																												"level": "Species",
+																												"name": "Morpho menelaus",
+																												"aka": "blue morpho",
+																												"common": {
+																													"en": "blue morpho"
+																												},
+																												"images": [
+																													{
+																														"link": "morpho-menelaus-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Morpho menelaus"
+																															},
+																															{
+																																"type": "span",
+																																"text": " on a leaf"
+																															}
+																														]
+																													},
+																													{
+																														"link": "morpho-menelaus-2.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Morpho menelaus"
+																															},
+																															{
+																																"type": "span",
+																																"text": " on a leaf showing the ventral side of its wings"
+																															}
+																														]
+																													},
+																													{
+																														"link": "morpho-menelaus-3.png",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "On the left, the dorsal view of a "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Morpho menelaus"
+																															},
+																															{
+																																"type": "span",
+																																"text": "; and on the right, its ventral view"
+																															}
+																														]
+																													}
+																												],
+																												"articles": [
+																													"blue-in-nature"
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					},
+																					{
+																						"iNatId": 58598,
+																						"level": "Tribe",
+																						"name": "Satyrini",
+																						"aka": "alpines, arctics, nymphs, and satyrs",
+																						"children": [
+																							{
+																								"iNatId": 58599,
+																								"level": "Subtribe",
+																								"name": "Lethina",
+																								"children": [
+																									{
+																										"iNatId": 89353,
+																										"level": "Genus",
+																										"name": "Lasiommata",
+																										"aka": "wall browns",
+																										"children": [
+																											{
+																												"iNatId": 147298,
+																												"level": "Species",
+																												"name": "Lasiommata megera",
+																												"aka": "wall brown",
+																												"common": {
+																													"ca": [
+																														"margenera comuna",
+																														"magera comuna"
+																													],
+																													"en": "wall brown",
+																													"es": "saltacercas"
+																												},
+																												"images": [
+																													{
+																														"link": "lasiommata-megera-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Lasiommata megera"
+																															},
+																															{
+																																"type": "span",
+																																"text": " near Prague, Czech Republic"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 47223,
+																		"level": "Family",
+																		"name": "Papilionidae",
+																		"aka": "swallowtails and parnassians",
+																		"children": [
+																			{
+																				"iNatId": 49973,
+																				"level": "Subfamily",
+																				"name": "Papilioninae",
+																				"aka": "swallowtails",
+																				"children": [
+																					{
+																						"iNatId": 207785,
+																						"level": "Tribe",
+																						"name": "Papilionini",
+																						"aka": "fluted swallowtails",
+																						"children": [
+																							{
+																								"iNatId": 47225,
+																								"level": "Genus",
+																								"name": "Papilio",
+																								"aka": "common swallowtails",
+																								"children": [
+																									{
+																										"iNatId": 545183,
+																										"level": "Subgenus",
+																										"name": "Papilio",
+																										"children": [
+																											{
+																												"iNatId": 56529,
+																												"level": "Species",
+																												"name": "Papilio machaon",
+																												"aka": "Old World swallowtail",
+																												"common": {
+																													"ca": "papallona reina",
+																													"en": "Old World swallowtail",
+																													"es": "mariposa cometa macaón"
+																												},
+																												"images": [
+																													{
+																														"link": "papilio-machaon-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Papilio machaon"
+																															},
+																															{
+																																"type": "span",
+																																"text": " at Tuapsinsky District, Krasnodar Krai, Russia"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 48508,
+																		"level": "Family",
+																		"name": "Pieridae",
+																		"aka": "whites, yellows, and sulphurs",
+																		"children": [
+																			{
+																				"iNatId": 209720,
+																				"level": "Subfamily",
+																				"name": "Pierinae",
+																				"aka": "whites",
+																				"children": [
+																					{
+																						"iNatId": 321384,
+																						"level": "Tribe",
+																						"name": "Pierini",
+																						"children": [
+																							{
+																								"iNatId": 475032,
+																								"level": "Subtribe",
+																								"name": "Pierina",
+																								"children": [
+																									{
+																										"iNatId": 59122,
+																										"level": "Genus",
+																										"name": "Pontia",
+																										"children": [
+																											{
+																												"iNatId": 123810,
+																												"level": "Species",
+																												"name": "Pontia daplidice",
+																												"aka": "bath white",
+																												"common": {
+																													"ca": [
+																														"pòntia comuna",
+																														"papallona de la mostassa"
+																													],
+																													"en": "bath white",
+																													"es": "blanquiverdosa"
+																												},
+																												"images": [
+																													{
+																														"link": "pontia-daplidice-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "A specimen of "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Pontia daplidice"
+																															},
+																															{
+																																"type": "span",
+																																"text": " near Frontignan, Hérault, France"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 59166,
+																		"level": "Family",
+																		"name": "Riodinidae",
+																		"aka": "metalmark butterflies",
+																		"children": [
+																			{
+																				"iNatId": 522808,
+																				"level": "Subfamily",
+																				"name": "Riodininae",
+																				"aka": "true metalmarks",
+																				"children": [
+																					{
+																						"iNatId": 522809,
+																						"level": "Tribe",
+																						"name": "Riodinini",
+																						"children": [
+																							{
+																								"iNatId": 124399,
+																								"level": "Genus",
+																								"name": "Rhetus",
+																								"aka": "tailed blue metalmarks",
+																								"children": [
+																									{
+																										"iNatId": 332390,
+																										"level": "Species",
+																										"name": "Rethus dysonii",
+																										"aka": "blue doctor",
+																										"common": {
+																											"en": "blue doctor"
+																										},
+																										"images": [
+																											{
+																												"link": "rhetus-dysonii-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Rhetus dysonii"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Acevedo, Huila, Colombia"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
 																				]
 																			}
 																		]
@@ -622,74 +1234,26 @@
 																]
 															},
 															{
-																"level": "Subfamily",
-																"name": "Heliconiinae",
-																"aka": "fritillaries and longwings",
+																"comment": "TODO: continue from here",
+																"level": "Family",
+																"name": "Noctuidae",
+																"aka": "cutworm moths",
 																"children": [
 																	{
 																		"level": "Genus",
-																		"name": "Dione",
+																		"name": "Trichoplusia",
 																		"children": [
 																			{
 																				"level": "Species",
-																				"name": "Dione vanillae",
-																				"aka": "gulf fritillary",
+																				"name": "Trichoplusia ni",
+																				"aka": "cabbage looper moth",
 																				"common": {
-																					"en": [
-																						"gulf fritillary",
-																						"passion butterfly"
-																					],
-																					"es": [
-																						"mariposa pasionaria motas blancas",
-																						"nacarada del Golfo"
-																					]
+																					"en": "cabbage looper moth",
+																					"es": "oruga de la col"
 																				},
 																				"images": [
 																					{
-																						"link": "dione-vanillae-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Dione vanillae"
-																							},
-																							{
-																								"type": "span",
-																								"text": " at Berkeley County, South Carolina, United States"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"level": "Subfamily",
-																"name": "Nymphalinae",
-																"aka": "checkerspots, anglewings, and peacocks",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Vanessa",
-																		"aka": "ladies and related admirals",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Vanessa atalanta",
-																				"aka": "red admiral",
-																				"common": {
-																					"ca": "atalanta",
-																					"en": "red admiral",
-																					"es": "almirante rojo"
-																				},
-																				"images": [
-																					{
-																						"link": "vanessa-atalanta-1.jpeg",
+																						"link": "trichoplusia-ni-1.jpeg",
 																						"caption": [
 																							{
 																								"type": "span",
@@ -697,11 +1261,28 @@
 																							},
 																							{
 																								"type": "i",
-																								"text": "Vanessa atalanta"
+																								"text": "Trichoplusia ni"
 																							},
 																							{
 																								"type": "span",
-																								"text": " near Frederiksberg, Hovedstaden, Denmark"
+																								"text": " near Reston, Virginia, United States"
+																							}
+																						]
+																					},
+																					{
+																						"link": "trichoplusia-ni-2.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Trichoplusia ni"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at his larva stage near Kiryat Yam, Haifa Bay , Israel"
 																							}
 																						]
 																					}
@@ -712,413 +1293,98 @@
 																]
 															},
 															{
-																"level": "Subfamily",
-																"name": "Satyrinae",
-																"aka": "satyrs and morphos",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Lasiommata",
-																		"aka": "wall browns",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Lasiommata megera",
-																				"aka": "wall brown",
-																				"common": {
-																					"ca": [
-																						"margenera comuna",
-																						"magera comuna"
-																					],
-																					"en": "wall brown",
-																					"es": "saltacercas"
-																				},
-																				"images": [
-																					{
-																						"link": "lasiommata-megera-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Lasiommata megera"
-																							},
-																							{
-																								"type": "span",
-																								"text": " near Prague, Czech Republic"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	},
-																	{
-																		"level": "Genus",
-																		"name": "Morpho",
-																		"aka": "morphos",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Morpho menelaus",
-																				"aka": "blue morpho",
-																				"common": {
-																					"en": "blue morpho"
-																				},
-																				"images": [
-																					{
-																						"link": "morpho-menelaus-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Morpho menelaus"
-																							},
-																							{
-																								"type": "span",
-																								"text": " on a leaf"
-																							}
-																						]
-																					},
-																					{
-																						"link": "morpho-menelaus-2.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Morpho menelaus"
-																							},
-																							{
-																								"type": "span",
-																								"text": " on a leaf showing the ventral side of its wings"
-																							}
-																						]
-																					},
-																					{
-																						"link": "morpho-menelaus-3.png",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "On the left, the dorsal view of a "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Morpho menelaus"
-																							},
-																							{
-																								"type": "span",
-																								"text": "; and on the right, its ventral view"
-																							}
-																						]
-																					}
-																				],
-																				"articles": [
-																					"blue-in-nature"
-																				]
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													},
-													{
-														"iNatId": 47223,
-														"level": "Family",
-														"name": "Papilionidae",
-														"aka": "swallowtails and parnassians",
-														"children": [
-															{
-																"iNatId": 47225,
-																"level": "Genus",
-																"name": "Papilio",
-																"aka": "common swallowtails",
-																"children": [
-																	{
-																		"iNatId": 56529,
-																		"level": "Species",
-																		"name": "Papilio machaon",
-																		"aka": "Old World swallowtail",
-																		"common": {
-																			"ca": "papallona reina",
-																			"en": "Old World swallowtail",
-																			"es": "mariposa cometa macaón"
-																		},
-																		"images": [
-																			{
-																				"link": "papilio-machaon-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Papilio machaon"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Tuapsinsky District, Krasnodar Krai, Russia"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													},
-													{
-														"level": "Family",
-														"name": "Pieridae",
-														"aka": "whites, yellows, and sulphurs",
-														"children": [
-															{
-																"level": "Subfamily",
-																"name": "Pierinae",
-																"aka": "whites",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Pontia",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Pontia daplidice",
-																				"aka": "bath white",
-																				"common": {
-																					"ca": [
-																						"pòntia comuna",
-																						"papallona de la mostassa"
-																					],
-																					"en": "bath white",
-																					"es": "blanquiverdosa"
-																				},
-																				"images": [
-																					{
-																						"link": "pontia-daplidice-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A specimen of "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Pontia daplidice"
-																							},
-																							{
-																								"type": "span",
-																								"text": " near Frontignan, Hérault, France"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													},
-													{
-														"level": "Family",
-														"name": "Riodinidae",
-														"aka": "metalmark butterflies",
-														"children": [
-															{
-																"level": "Genus",
-																"name": "Rhetus",
-																"aka": "tailed blue metalmarks",
-																"children": [
-																	{
-																		"iNatId": 332390,
-																		"level": "Species",
-																		"name": "Rethus dysonii",
-																		"aka": "blue doctor",
-																		"common": {
-																			"en": "blue doctor"
-																		},
-																		"images": [
-																			{
-																				"link": "rhetus-dysonii-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Rhetus dysonii"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Acevedo, Huila, Colombia"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Noctuidae",
-												"aka": "cutworm moths",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Trichoplusia",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Trichoplusia ni",
-																"aka": "cabbage looper moth",
-																"common": {
-																	"en": "cabbage looper moth",
-																	"es": "oruga de la col"
-																},
-																"images": [
-																	{
-																		"link": "trichoplusia-ni-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "An adult "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Trichoplusia ni"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Reston, Virginia, United States"
-																			}
-																		]
-																	},
-																	{
-																		"link": "trichoplusia-ni-2.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "A "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Trichoplusia ni"
-																			},
-																			{
-																				"type": "span",
-																				"text": " at his larva stage near Kiryat Yam, Haifa Bay , Israel"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											},
-											{
-												"level": "Family",
-												"name": "Sphingidae",
-												"aka": "sphinx moths",
-												"children": [
-													{
-														"level": "Genus",
-														"name": "Macroglossum",
-														"aka": "hummingbird hawkmoths",
-														"children": [
-															{
-																"level": "Species",
-																"name": "Macroglossum stellatarum",
-																"aka": "Eurasian hummingbird hawkmoth",
-																"common": {
-																	"ca": "bufaforats",
-																	"en": "Eurasian hummingbird hawkmoth",
-																	"es": "polilla esfinge colibrí"
-																},
-																"images": [
-																	{
-																		"link": "macroglossum-stellatarum-1.jpeg",
-																		"caption": [
-																			{
-																				"type": "span",
-																				"text": "An adult "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Macroglossum stellatarum"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Leipzig, Sachsen, Germany"
-																			}
-																		]
-																	}
-																]
-															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"level": "Order",
-										"name": "Orthoptera",
-										"aka": "grasshoppers, crickets, and katydids",
-										"children": [
-											{
-												"level": "Suborder",
-												"name": "Caelifera",
-												"aka": "grasshoppers and locusts",
-												"children": [
-													{
-														"level": "Infraorder",
-														"name": "Acrididea",
-														"aka": "grasshoppers",
-														"children": [
-															{
 																"level": "Family",
-																"name": "Acrididae",
-																"aka": "short-horned grasshoppers",
+																"name": "Sphingidae",
+																"aka": "sphinx moths",
 																"children": [
 																	{
 																		"level": "Genus",
-																		"name": "Oedipoda",
-																		"aka": "band-winged grasshoppers",
+																		"name": "Macroglossum",
+																		"aka": "hummingbird hawkmoths",
 																		"children": [
 																			{
 																				"level": "Species",
-																				"name": "Oedipoda coerula",
-																				"aka": "Iberian band-winged grasshopper",
+																				"name": "Macroglossum stellatarum",
+																				"aka": "Eurasian hummingbird hawkmoth",
+																				"common": {
+																					"ca": "bufaforats",
+																					"en": "Eurasian hummingbird hawkmoth",
+																					"es": "polilla esfinge colibrí"
+																				},
 																				"images": [
 																					{
-																						"link": "oedipoda-coerula-1.jpeg",
+																						"link": "macroglossum-stellatarum-1.jpeg",
 																						"caption": [
 																							{
 																								"type": "span",
-																								"text": "A "
+																								"text": "An adult "
 																							},
 																							{
 																								"type": "i",
-																								"text": "Oedipoda coerula"
+																								"text": "Macroglossum stellatarum"
 																							},
 																							{
 																								"type": "span",
-																								"text": " near Lousã, Coimbra, Portugal"
+																								"text": " near Leipzig, Sachsen, Germany"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"level": "Order",
+														"name": "Orthoptera",
+														"aka": "grasshoppers, crickets, and katydids",
+														"children": [
+															{
+																"level": "Suborder",
+																"name": "Caelifera",
+																"aka": "grasshoppers and locusts",
+																"children": [
+																	{
+																		"level": "Infraorder",
+																		"name": "Acrididea",
+																		"aka": "grasshoppers",
+																		"children": [
+																			{
+																				"level": "Family",
+																				"name": "Acrididae",
+																				"aka": "short-horned grasshoppers",
+																				"children": [
+																					{
+																						"level": "Genus",
+																						"name": "Oedipoda",
+																						"aka": "band-winged grasshoppers",
+																						"children": [
+																							{
+																								"level": "Species",
+																								"name": "Oedipoda coerula",
+																								"aka": "Iberian band-winged grasshopper",
+																								"images": [
+																									{
+																										"link": "oedipoda-coerula-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Oedipoda coerula"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near Lousã, Coimbra, Portugal"
+																											}
+																										]
+																									}
+																								]
 																							}
 																						]
 																					}
@@ -3019,6 +3285,52 @@
 																					{
 																						"type": "span",
 																						"text": " near Rutland, Vermont, United States"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"iNatId": 14841,
+														"level": "Family",
+														"name": "Sturnidae",
+														"aka": "starlings",
+														"children": [
+															{
+																"iNatId": 14842,
+																"level": "Genus",
+																"name": "Sturnus",
+																"aka": "European and spotless starlings",
+																"children": [
+																	{
+																		"iNatId": 14850,
+																		"level": "Species",
+																		"name": "Sturnus vulgaris",
+																		"aka": "European starling",
+																		"common": {
+																			"ca": "estornell vulgar",
+																			"en": "European starling",
+																			"es": "estornino pinto"
+																		},
+																		"images": [
+																			{
+																				"link": "sturnus-vulgaris-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Sturnus vulgaris"
+																					},
+																					{
+																						"type": "span",
+																						"text": " at London, England, United Kingdom"
 																					}
 																				]
 																			}
@@ -5264,6 +5576,94 @@
 														"level": "Genus",
 														"name": "Equisetum",
 														"aka": "horsetails"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"iNatId": 47686,
+				"level": "Kingdom",
+				"name": "Protozoa",
+				"aka": "protozoans",
+				"children": [
+					{
+						"iNatId": 47685,
+						"level": "Phylum",
+						"name": "Mycetozoa",
+						"aka": "slime molds",
+						"children": [
+							{
+								"iNatId": 47684,
+								"level": "Class",
+								"name": "Myxomycetes",
+								"aka": "true slime molds",
+								"children": [
+									{
+										"iNatId": 1443220,
+										"level": "Subclass",
+										"name": "Columellomycetidae",
+										"children": [
+											{
+												"iNatId": 1443223,
+												"level": "Superorder",
+												"name": "Stemonitida",
+												"children": [
+													{
+														"iNatId": 55484,
+														"level": "Order",
+														"name": "Physarales",
+														"children": [
+															{
+																"iNatId": 55485,
+																"level": "Family",
+																"name": "Physaraceae",
+																"children": [
+																	{
+																		"iNatId": 68858,
+																		"level": "Genus",
+																		"name": "Physarum",
+																		"children": [
+																			{
+																				"iNatId": 68855,
+																				"level": "Species",
+																				"name": "Physarum polycephalum",
+																				"aka": "many-headed slime",
+																				"common": {
+																					"en": "many-headed slime",
+																					"es": "moho de muchas cabezas"
+																				},
+																				"images": [
+																					{
+																						"link": "physarum-polycephalum-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Physarum polycephalum"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Athens, Georgia, United States"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
 													}
 												]
 											}

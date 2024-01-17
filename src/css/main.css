@@ -823,8 +823,16 @@ Taxonomy Tree
 .level-symbol.caramel {
 	background-color: #e1b364;
 }
+.level-symbol.sub-caramel {
+	border: 1px solid #e1b364;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+}
 .level-symbol.gold {
 	background-color: #ffd700;
+}
+.level-symbol.sub-gold {
+	border: 1px solid #ffd700;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
 .level-symbol.goldenbrown {
 	background-color: #e1b364;
