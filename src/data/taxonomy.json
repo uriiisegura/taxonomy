@@ -507,6 +507,166 @@
 														],
 														"children": [
 															{
+																"iNatId": 47214,
+																"level": "Superfamily",
+																"name": "Bombycoidea",
+																"aka": "hawk, sphinx, silk, and emperor moths",
+																"children": [
+																	{
+																		"iNatId": 47213,
+																		"level": "Family",
+																		"name": "Sphingidae",
+																		"aka": "sphinx moths",
+																		"children": [
+																			{
+																				"iNatId": 124071,
+																				"level": "Subfamily",
+																				"name": "Macroglossinae",
+																				"aka": "macroglossine sphinx moths",
+																				"children": [
+																					{
+																						"iNatId": 124065,
+																						"level": "Tribe",
+																						"name": "Macroglossini",
+																						"children": [
+																							{
+																								"iNatId": 124050,
+																								"level": "Subtribe",
+																								"name": "Macroglossina",
+																								"children": [
+																									{
+																										"iNatId": 56294,
+																										"level": "Genus",
+																										"name": "Macroglossum",
+																										"aka": "hummingbird hawkmoths",
+																										"children": [
+																											{
+																												"iNatId": 56293,
+																												"level": "Species",
+																												"name": "Macroglossum stellatarum",
+																												"aka": "Eurasian hummingbird hawkmoth",
+																												"common": {
+																													"ca": "bufaforats",
+																													"en": "Eurasian hummingbird hawkmoth",
+																													"es": "polilla esfinge colibrí"
+																												},
+																												"images": [
+																													{
+																														"link": "macroglossum-stellatarum-1.jpeg",
+																														"caption": [
+																															{
+																																"type": "span",
+																																"text": "An adult "
+																															},
+																															{
+																																"type": "i",
+																																"text": "Macroglossum stellatarum"
+																															},
+																															{
+																																"type": "span",
+																																"text": " near Leipzig, Sachsen, Germany"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"iNatId": 47607,
+																"level": "Superfamily",
+																"name": "Noctuoidea",
+																"aka": "owlet moths",
+																"children": [
+																	{
+																		"iNatId": 48670,
+																		"level": "Family",
+																		"name": "Noctuidae",
+																		"aka": "cutworm moths",
+																		"children": [
+																			{
+																				"iNatId": 122455,
+																				"level": "Subfamily",
+																				"name": "Plusiinae",
+																				"aka": "plusiine looper moths",
+																				"children": [
+																					{
+																						"iNatId": 122007,
+																						"level": "Tribe",
+																						"name": "Argyrogrammatini",
+																						"children": [
+																							{
+																								"iNatId": 124299,
+																								"level": "Genus",
+																								"name": "Trichoplusia",
+																								"children": [
+																									{
+																										"iNatId": 202789,
+																										"level": "Species",
+																										"name": "Trichoplusia ni",
+																										"aka": "cabbage looper moth",
+																										"common": {
+																											"en": "cabbage looper moth",
+																											"es": "oruga de la col"
+																										},
+																										"images": [
+																											{
+																												"link": "trichoplusia-ni-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "An adult "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Trichoplusia ni"
+																													},
+																													{
+																														"type": "span",
+																														"text": " near Reston, Virginia, United States"
+																													}
+																												]
+																											},
+																											{
+																												"link": "trichoplusia-ni-2.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Trichoplusia ni"
+																													},
+																													{
+																														"type": "span",
+																														"text": " at his larva stage near Kiryat Yam, Haifa Bay , Israel"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
 																"iNatId": 47224,
 																"level": "Superfamily",
 																"name": "Papilionoidea",
@@ -1232,155 +1392,82 @@
 																		]
 																	}
 																]
-															},
-															{
-																"comment": "TODO: continue from here",
-																"level": "Family",
-																"name": "Noctuidae",
-																"aka": "cutworm moths",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Trichoplusia",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Trichoplusia ni",
-																				"aka": "cabbage looper moth",
-																				"common": {
-																					"en": "cabbage looper moth",
-																					"es": "oruga de la col"
-																				},
-																				"images": [
-																					{
-																						"link": "trichoplusia-ni-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "An adult "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Trichoplusia ni"
-																							},
-																							{
-																								"type": "span",
-																								"text": " near Reston, Virginia, United States"
-																							}
-																						]
-																					},
-																					{
-																						"link": "trichoplusia-ni-2.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Trichoplusia ni"
-																							},
-																							{
-																								"type": "span",
-																								"text": " at his larva stage near Kiryat Yam, Haifa Bay , Israel"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"level": "Family",
-																"name": "Sphingidae",
-																"aka": "sphinx moths",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Macroglossum",
-																		"aka": "hummingbird hawkmoths",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Macroglossum stellatarum",
-																				"aka": "Eurasian hummingbird hawkmoth",
-																				"common": {
-																					"ca": "bufaforats",
-																					"en": "Eurasian hummingbird hawkmoth",
-																					"es": "polilla esfinge colibrí"
-																				},
-																				"images": [
-																					{
-																						"link": "macroglossum-stellatarum-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "An adult "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Macroglossum stellatarum"
-																							},
-																							{
-																								"type": "span",
-																								"text": " near Leipzig, Sachsen, Germany"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
 															}
 														]
 													},
 													{
+														"iNatId": 47651,
 														"level": "Order",
 														"name": "Orthoptera",
 														"aka": "grasshoppers, crickets, and katydids",
 														"children": [
 															{
+																"iNatId": 67688,
 																"level": "Suborder",
 																"name": "Caelifera",
 																"aka": "grasshoppers and locusts",
 																"children": [
 																	{
+																		"iNatId": 700600,
 																		"level": "Infraorder",
 																		"name": "Acrididea",
 																		"aka": "grasshoppers",
 																		"children": [
 																			{
-																				"level": "Family",
-																				"name": "Acrididae",
-																				"aka": "short-horned grasshoppers",
+																				"iNatId": 47650,
+																				"level": "Superfamily",
+																				"name": "Acridoidea",
+																				"aka": "short-horned grasshoppers and locusts",
 																				"children": [
 																					{
-																						"level": "Genus",
-																						"name": "Oedipoda",
-																						"aka": "band-winged grasshoppers",
+																						"iNatId": 47649,
+																						"level": "Family",
+																						"name": "Acrididae",
+																						"aka": "short-horned grasshoppers",
 																						"children": [
 																							{
-																								"level": "Species",
-																								"name": "Oedipoda coerula",
-																								"aka": "Iberian band-winged grasshopper",
-																								"images": [
+																								"iNatId": 129164,
+																								"level": "Subfamily",
+																								"name": "Oedipodinae",
+																								"aka": "band-winged grasshoppers",
+																								"children": [
 																									{
-																										"link": "oedipoda-coerula-1.jpeg",
-																										"caption": [
+																										"iNatId": 523254,
+																										"level": "Tribe",
+																										"name": "Oedipodini",
+																										"children": [
 																											{
-																												"type": "span",
-																												"text": "A "
-																											},
-																											{
-																												"type": "i",
-																												"text": "Oedipoda coerula"
-																											},
-																											{
-																												"type": "span",
-																												"text": " near Lousã, Coimbra, Portugal"
+																												"iNatId": 180727,
+																												"level": "Genus",
+																												"name": "Oedipoda",
+																												"aka": "band-winged grasshoppers",
+																												"children": [
+																													{
+																														"iNatId": 466392,
+																														"level": "Species",
+																														"name": "Oedipoda coerula",
+																														"aka": "Iberian band-winged grasshopper",
+																														"images": [
+																															{
+																																"link": "oedipoda-coerula-1.jpeg",
+																																"caption": [
+																																	{
+																																		"type": "span",
+																																		"text": "A "
+																																	},
+																																	{
+																																		"type": "i",
+																																		"text": "Oedipoda coerula"
+																																	},
+																																	{
+																																		"type": "span",
+																																		"text": " near Lousã, Coimbra, Portugal"
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
 																											}
 																										]
 																									}
@@ -1411,6 +1498,7 @@
 						"aka": "chordates",
 						"children": [
 							{
+								"iNatId": 355675,
 								"level": "Subphylum",
 								"name": "Vertebrata",
 								"aka": "vertebrates",
@@ -1566,21 +1654,25 @@
 										"aka": "birds",
 										"children": [
 											{
+												"iNatId": 6888,
 												"level": "Order",
 												"name": "Anseriformes",
 												"aka": "waterfowl",
 												"children": [
 													{
+														"iNatId": 6912,
 														"level": "Family",
 														"name": "Anatidae",
 														"aka": "ducks, geese, and swans",
 														"children": [
 															{
+																"iNatId": 7065,
 																"level": "Genus",
 																"name": "Tadorna",
 																"aka": "typical shelducks",
 																"children": [
 																	{
+																		"iNatId": 7068,
 																		"level": "Species",
 																		"name": "Tadorna ferruginea",
 																		"aka": "ruddy shelduck",
@@ -1616,21 +1708,25 @@
 												]
 											},
 											{
+												"iNatId": 525653,
 												"level": "Order",
 												"name": "Bucerotiformes",
 												"aka": "hornbills and hoopoes",
 												"children": [
 													{
+														"iNatId": 20967,
 														"level": "Family",
 														"name": "Upupidae",
 														"aka": "hoopoes",
 														"children": [
 															{
+																"iNatId": 20968,
 																"level": "Genus",
 																"name": "Upupa",
 																"aka": "hoopoes",
 																"children": [
 																	{
+																		"iNatId": 20969,
 																		"level": "Species",
 																		"name": "Upupa epops",
 																		"aka": "common hoopoe",
@@ -1765,21 +1861,25 @@
 												]
 											},
 											{
+												"iNatId": 2114,
 												"level": "Order",
 												"name": "Coraciiformes",
 												"aka": "kingfishers",
 												"children": [
 													{
+														"iNatId": 2314,
 														"level": "Family",
 														"name": "Alcedinidae",
 														"aka": "kingfishers",
 														"children": [
 															{
+																"iNatId": 2561,
 																"level": "Genus",
 																"name": "Alcedo",
 																"aka": "typical river kingfishers",
 																"children": [
 																	{
+																		"iNatId": 2599,
 																		"level": "Species",
 																		"name": "Alcedo atthis",
 																		"aka": "common kingfisher",
@@ -1828,11 +1928,13 @@
 																]
 															},
 															{
+																"iNatId": 2547,
 																"level": "Genus",
 																"name": "Megaceryle",
 																"aka": "large crested kingfishers",
 																"children": [
 																	{
+																		"iNatId": 2548,
 																		"level": "Species",
 																		"name": "Megaceryle alcyon",
 																		"aka": "belted kingfisher",
@@ -1913,25 +2015,75 @@
 																]
 															}
 														]
+													},
+													{
+														"iNatId": 2115,
+														"level": "Family",
+														"name": "Todidae",
+														"aka": "todies",
+														"children": [
+															{
+																"iNatId": 2116,
+																"level": "Genus",
+																"name": "Todus",
+																"aka": "todies",
+																"children": [
+																	{
+																		"iNatId": 2117,
+																		"level": "Species",
+																		"name": "Todus multicolor",
+																		"aka": "Cuban tody",
+																		"common": {
+																			"ca": "todi de Cuba",
+																			"en": "Cuban tody",
+																			"es": "cartacuba"
+																		},
+																		"images": [
+																			{
+																				"link": "todus-multicolor-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Todus multicolor"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Caimanera, Guantánamo, Cuba"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
 													}
 												]
 											},
 											{
+												"iNatId": 1623,
 												"level": "Order",
 												"name": "Cuculiformes",
 												"aka": "cuckoos",
 												"children": [
 													{
+														"iNatId": 1627,
 														"level": "Family",
 														"name": "Cuculidae",
 														"aka": "cuckoos",
 														"children": [
 															{
+																"iNatId": 1786,
 																"level": "Genus",
 																"name": "Clamator",
-																"aka": "Old World cuckoos",
+																"aka": "Old World cresyed cuckoos",
 																"children": [
 																	{
+																		"iNatId": 1787,
 																		"level": "Species",
 																		"name": "Clamator glandarius",
 																		"aka": "great spotted cuckoo",
@@ -1967,21 +2119,25 @@
 												]
 											},
 											{
+												"iNatId": 573,
 												"level": "Order",
 												"name": "Galliformes",
 												"aka": "landfowl",
 												"children": [
 													{
+														"iNatId": 574,
 														"level": "Family",
 														"name": "Phasianidae",
 														"aka": "pheasants and grouse",
 														"children": [
 															{
+																"iNatId": 790,
 																"level": "Genus",
 																"name": "Coturnix",
 																"aka": "Coturnix quails",
 																"children": [
 																	{
+																		"iNatId": 804,
 																		"level": "Species",
 																		"name": "Coturnix coturnix",
 																		"aka": "common quail",
@@ -2072,16 +2228,19 @@
 														]
 													},
 													{
+														"iNatId": 154,
 														"level": "Family",
 														"name": "Rallidae",
 														"aka": "rails, gallinues, and coots",
 														"children": [
 															{
+																"iNatId": 979864,
 																"level": "Genus",
 																"name": "Gallinula",
 																"aka": "typical moorhens",
 																"children": [
 																	{
+																		"iNatId": 201282,
 																		"level": "Species",
 																		"name": "Gallinula chloropus",
 																		"aka": "common moorhen",
@@ -2218,16 +2377,19 @@
 												],
 												"children": [
 													{
+														"iNatId": 71305,
 														"level": "Family",
 														"name": "Cardinalidae",
-														"aka": "cardinals and grosbeaks",
+														"aka": "cardinals",
 														"children": [
 															{
+																"iNatId": 9080,
 																"level": "Genus",
 																"name": "Cardinalis",
 																"aka": "tipical cardinals",
 																"children": [
 																	{
+																		"iNatId": 9083,
 																		"level": "Species",
 																		"name": "Cardinalis cardinalis",
 																		"aka": "northern cardinal",
@@ -2261,16 +2423,19 @@
 														]
 													},
 													{
+														"iNatId": 7823,
 														"level": "Family",
 														"name": "Corvidae",
 														"aka": "crows, jays, and magpies",
 														"children": [
 															{
+																"iNatId": 8228,
 																"level": "Genus",
 																"name": "Cyanocitta",
 																"aka": "blue and steller's jays",
 																"children": [
 																	{
+																		"iNatId": 8229,
 																		"level": "Species",
 																		"name": "Cyanocitta cristata",
 																		"aka": "blue jay",
@@ -2317,11 +2482,13 @@
 																]
 															},
 															{
+																"iNatId": 8318,
 																"level": "Genus",
 																"name": "Pica",
 																"aka": "true magpies",
 																"children": [
 																	{
+																		"iNatId": 891696,
 																		"level": "Species",
 																		"name": "Pica pica",
 																		"aka": "Eurasian magpie",
@@ -2399,11 +2566,13 @@
 																]
 															},
 															{
+																"iNatId": 9459,
 																"level": "Genus",
 																"name": "Pyrrhula",
 																"aka": "bullfinches",
 																"children": [
 																	{
+																		"iNatId": 9462,
 																		"level": "Species",
 																		"name": "Pyrrhula pyrrhula",
 																		"aka": "Eurasian bullfinch",
@@ -2435,11 +2604,13 @@
 																]
 															},
 															{
+																"iNatId": 9227,
 																"level": "Genus",
 																"name": "Serinus",
 																"aka": "Eurasian serins and canaries",
 																"children": [
 																	{
+																		"iNatId": 9236,
 																		"level": "Species",
 																		"name": "Serinus serinus",
 																		"aka": "European serin",
@@ -2473,16 +2644,19 @@
 														]
 													},
 													{
+														"iNatId": 71338,
 														"level": "Family",
 														"name": "Monarchidae",
 														"aka": "monarch flycatchers",
 														"children": [
 															{
+																"iNatId": 8545,
 																"level": "Genus",
 																"name": "Hypothymis",
 																"aka": "blue monarchs",
 																"children": [
 																	{
+																		"iNatId": 204523,
 																		"level": "Species",
 																		"name": "Hypothymis azurea",
 																		"aka": "black-naped monarch",
@@ -2542,6 +2716,7 @@
 														]
 													},
 													{
+														"iNatId": 71339,
 														"level": "Family",
 														"name": "Motacillidae",
 														"aka": "wagtails and pipits",
@@ -2664,11 +2839,13 @@
 														],
 														"children": [
 															{
+																"iNatId": 14145,
 																"level": "Genus",
 																"name": "Dendronanthus",
 																"aka": "forest wagtails",
 																"children": [
 																	{
+																		"iNatId": 14146,
 																		"level": "Species",
 																		"name": "Dendronanthus indicus",
 																		"aka": "forest wagtail",
@@ -2703,11 +2880,13 @@
 																]
 															},
 															{
+																"iNatId": 13686,
 																"level": "Genus",
 																"name": "Motacilla",
 																"aka": "wagtails",
 																"children": [
 																	{
+																		"iNatId": 13695,
 																		"level": "Species",
 																		"name": "Motacilla alba",
 																		"aka": "white wagtail",
@@ -2789,6 +2968,7 @@
 																		]
 																	},
 																	{
+																		"iNatId": 204545,
 																		"level": "Species",
 																		"name": "Motacilla flava",
 																		"aka": "western yellow wagtail",
@@ -2828,10 +3008,12 @@
 														"aka": "Old World flycatchers and chats",
 														"children": [
 															{
+																"iNatId": 13093,
 																"level": "Genus",
 																"name": "Erithacus",
 																"children": [
 																	{
+																		"iNatId": 13094,
 																		"level": "Species",
 																		"name": "Erithacus rubecula",
 																		"aka": "European robin",
@@ -2931,11 +3113,13 @@
 																]
 															},
 															{
+																"iNatId": 144384,
 																"level": "Genus",
 																"name": "Larvivora",
 																"aka": "blue robins and Japanese robins",
 																"children": [
 																	{
+																		"iNatId": 145057,
 																		"level": "Species",
 																		"name": "Larvivora akahige",
 																		"aka": "Japanese robin",
@@ -2967,11 +3151,13 @@
 																]
 															},
 															{
+																"iNatId": 12964,
 																"level": "Genus",
 																"name": "Muscicapa",
 																"aka": "Muscicapa flycatchers",
 																"children": [
 																	{
+																		"iNatId": 12971,
 																		"level": "Species",
 																		"name": "Muscicapa striata",
 																		"aka": "spotted flycatcher",
@@ -3043,16 +3229,19 @@
 														]
 													},
 													{
+														"iNatId": 13547,
 														"level": "Family",
 														"name": "Paridae",
 														"aka": "tits, chickadees, and titmice",
 														"children": [
 															{
+																"iNatId": 144357,
 																"level": "Genus",
 																"name": "Cyanistes",
 																"aka": "blue and azure tits",
 																"children": [
 																	{
+																		"iNatId": 144849,
 																		"level": "Species",
 																		"name": "Cyanistes caeruleus",
 																		"aka": "Eurasian blue tit",
@@ -3214,11 +3403,13 @@
 																]
 															},
 															{
+																"iNatId": 13548,
 																"level": "Genus",
 																"name": "Parus",
 																"aka": "great tits",
 																"children": [
 																	{
+																		"iNatId": 203153,
 																		"level": "Species",
 																		"name": "Parus major",
 																		"aka": "great tit",
@@ -3252,16 +3443,19 @@
 														]
 													},
 													{
+														"iNatId": 559248,
 														"level": "Family",
 														"name": "Passerellidae",
 														"aka": "New World sparrows",
 														"children": [
 															{
+																"iNatId": 10093,
 																"level": "Genus",
 																"name": "Junco",
 																"aka": "juncos",
 																"children": [
 																	{
+																		"iNatId": 10094,
 																		"level": "Species",
 																		"name": "Junco hyemalis",
 																		"aka": "dark-eyed junco",
@@ -3341,16 +3535,19 @@
 														]
 													},
 													{
+														"iNatId": 15050,
 														"level": "Family",
 														"name": "Sylviidae",
 														"aka": "sylviid warblers and parrotbills",
 														"children": [
 															{
+																"iNatId": 1289192,
 																"level": "Genus",
 																"name": "Curruca",
 																"aka": "curruca warblers",
 																"children": [
 																	{
+																		"iNatId": 1289472,
 																		"level": "Species",
 																		"name": "Curruca melanocephala",
 																		"aka": "Sardinian warbler",
@@ -3470,16 +3667,19 @@
 														]
 													},
 													{
+														"iNatId": 15977,
 														"level": "Family",
 														"name": "Turdidae",
 														"aka": "thrushes",
 														"children": [
 															{
+																"iNatId": 12705,
 																"level": "Genus",
 																"name": "Turdus",
 																"aka": "typical thrushes",
 																"children": [
 																	{
+																		"iNatId": 12716,
 																		"level": "Species",
 																		"name": "Turdus merula",
 																		"aka": "Eurasian blackbird",
@@ -3705,21 +3905,25 @@
 												]
 											},
 											{
+												"iNatId": 17550,
 												"level": "Order",
 												"name": "Piciformes",
 												"aka": "woodpeckers and barbets",
 												"children": [
 													{
+														"iNatId": 17599,
 														"level": "Family",
 														"name": "Picidae",
 														"aka": "woodpeckers",
 														"children": [
 															{
+																"iNatId": 17866,
 																"level": "Genus",
 																"name": "Dendrocopos",
 																"aka": "Eurasian pied woodpeckers",
 																"children": [
 																	{
+																		"iNatId": 17871,
 																		"level": "Species",
 																		"name": "Dendrocopos major",
 																		"aka": "great spotted woodpecker",
@@ -3755,21 +3959,25 @@
 												]
 											},
 											{
+												"iNatId": 18874,
 												"level": "Order",
 												"name": "Psittaciformes",
 												"aka": "parrots",
 												"children": [
 													{
+														"iNatId": 18875,
 														"level": "Family",
 														"name": "Psittacidae",
 														"aka": "New World and african parrots",
 														"children": [
 															{
+																"iNatId": 18975,
 																"level": "Genus",
 																"name": "Amazona",
 																"aka": "Amazon parrots",
 																"children": [
 																	{
+																		"iNatId": 19006,
 																		"level": "Species",
 																		"name": "Amazona vittata",
 																		"aka": "Puerto Rican amazon",
@@ -3927,103 +4135,121 @@
 										]
 									},
 									{
+										"iNatId": 47273,
 										"level": "Class",
 										"name": "Elasmobranchii",
 										"aka": "elasmobranchs",
 										"children": [
 											{
+												"iNatId": 505362,
 												"level": "Subclass",
 												"name": "Neoselachii",
 												"aka": "sharks and rays",
 												"children": [
 													{
+														"iNatId": 551307,
 														"level": "Infraclass",
 														"name": "Selachii",
 														"aka": "sharks",
 														"children": [
 															{
-																"level": "Order",
-																"name": "Carcharhiniformes",
-																"aka": "ground sharks",
+																"iNatId": 551308,
+																"level": "Superorder",
+																"name": "Galeomorphi",
+																"aka": "Galean sharks",
 																"children": [
 																	{
-																		"level": "Family",
-																		"name": "Carcharhinidae",
-																		"aka": "requiem sharks",
+																		"iNatId": 48069,
+																		"level": "Order",
+																		"name": "Carcharhiniformes",
+																		"aka": "ground sharks",
 																		"children": [
 																			{
-																				"level": "Genus",
-																				"name": "Prionace",
+																				"iNatId": 52301,
+																				"level": "Family",
+																				"name": "Carcharhinidae",
+																				"aka": "requiem sharks",
 																				"children": [
 																					{
-																						"level": "Species",
-																						"name": "Prionace glauca",
-																						"aka": "blue shark",
-																						"common": {
-																							"ca": "tintorera",
-																							"en": "blue shark",
-																							"es": [
-																								"tintorera",
-																								"tiburón azul"
-																							]
-																						},
-																						"images": [
+																						"iNatId": 91292,
+																						"level": "Genus",
+																						"name": "Prionace",
+																						"children": [
 																							{
-																								"link": "prionace-glauca-1.jpeg",
-																								"caption": [
+																								"iNatId": 110361,
+																								"level": "Species",
+																								"name": "Prionace glauca",
+																								"aka": "blue shark",
+																								"common": {
+																									"ca": "tintorera",
+																									"en": "blue shark",
+																									"es": [
+																										"tintorera",
+																										"tiburón azul"
+																									]
+																								},
+																								"images": [
 																									{
-																										"type": "span",
-																										"text": "An adult "
-																									},
-																									{
-																										"type": "i",
-																										"text": "Prionace glauca"
-																									},
-																									{
-																										"type": "span",
-																										"text": " near the coast of Ilha do Faial, Azzorre, Portugal"
+																										"link": "prionace-glauca-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "An adult "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Prionace glauca"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near the coast of Ilha do Faial, Azzorre, Portugal"
+																											}
+																										]
 																									}
 																								]
 																							}
 																						]
 																					}
 																				]
-																			}
-																		]
-																	},
-																	{
-																		"level": "Family",
-																		"name": "Sphyrnidae",
-																		"aka": "hammerhead and winghead",
-																		"children": [
+																			},
 																			{
-																				"level": "Genus",
-																				"name": "Sphyrna",
-																				"aka": "hammerhead sharks",
+																				"iNatId": 48068,
+																				"level": "Family",
+																				"name": "Sphyrnidae",
+																				"aka": "hammerhead and winghead",
 																				"children": [
 																					{
-																						"level": "Species",
-																						"name": "Sphyrna mokarran",
-																						"aka": "great hammerhead",
-																						"common": {
-																							"ca": [
-																								"tauró martell gegant",
-																								"peix martell gegant"
-																							],
-																							"en": "great hammerhead",
-																							"es": "tiburón martillo gigante"
-																						},
-																						"images": [
+																						"iNatId": 56767,
+																						"level": "Genus",
+																						"name": "Sphyrna",
+																						"aka": "hammerhead sharks",
+																						"children": [
 																							{
-																								"link": "sphyrna-mokarran-1.jpg",
-																								"caption": [
+																								"iNatId": 56766,
+																								"level": "Species",
+																								"name": "Sphyrna mokarran",
+																								"aka": "great hammerhead",
+																								"common": {
+																									"ca": [
+																										"tauró martell gegant",
+																										"peix martell gegant"
+																									],
+																									"en": "great hammerhead",
+																									"es": "tiburón martillo gigante"
+																								},
+																								"images": [
 																									{
-																										"type": "span",
-																										"text": "A specimen of "
-																									},
-																									{
-																										"type": "i",
-																										"text": "Sphyrna mokarran"
+																										"link": "sphyrna-mokarran-1.jpg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Sphyrna mokarran"
+																											}
+																										]
 																									}
 																								]
 																							}
@@ -4280,16 +4506,19 @@
 										]
 									},
 									{
+										"iNatId": 26036,
 										"level": "Class",
 										"name": "Reptilia",
 										"aka": "reptiles",
 										"children": [
 											{
+												"iNatId": 26172,
 												"level": "Order",
 												"name": "Squamata",
 												"aka": "snakes and lizards",
 												"children": [
 													{
+														"iNatId": 85550,
 														"level": "Suborder",
 														"name": "Amphisbaenia",
 														"aka": "amphisbaenians",
@@ -4300,15 +4529,18 @@
 														},
 														"children": [
 															{
+																"iNatId": 121034,
 																"level": "Family",
 																"name": "Bipedidae",
 																"aka": "two-legged worm lizards",
 																"children": [
 																	{
+																		"iNatId": 116636,
 																		"level": "Genus",
 																		"name": "Bipes",
 																		"children": [
 																			{
+																				"iNatId": 116513,
 																				"level": "Species",
 																				"name": "Bipes biporus",
 																				"aka": "Mexican mole lizard",
@@ -4347,21 +4579,78 @@
 														]
 													},
 													{
+														"iNatId": 85552,
 														"level": "Suborder",
 														"name": "Sauria",
 														"aka": "lizards",
 														"children": [
 															{
+																"iNatId": 371057,
+																"level": "Infraorder",
+																"name": "Gekkota",
+																"aka": "geckos",
+																"children": [
+																	{
+																		"iNatId": 33177,
+																		"level": "Family",
+																		"name": "Gekkonidae",
+																		"aka": "common geckos",
+																		"children": [
+																			{
+																				"iNatId": 34007,
+																				"level": "Genus",
+																				"name": "Phelsuma",
+																				"aka": "day geckos",
+																				"children": [
+																					{
+																						"iNatId": 34039,
+																						"level": "Species",
+																						"name": "Phelsuma madagascariensis",
+																						"aka": "Madagascar day gecko",
+																						"common": {
+																							"en": "Madagascar day gecko",
+																							"es": "gecko diurno de Madagascar"
+																						},
+																						"images": [
+																							{
+																								"link": "phelsuma-madagascariensis-1.jpeg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "A "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Phelsuma madagascariensis"
+																									},
+																									{
+																										"type": "span",
+																										"text": " in the vivarium of Lausanne, Switzerland"
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"iNatId": 200152,
 																"level": "Family",
 																"name": "Anolidae",
 																"aka": "anoles",
 																"children": [
 																	{
+																		"iNatId": 36362,
 																		"level": "Genus",
 																		"name": "Anolis",
 																		"aka": "anoles",
 																		"children": [
 																			{
+																				"iNatId": 36514,
 																				"level": "Species",
 																				"name": "Anolis carolinensis",
 																				"aka": "green anole",
@@ -4415,81 +4704,49 @@
 																]
 															},
 															{
-																"level": "Family",
-																"name": "Gekkonidae",
-																"aka": "common geckos",
-																"children": [
-																	{
-																		"level": "Genus",
-																		"name": "Phelsuma",
-																		"aka": "day geckos",
-																		"children": [
-																			{
-																				"level": "Species",
-																				"name": "Phelsuma madagascariensis",
-																				"aka": "Madagascar day gecko",
-																				"common": {
-																					"en": "Madagascar day gecko",
-																					"es": "gecko diurno de Madagascar"
-																				},
-																				"images": [
-																					{
-																						"link": "phelsuma-madagascariensis-1.jpeg",
-																						"caption": [
-																							{
-																								"type": "span",
-																								"text": "A "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Phelsuma madagascariensis"
-																							},
-																							{
-																								"type": "span",
-																								"text": " in the vivarium of Lausanne, Switzerland"
-																							}
-																						]
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
+																"iNatId": 35360,
 																"level": "Family",
 																"name": "Lacertidae",
 																"aka": "wall lizards",
 																"children": [
 																	{
-																		"level": "Genus",
-																		"name": "Timon",
-																		"aka": "ocellated lizards",
+																		"iNatId": 1118992,
+																		"level": "Subfamily",
+																		"name": "Lacertinae",
 																		"children": [
 																			{
-																				"level": "Species",
-																				"name": "Timon lepidus",
-																				"aka": "ocellated lizard",
-																				"common": {
-																					"ca": "llangardaix ocel·lat",
-																					"en": "ocellated lizard",
-																					"es": "lagarto ocelado"
-																				},
-																				"images": [
+																				"iNatId": 35462,
+																				"level": "Genus",
+																				"name": "Timon",
+																				"aka": "ocellated lizards",
+																				"children": [
 																					{
-																						"link": "timon-lepidus-lepidus-1.jpeg",
-																						"caption": [
+																						"iNatId": 73972,
+																						"level": "Species",
+																						"name": "Timon lepidus",
+																						"aka": "ocellated lizard",
+																						"common": {
+																							"ca": "llangardaix ocel·lat",
+																							"en": "ocellated lizard",
+																							"es": "lagarto ocelado"
+																						},
+																						"images": [
 																							{
-																								"type": "span",
-																								"text": "Two specimens of "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Timon lepidus lepidus"
-																							},
-																							{
-																								"type": "span",
-																								"text": " at Laroque-d'Olmes, Ariège, France"
+																								"link": "timon-lepidus-lepidus-1.jpeg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "Two specimens of "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Timon lepidus lepidus"
+																									},
+																									{
+																										"type": "span",
+																										"text": " at Laroque-d'Olmes, Ariège, France"
+																									}
+																								]
 																							}
 																						]
 																					}
@@ -4502,6 +4759,7 @@
 														]
 													},
 													{
+														"iNatId": 85553,
 														"level": "Suborder",
 														"name": "Serpentes",
 														"aka": "snakes",
@@ -4512,6 +4770,7 @@
 														},
 														"children": [
 															{
+																"iNatId": 30667,
 																"level": "Family",
 																"name": "Viperidae",
 																"aka": "vipers",
@@ -4522,34 +4781,44 @@
 																},
 																"children": [
 																	{
-																		"level": "Genus",
-																		"name": "Vipera",
-																		"aka": "Eurasian vipers",
+																		"iNatId": 797529,
+																		"level": "Subfamily",
+																		"name": "Viperinae",
+																		"aka": "true vipers",
 																		"children": [
 																			{
-																				"level": "Species",
-																				"name": "Vipera latastei",
-																				"aka": "Lataste's viper",
-																				"common": {
-																					"ca": "escurçó ibèric",
-																					"en": "Lataste's viper",
-																					"es": "víbora hocicuda"
-																				},
-																				"images": [
+																				"iNatId": 30889,
+																				"level": "Genus",
+																				"name": "Vipera",
+																				"aka": "Eurasian vipers",
+																				"children": [
 																					{
-																						"link": "vipera-latastei-1.jpeg",
-																						"caption": [
+																						"iNatId": 30924,
+																						"level": "Species",
+																						"name": "Vipera latastei",
+																						"aka": "Lataste's viper",
+																						"common": {
+																							"ca": "escurçó ibèric",
+																							"en": "Lataste's viper",
+																							"es": "víbora hocicuda"
+																						},
+																						"images": [
 																							{
-																								"type": "span",
-																								"text": "A wild "
-																							},
-																							{
-																								"type": "i",
-																								"text": "Vipera latastei"
-																							},
-																							{
-																								"type": "span",
-																								"text": " at Province of Huesca, Aragón, Spain"
+																								"link": "vipera-latastei-1.jpeg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "A wild "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Vipera latastei"
+																									},
+																									{
+																										"type": "span",
+																										"text": " at Province of Huesca, Aragón, Spain"
+																									}
+																								]
 																							}
 																						]
 																					}
@@ -4570,53 +4839,123 @@
 						]
 					},
 					{
+						"iNatId": 47115,
 						"level": "Phylum",
 						"name": "Mollusca",
 						"aka": "molluscs",
 						"children": [
 							{
+								"iNatId": 47114,
 								"level": "Class",
 								"name": "Gastropoda",
 								"aka": "gastropods",
 								"children": [
 									{
-										"level": "Order",
-										"name": "Stylommatophora",
-										"aka": "common land snails and slugs",
+										"iNatId": 551391,
+										"level": "Subclass",
+										"name": "Heterobranchia",
+										"aka": "heterobranchs",
 										"children": [
 											{
-												"level": "Family",
-												"name": "Helicidae",
-												"aka": "helix snails",
+												"iNatId": 775797,
+												"level": "Infraclass",
+												"name": "Euthyneura",
 												"children": [
 													{
-														"level": "Genus",
-														"name": "Cornu",
+														"iNatId": 775800,
+														"level": "Subterclass",
+														"name": "Tectipleura",
 														"children": [
 															{
-																"level": "Species",
-																"name": "Cornu aspersum",
-																"aka": "garden snail",
-																"common": {
-																	"ca": "cargol bover",
-																	"en": "garden snail",
-																	"es": "caracol de jardín"
-																},
-																"images": [
+																"iNatId": 775812,
+																"level": "Superorder",
+																"name": "Eupulmonata",
+																"children": [
 																	{
-																		"link": "cornu-aspersum-1.jpg",
-																		"caption": [
+																		"iNatId": 47485,
+																		"level": "Order",
+																		"name": "Stylommatophora",
+																		"aka": "common land snails and slugs",
+																		"children": [
 																			{
-																				"type": "span",
-																				"text": "An adult "
-																			},
-																			{
-																				"type": "i",
-																				"text": "Cornu aspersum"
-																			},
-																			{
-																				"type": "span",
-																				"text": " near Alòs de Balaguer, Catalunya, Spain"
+																				"iNatId": 781349,
+																				"level": "Suborder",
+																				"name": "Helicina",
+																				"children": [
+																					{
+																						"iNatId": 781352,
+																						"level": "Infraorder",
+																						"name": "Helicoidei",
+																						"children": [
+																							{
+																								"iNatId": 68625,
+																								"level": "Superfamily",
+																								"name": "Helicoidea",
+																								"children": [
+																									{
+																										"iNatId": 47484,
+																										"level": "Family",
+																										"name": "Helicidae",
+																										"aka": "helix snails",
+																										"children": [
+																											{
+																												"iNatId": 906896,
+																												"level": "Subfamily",
+																												"name": "Helicinae",
+																												"children": [
+																													{
+																														"iNatId": 910289,
+																														"level": "Tribe",
+																														"name": "Thebini",
+																														"children": [
+																															{
+																																"iNatId": 87634,
+																																"level": "Genus",
+																																"name": "Cornu",
+																																"children": [
+																																	{
+																																		"iNatId": 480298,
+																																		"level": "Species",
+																																		"name": "Cornu aspersum",
+																																		"aka": "garden snail",
+																																		"common": {
+																																			"ca": "cargol bover",
+																																			"en": "garden snail",
+																																			"es": "caracol de jardín"
+																																		},
+																																		"images": [
+																																			{
+																																				"link": "cornu-aspersum-1.jpg",
+																																				"caption": [
+																																					{
+																																						"type": "span",
+																																						"text": "An adult "
+																																					},
+																																					{
+																																						"type": "i",
+																																						"text": "Cornu aspersum"
+																																					},
+																																					{
+																																						"type": "span",
+																																						"text": " near Alòs de Balaguer, Catalunya, Spain"
+																																					}
+																																				]
+																																			}
+																																		]
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
 																			}
 																		]
 																	}

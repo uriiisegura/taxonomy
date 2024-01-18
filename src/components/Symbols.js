@@ -6,6 +6,7 @@ const SYMBOLS = {
 	'Superclass': <span className="level-symbol super-blue"><span className="view">SC</span><span className="full">Superclass</span></span>,
 	'Class': <span className="level-symbol blue"><span className="view">C</span><span className="full">Class</span></span>,
 	'Subclass': <span className="level-symbol sub-blue"><span className="view">sc</span><span className="full">subclass</span></span>,
+	'Subterclass': <span className="level-symbol subter-blue"><span className="view">stc</span><span className="full">subterclass</span></span>,
 	'Infraclass': <span className="level-symbol infra-blue"><span className="view">ic</span><span className="full">infraclass</span></span>,
 	'Superorder': <span className="level-symbol super-purple"><span className="view">SO</span><span className="full">Superorder</span></span>,
 	'Order': <span className="level-symbol purple"><span className="view">O</span><span className="full">Order</span></span>,

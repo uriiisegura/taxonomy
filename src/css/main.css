@@ -789,6 +789,12 @@ Taxonomy Tree
 	border-style: dashed;
 	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
 }
+.level-symbol.subter-blue {
+	border: 1px solid #4ad0f1;
+	border-style: dotted;
+	padding: calc(0.1rem - 1px) calc(0.25rem - 1px);
+	opacity: 0.7;
+}
 .level-symbol.super-purple {
 	background-color: #c08adb;
 	border: 1px solid #4f2a6d;
