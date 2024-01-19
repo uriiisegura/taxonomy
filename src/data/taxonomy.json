@@ -1922,7 +1922,132 @@
 																						"text": " with a fish near Portomaggiore, Emilia-Romagna, Italy"
 																					}
 																				]
+																			},
+																			{
+																				"link": "alcedo-atthis-3.png",
+																				"caption": [
+																					{
+																						"type": "i",
+																						"text": "Alcedo atthis"
+																					},
+																					{
+																						"type": "span",
+																						"text": " distribution map (green: resident all year; yellow: resident in summer; blue: resident in winter)"
+																					}
+																				]
+																			},
+																			{
+																				"link": "alcedo-atthis-4.jpg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "Two females of "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Alcedo atthis"
+																					},
+																					{
+																						"type": "span",
+																						"text": ", it can clearly be seen how the female lower beak is orange"
+																					}
+																				]
 																			}
+																		],
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Characteristics"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "It is a small "
+																					},
+																					{
+																						"type": "a",
+																						"props": {
+																							"href": "#/taxonomy/family/alcedinidae"
+																						},
+																						"text": "kingfisher"
+																					},
+																					{
+																						"type": "span",
+																						"text": " with several subspecies recognized within its wide distribution."
+																					}
+																				]
+																			},
+																			{
+																				"type": "p",
+																				"text": "Their diet is mainly fish up to 12.5 cm long, but the average size is 2.3 cm. Thei hunts from a perch 1-2 m above the water, on a branch, post or riverbank, bill pointing down as it searches for prey. The flight of this bird species is fast, direct and usually low over water. The short, rounded wings whirr rapidly, and while flying away they show an electric-blue flash down their back."
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Appearance"
+																			},
+																			{
+																				"type": "p",
+																				"text": "This species has the typical short-tailed, dumpy-bodied, large-headed, and long-billed kingfisher shape. It has a green-blue neck stripe, white neck blaze and throat, rufous underparts, and a black bill with some red at the base. The legs and feet are bright red. It is about 16 cm long with a wingspan of 25 cm, and weighs around 40 g."
+																			},
+																			{
+																				"type": "h4",
+																				"text": "Sexual dimorphism"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "The female is identical in appearance to the male except that her lower mandible is orange-red with a black tip. (See "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(4)"
+																						},
+																						"text": "this picture"
+																					},
+																					{
+																						"type": "span",
+																						"text": ".)"
+																					}
+																				]
+																			},
+																			{
+																				"type": "h2",
+																				"text": "Distribution"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "This bird is widely distributed over Europe, Asia, and North Africa (click "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "link",
+																							"onClick": "() => this.linkToSlide(3)"
+																						},
+																						"text": "here"
+																					},
+																					{
+																						"type": "span",
+																						"text": " to view the map). It is a common breeding species over much of its vast Eurasian range, but in North Africa it is mainly a winter visitor."
+																					}
+																				]
+																			},
+																			{
+																				"type": "p",
+																				"text": "They are important members of ecosystems and good indicators of freshwater community health."
+																			}
+																		],
+																		"articles": [
+																			"blue-in-nature"
 																		]
 																	}
 																]
@@ -5013,10 +5138,24 @@
 														"aka": "arum family",
 														"children": [
 															{
-																"iNatId": 122522,
-																"level": "Genus",
-																"name": "Monstera",
-																"aka": "monsteras"
+																"iNatId": 869675,
+																"level": "Subfamily",
+																"name": "Monsteroideae",
+																"children": [
+																	{
+																		"iNatId": 1356104,
+																		"level": "Tribe",
+																		"name": "Monstereae",
+																		"children": [
+																			{
+																				"iNatId": 122522,
+																				"level": "Genus",
+																				"name": "Monstera",
+																				"aka": "monsteras"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -5035,10 +5174,18 @@
 														"aka": "agave",
 														"children": [
 															{
-																"iNatId": 50822,
-																"level": "Genus",
-																"name": "Agave",
-																"aka": "agave"
+																"iNatId": 194780,
+																"level": "Subfamily",
+																"name": "Agavoideae",
+																"aka": "century plants",
+																"children": [
+																	{
+																		"iNatId": 50822,
+																		"level": "Genus",
+																		"name": "Agave",
+																		"aka": "agave"
+																	}
+																]
 															}
 														]
 													},
@@ -5048,10 +5195,24 @@
 														"name": "Iridaceae",
 														"children": [
 															{
-																"iNatId": 68333,
-																"level": "Genus",
-																"name": "Freesia",
-																"aka": "freesias"
+																"iNatId": 559804,
+																"level": "Subfamily",
+																"name": "Crocoideae",
+																"children": [
+																	{
+																		"iNatId": 790624,
+																		"level": "Tribe",
+																		"name": "Freesieae",
+																		"children": [
+																			{
+																				"iNatId": 68333,
+																				"level": "Genus",
+																				"name": "Freesia",
+																				"aka": "freesias"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -5061,6 +5222,7 @@
 												"iNatId": 47329,
 												"level": "Order",
 												"name": "Liliales",
+												"aka": "lilies and supplejacks",
 												"children": [
 													{
 														"iNatId": 47328,
@@ -5069,10 +5231,26 @@
 														"aka": "lilies",
 														"children": [
 															{
-																"iNatId": 48928,
-																"level": "Genus",
-																"name": "Lilium",
-																"aka": "true lilies"
+																"iNatId": 859160,
+																"level": "Subfamily",
+																"name": "Lilioideae",
+																"aka": "true lilies",
+																"children": [
+																	{
+																		"iNatId": 859161,
+																		"level": "Tribe",
+																		"name": "Lilieae",
+																		"aka": "true lilies",
+																		"children": [
+																			{
+																				"iNatId": 48928,
+																				"level": "Genus",
+																				"name": "Lilium",
+																				"aka": "true lilies"
+																			}
+																		]
+																	}
+																]
 															}
 														]
 													}
@@ -5082,6 +5260,7 @@
 												"iNatId": 62488,
 												"level": "Order",
 												"name": "Pandanales",
+												"aka": "screwpines and stemonas",
 												"children": [
 													{
 														"iNatId": 70024,
@@ -5103,16 +5282,19 @@
 												"iNatId": 48318,
 												"level": "Order",
 												"name": "Zingiberales",
+												"aka": "gingers and bananas",
 												"children": [
 													{
 														"iNatId": 48317,
 														"level": "Family",
 														"name": "Strelitziaceae",
+														"aka": "bird-of-paradise plants",
 														"children": [
 															{
 																"iNatId": 48316,
 																"level": "Genus",
-																"name": "Strelitzia"
+																"name": "Strelitzia",
+																"aka": "bird-of-paradise flowers"
 															}
 														]
 													}
@@ -5142,47 +5324,61 @@
 														"aka": "carrot family",
 														"children": [
 															{
-																"iNatId": 53053,
-																"level": "Genus",
-																"name": "Foeniculum",
+																"iNatId": 790553,
+																"level": "Subfamily",
+																"name": "Apioideae",
 																"children": [
 																	{
-																		"iNatId": 53052,
-																		"level": "Species",
-																		"name": "Foeniculum vulgare",
-																		"aka": "fennel",
-																		"common": {
-																			"ca": [
-																				"fenoll",
-																				"fonoll"
-																			],
-																			"en": "fennel",
-																			"es": "hinojo"
-																		},
-																		"images": [
+																		"iNatId": 790576,
+																		"level": "Tribe",
+																		"name": "Apieae",
+																		"children": [
 																			{
-																				"link": "foeniculum-vulgare-1.webp",
-																				"caption": [
+																				"iNatId": 53053,
+																				"level": "Genus",
+																				"name": "Foeniculum",
+																				"children": [
 																					{
-																						"type": "span",
-																						"text": "A plant of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Foeniculum vulgare"
-																					}
-																				]
-																			},
-																			{
-																				"link": "foeniculum-vulgare-2.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Detail of the flowers of a "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Foeniculum vulgare"
+																						"iNatId": 53052,
+																						"level": "Species",
+																						"name": "Foeniculum vulgare",
+																						"aka": "fennel",
+																						"common": {
+																							"ca": [
+																								"fenoll",
+																								"fonoll"
+																							],
+																							"en": "fennel",
+																							"es": "hinojo"
+																						},
+																						"images": [
+																							{
+																								"link": "foeniculum-vulgare-1.webp",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "A plant of "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Foeniculum vulgare"
+																									}
+																								]
+																							},
+																							{
+																								"link": "foeniculum-vulgare-2.jpeg",
+																								"caption": [
+																									{
+																										"type": "span",
+																										"text": "Detail of the flowers of a "
+																									},
+																									{
+																										"type": "i",
+																										"text": "Foeniculum vulgare"
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -5198,6 +5394,7 @@
 												"iNatId": 47363,
 												"level": "Order",
 												"name": "Gentianales",
+												"aka": "gentians, dogbanes, and madders",
 												"children": [
 													{
 														"iNatId": 47362,
@@ -5206,45 +5403,66 @@
 														"aka": "dogbane family",
 														"children": [
 															{
-																"iNatId": 47564,
-																"level": "Genus",
-																"name": "Nerium",
+																"iNatId": 427366,
+																"level": "Subfamily",
+																"name": "Apocynoideae",
 																"children": [
 																	{
-																		"iNatId": 47563,
-																		"level": "Species",
-																		"name": "Nerium oleander",
-																		"aka": "oleander",
-																		"common": {
-																			"ca": [
-																				"baladre",
-																				"oleandre"
-																			],
-																			"en": [
-																				"oleander",
-																				"nerium"
-																			],
-																			"es": [
-																				"adelfa",
-																				"baladre",
-																				"laurel de flor"
-																			]
-																		},
-																		"images": [
+																		"iNatId": 632351,
+																		"level": "Tribe",
+																		"name": "Nerieae",
+																		"children": [
 																			{
-																				"link": "nerium-oleander-1.jpeg",
-																				"caption": [
+																				"iNatId": 632352,
+																				"level": "Subtribe",
+																				"name": "Neriinae",
+																				"children": [
 																					{
-																						"type": "span",
-																						"text": "A specimen of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Nerium oleander"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Pontinha, Portugal"
+																						"iNatId": 47564,
+																						"level": "Genus",
+																						"name": "Nerium",
+																						"children": [
+																							{
+																								"iNatId": 47563,
+																								"level": "Species",
+																								"name": "Nerium oleander",
+																								"aka": "oleander",
+																								"common": {
+																									"ca": [
+																										"baladre",
+																										"oleandre"
+																									],
+																									"en": [
+																										"oleander",
+																										"nerium"
+																									],
+																									"es": [
+																										"adelfa",
+																										"baladre",
+																										"laurel de flor"
+																									]
+																								},
+																								"images": [
+																									{
+																										"link": "nerium-oleander-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Nerium oleander"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near Pontinha, Portugal"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -5260,6 +5478,7 @@
 												"iNatId": 48151,
 												"level": "Order",
 												"name": "Lamiales",
+												"aka": "mints, plantains, and olives",
 												"children": [
 													{
 														"iNatId": 48623,
@@ -5268,320 +5487,379 @@
 														"aka": "mint family",
 														"children": [
 															{
-																"iNatId": 59902,
-																"level": "Genus",
-																"name": "Melissa",
-																"aka": "melissas",
+																"iNatId": 520502,
+																"level": "Subfamily",
+																"name": "Nepetoideae",
 																"children": [
 																	{
-																		"iNatId": 59901,
-																		"level": "Species",
-																		"name": "Melissa officinalis",
-																		"aka": "lemon balm",
-																		"common": {
-																			"ca": "tarongina",
-																			"en": "lemon balm",
-																			"es": [
-																				"melisa",
-																				"toronjil"
-																			]
-																		},
-																		"images": [
+																		"iNatId": 918917,
+																		"level": "Tribe",
+																		"name": "Mentheae",
+																		"children": [
 																			{
-																				"link": "melissa-officinalis-1.jpeg",
-																				"caption": [
+																				"iNatId": 919178,
+																				"level": "Subtribe",
+																				"name": "Menthinae",
+																				"aka": "balms, mints, and thymes",
+																				"children": [
 																					{
-																						"type": "span",
-																						"text": "A plant of "
+																						"iNatId": 54570,
+																						"level": "Genus",
+																						"name": "Mentha",
+																						"aka": "mints",
+																						"children": [
+																							{
+																								"iNatId": 77990,
+																								"level": "Species",
+																								"name": "Mentha aquatica",
+																								"aka": "water mint",
+																								"common": {
+																									"ca": "herba-sana d'aigua",
+																									"en": "water mint"
+																								},
+																								"images": [
+																									{
+																										"link": "mentha-aquatica-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "i",
+																												"text": "Mentha aquatica"
+																											},
+																											{
+																												"type": "span",
+																												"text": " at the hilly region of Osogovo, North Macedonia"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"iNatId": 346986,
+																								"level": "Species",
+																								"name": "Mentha requienii",
+																								"aka": "Corsician mint",
+																								"common": {
+																									"en": "Corsician mint"
+																								},
+																								"images": [
+																									{
+																										"link": "mentha-requienii-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "i",
+																												"text": "Mentha requienii"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"iNatId": 62652,
+																								"level": "Species",
+																								"name": "Mentha spicata",
+																								"aka": "spearmint",
+																								"common": {
+																									"en": "spearmint",
+																									"es": "hierbabuena"
+																								},
+																								"images": [
+																									{
+																										"link": "mentha-spicata-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Mentha spicata"
+																											},
+																											{
+																												"type": "span",
+																												"text": " at Jalukbari, Assam, India"
+																											}
+																										]
+																									},
+																									{
+																										"link": "mentha-spicata-2.webp",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "Detail of the "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Mentha spicata"
+																											},
+																											{
+																												"type": "span",
+																												"text": "'s flower, they can be white or light pink"
+																											}
+																										]
+																									},
+																									{
+																										"link": "mentha-spicata-3.png",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "Cutting of a "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Mentha spicata"
+																											},
+																											{
+																												"type": "span",
+																												"text": " from the Herbari Virtual de la Universitat de les Illes Balears"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					},
 																					{
-																						"type": "i",
-																						"text": "Melissa officinalis"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Aomori, Japan"
+																						"iNatId": 81754,
+																						"level": "Genus",
+																						"name": "Thymus",
+																						"aka": "thymes",
+																						"children": [
+																							{
+																								"iNatId": 1120464,
+																								"level": "Section",
+																								"name": "Thymus",
+																								"children": [
+																									{
+																										"iNatId": 85469,
+																										"level": "Species",
+																										"name": "Thymus vulgaris",
+																										"aka": "common thyme",
+																										"common": {
+																											"ca": [
+																												"farigola comú",
+																												"timó comú",
+																												"timonet comú",
+																												"tomell comú"
+																											],
+																											"en": "common thyme",
+																											"es": "tomillo común"
+																										},
+																										"images": [
+																											{
+																												"link": "thymus-vulgaris-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A plant of "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Thymus vulgaris"
+																													},
+																													{
+																														"type": "span",
+																														"text": " at La Selva de Mar, Catalunya, Spain"
+																													}
+																												]
+																											},
+																											{
+																												"link": "thymus-vulgaris-2.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "Detail of the flowers of a "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Thymus vulgaris"
+																													}
+																												]
+																											},
+																											{
+																												"link": "thymus-vulgaris-3.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "Detail of the leaves of a "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Thymus vulgaris"
+																													},
+																													{
+																														"type": "span",
+																														"text": " at Notre-Dame-de-Londres, Hérault, France"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"iNatId": 54570,
-																"level": "Genus",
-																"name": "Mentha",
-																"aka": "mints",
-																"children": [
-																	{
-																		"iNatId": 77990,
-																		"level": "Species",
-																		"name": "Mentha aquatica",
-																		"aka": "water mint",
-																		"common": {
-																			"ca": "herba-sana d'aigua",
-																			"en": "water mint"
-																		},
-																		"images": [
+																			},
 																			{
-																				"link": "mentha-aquatica-1.jpeg",
-																				"caption": [
+																				"iNatId": 919182,
+																				"level": "Subtribe",
+																				"name": "Salviinae",
+																				"aka": "melissas and sages",
+																				"children": [
 																					{
-																						"type": "i",
-																						"text": "Mentha aquatica"
+																						"iNatId": 59902,
+																						"level": "Genus",
+																						"name": "Melissa",
+																						"aka": "melissas",
+																						"children": [
+																							{
+																								"iNatId": 59901,
+																								"level": "Species",
+																								"name": "Melissa officinalis",
+																								"aka": "lemon balm",
+																								"common": {
+																									"ca": "tarongina",
+																									"en": "lemon balm",
+																									"es": [
+																										"melisa",
+																										"toronjil"
+																									]
+																								},
+																								"images": [
+																									{
+																										"link": "melissa-officinalis-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A plant of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Melissa officinalis"
+																											},
+																											{
+																												"type": "span",
+																												"text": " at Aomori, Japan"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					},
 																					{
-																						"type": "span",
-																						"text": " at the hilly region of Osogovo, North Macedonia"
+																						"iNatId": 50644,
+																						"level": "Genus",
+																						"name": "Salvia",
+																						"aka": "sages",
+																						"children": [
+																							{
+																								"iNatId": 82927,
+																								"level": "Subgenus",
+																								"name": "Rosmarinus",
+																								"aka": "rosemaries",
+																								"children": [
+																									{
+																										"iNatId": 636795,
+																										"level": "Species",
+																										"name": "Salvia rosmarinus",
+																										"aka": "rosemary",
+																										"common": {
+																											"ca": "romaní",
+																											"en": "rosemary",
+																											"es": "romero"
+																										},
+																										"images": [
+																											{
+																												"link": "salvia-rosmarinus-1.jpeg",
+																												"caption": [
+																													{
+																														"type": "span",
+																														"text": "A specimen of "
+																													},
+																													{
+																														"type": "i",
+																														"text": "Salvia rosmarinus"
+																													},
+																													{
+																														"type": "span",
+																														"text": " in Italy"
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
 																			}
 																		]
 																	},
 																	{
-																		"iNatId": 346986,
-																		"level": "Species",
-																		"name": "Mentha requienii",
-																		"aka": "Corsician mint",
-																		"common": {
-																			"en": "Corsician mint"
-																		},
-																		"images": [
+																		"iNatId": 520501,
+																		"level": "Tribe",
+																		"name": "Ocimeae",
+																		"children": [
 																			{
-																				"link": "mentha-requienii-1.jpeg",
-																				"caption": [
+																				"iNatId": 919161,
+																				"level": "Subtribe",
+																				"name": "Ociminae",
+																				"children": [
 																					{
-																						"type": "i",
-																						"text": "Mentha requienii"
-																					}
-																				]
-																			}
-																		]
-																	},
-																	{
-																		"iNatId": 62652,
-																		"level": "Species",
-																		"name": "Mentha spicata",
-																		"aka": "spearmint",
-																		"common": {
-																			"en": "spearmint",
-																			"es": "hierbabuena"
-																		},
-																		"images": [
-																			{
-																				"link": "mentha-spicata-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A specimen of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Mentha spicata"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Jalukbari, Assam, India"
-																					}
-																				]
-																			},
-																			{
-																				"link": "mentha-spicata-2.webp",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Detail of the "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Mentha spicata"
-																					},
-																					{
-																						"type": "span",
-																						"text": "'s flower, they can be white or light pink"
-																					}
-																				]
-																			},
-																			{
-																				"link": "mentha-spicata-3.png",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Cutting of a "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Mentha spicata"
-																					},
-																					{
-																						"type": "span",
-																						"text": " from the Herbari Virtual de la Universitat de les Illes Balears"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"iNatId": 61399,
-																"level": "Genus",
-																"name": "Ocimum",
-																"aka": "basils",
-																"children": [
-																	{
-																		"iNatId": 61398,
-																		"level": "Species",
-																		"name": "Ocimum basilicum",
-																		"aka": "sweet basil",
-																		"common": {
-																			"ca": "alfàbrega",
-																			"en": "sweet basil",
-																			"es": [
-																				"albahaca",
-																				"basílico"
-																			]
-																		},
-																		"images": [
-																			{
-																				"link": "ocimum-basilicum-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Some plants of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Ocimum basilicum"
-																					},
-																					{
-																						"type": "span",
-																						"text": " by the Karuna Society for Animals and Nature"
-																					}
-																				]
-																			},
-																			{
-																				"link": "ocimum-basilicum-2.webp",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "The thai basil is also a variety of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Ocimum basilicum"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"iNatId": 50644,
-																"level": "Genus",
-																"name": "Salvia",
-																"aka": "sages",
-																"children": [
-																	{
-																		"iNatId": 636795,
-																		"level": "Species",
-																		"name": "Salvia rosmarinus",
-																		"aka": "rosemary",
-																		"common": {
-																			"ca": "romaní",
-																			"en": "rosemary",
-																			"es": "romero"
-																		},
-																		"images": [
-																			{
-																				"link": "salvia-rosmarinus-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A specimen of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Salvia rosmarinus"
-																					},
-																					{
-																						"type": "span",
-																						"text": " in Italy"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"iNatId": 81754,
-																"level": "Genus",
-																"name": "Thymus",
-																"aka": "thymes",
-																"children": [
-																	{
-																		"iNatId": 85469,
-																		"level": "Species",
-																		"name": "Thymus vulgaris",
-																		"aka": "common thyme",
-																		"common": {
-																			"ca": [
-																				"farigola comú",
-																				"timó comú",
-																				"timonet comú",
-																				"tomell comú"
-																			],
-																			"en": "common thyme",
-																			"es": "tomillo común"
-																		},
-																		"images": [
-																			{
-																				"link": "thymus-vulgaris-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A plant of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Thymus vulgaris"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at La Selva de Mar, Catalunya, Spain"
-																					}
-																				]
-																			},
-																			{
-																				"link": "thymus-vulgaris-2.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Detail of the flowers of a "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Thymus vulgaris"
-																					}
-																				]
-																			},
-																			{
-																				"link": "thymus-vulgaris-3.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "Detail of the leaves of a "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Thymus vulgaris"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Notre-Dame-de-Londres, Hérault, France"
+																						"iNatId": 61399,
+																						"level": "Genus",
+																						"name": "Ocimum",
+																						"aka": "basils",
+																						"children": [
+																							{
+																								"iNatId": 61398,
+																								"level": "Species",
+																								"name": "Ocimum basilicum",
+																								"aka": "sweet basil",
+																								"common": {
+																									"ca": "alfàbrega",
+																									"en": "sweet basil",
+																									"es": [
+																										"albahaca",
+																										"basílico"
+																									]
+																								},
+																								"images": [
+																									{
+																										"link": "ocimum-basilicum-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "Some plants of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Ocimum basilicum"
+																											},
+																											{
+																												"type": "span",
+																												"text": " by the Karuna Society for Animals and Nature"
+																											}
+																										]
+																									},
+																									{
+																										"link": "ocimum-basilicum-2.webp",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "The thai basil is also a variety of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Ocimum basilicum"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -5606,59 +5884,85 @@
 														"aka": "mallows and hibiscus",
 														"children": [
 															{
-																"iNatId": 64341,
-																"level": "Genus",
-																"name": "Theobroma",
-																"text": [
-																	{
-																		"type": "h2",
-																		"text": "Etymology"
-																	},
-																	{
-																		"type": "p",
-																		"components": [
-																			{
-																				"type": "span",
-																				"text": "The term comes from Greek "
-																			},
-																			{
-																				"type": "span",
-																				"props": {
-																					"className": "greek",
-																					"title": "theos"
-																				},
-																				"text": "θεός"
-																			},
-																			{
-																				"type": "span",
-																				"text": ", meaning \"gods\"; and "
-																			},
-																			{
-																				"type": "span",
-																				"props": {
-																					"className": "greek",
-																					"title": "broma"
-																				},
-																				"text": "βρωμα"
-																			},
-																			{
-																				"type": "span",
-																				"text": ", meaning \"food\", translatig to \"food of the gods\"."
-																			}
-																		]
-																	}
-																],
+																"iNatId": 911348,
+																"level": "Subfamily",
+																"name": "Byttnerioideae",
 																"children": [
 																	{
-																		"iNatId": 64340,
-																		"level": "Species",
-																		"name": "Theobroma cacao",
-																		"aka": "cacao tree",
-																		"common": {
-																			"ca": "cacau",
-																			"en": "cacao tree",
-																			"es": "cacao"
-																		}
+																		"iNatId": 64341,
+																		"level": "Genus",
+																		"name": "Theobroma",
+																		"text": [
+																			{
+																				"type": "h2",
+																				"text": "Etymology"
+																			},
+																			{
+																				"type": "p",
+																				"components": [
+																					{
+																						"type": "span",
+																						"text": "The term comes from Greek "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "greek",
+																							"title": "theos"
+																						},
+																						"text": "θεός"
+																					},
+																					{
+																						"type": "span",
+																						"text": ", meaning \"gods\"; and "
+																					},
+																					{
+																						"type": "span",
+																						"props": {
+																							"className": "greek",
+																							"title": "broma"
+																						},
+																						"text": "βρωμα"
+																					},
+																					{
+																						"type": "span",
+																						"text": ", meaning \"food\", translatig to \"food of the gods\"."
+																					}
+																				]
+																			}
+																		],
+																		"children": [
+																			{
+																				"iNatId": 64340,
+																				"level": "Species",
+																				"name": "Theobroma cacao",
+																				"aka": "cacao tree",
+																				"common": {
+																					"ca": "cacau",
+																					"en": "cacao tree",
+																					"es": "cacao"
+																				},
+																				"images": [
+																					{
+																						"link": "theobroma-cacao-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A tree of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Theobroma cacao"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Nakhon Si Thammarat, Thailand"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
 																	}
 																]
 															}
@@ -5670,6 +5974,7 @@
 												"iNatId": 47729,
 												"level": "Order",
 												"name": "Sapindales",
+												"aka": "soapberries, cashews, and mahoganies",
 												"children": [
 													{
 														"iNatId": 48874,
@@ -5678,45 +5983,53 @@
 														"aka": "cashew family",
 														"children": [
 															{
-																"iNatId": 72301,
-																"level": "Genus",
-																"name": "Pistacia",
-																"aka": "pistaches",
+																"iNatId": 707807,
+																"level": "Subfamily",
+																"name": "Anacardioideae",
+																"aka": "cashews and sumacs",
 																"children": [
 																	{
-																		"iNatId": 82600,
-																		"level": "Species",
-																		"name": "Pistacia lentiscus",
-																		"aka": "lentisk",
-																		"common": {
-																			"ca": [
-																				"llentiscle",
-																				"mata"
-																			],
-																			"en": [
-																				"lentisk",
-																				"mastic tree"
-																			],
-																			"es": [
-																				"lentisco",
-																				"mata charneca"
-																			]
-																		},
-																		"images": [
+																		"iNatId": 72301,
+																		"level": "Genus",
+																		"name": "Pistacia",
+																		"aka": "pistaches",
+																		"children": [
 																			{
-																				"link": "pistacia-lentiscus-1.jpeg",
-																				"caption": [
+																				"iNatId": 82600,
+																				"level": "Species",
+																				"name": "Pistacia lentiscus",
+																				"aka": "lentisk",
+																				"common": {
+																					"ca": [
+																						"llentiscle",
+																						"mata"
+																					],
+																					"en": [
+																						"lentisk",
+																						"mastic"
+																					],
+																					"es": [
+																						"lentisco",
+																						"mata charneca"
+																					]
+																				},
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "A plant of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Pistacia lentiscus"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Chiclana, Cádiz, Spain"
+																						"link": "pistacia-lentiscus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A plant of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Pistacia lentiscus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Chiclana, Cádiz, Spain"
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -5732,6 +6045,7 @@
 												"iNatId": 48515,
 												"level": "Order",
 												"name": "Solanales",
+												"aka": "nightshades, bindweeds, and gooseweeds",
 												"children": [
 													{
 														"iNatId": 48516,
@@ -5740,15 +6054,31 @@
 														"aka": "nightshade family",
 														"children": [
 															{
-																"iNatId": 48517,
-																"level": "Genus",
-																"name": "Capsicum",
-																"aka": "peppers",
+																"iNatId": 634936,
+																"level": "Subfamily",
+																"name": "Solanoidae",
+																"aka": "nightshades",
 																"children": [
 																	{
-																		"iNatId": 48514,
-																		"level": "Species",
-																		"name": "Capsicum annuum"
+																		"iNatId": 634937,
+																		"level": "Tribe",
+																		"name": "Capsiceae",
+																		"aka": "peppers and lycianthes",
+																		"children": [
+																			{
+																				"iNatId": 48517,
+																				"level": "Genus",
+																				"name": "Capsicum",
+																				"aka": "peppers",
+																				"children": [
+																					{
+																						"iNatId": 48514,
+																						"level": "Species",
+																						"name": "Capsicum annuum"
+																					}
+																				]
+																			}
+																		]
 																	}
 																]
 															}
@@ -5778,106 +6108,114 @@
 												"aka": "cypress family",
 												"children": [
 													{
-														"iNatId": 47574,
-														"level": "Genus",
-														"name": "Juniperus",
-														"aka": "junipers",
+														"iNatId": 1150915,
+														"level": "Subfamily",
+														"name": "Cupressoideae",
+														"aka": "cypresses, cedars, and junipers",
 														"children": [
 															{
-																"iNatId": 701535,
-																"level": "Section",
+																"iNatId": 47574,
+																"level": "Genus",
 																"name": "Juniperus",
-																"aka": "needle-leaf junipers",
+																"aka": "junipers",
 																"children": [
 																	{
-																		"iNatId": 58725,
-																		"level": "Species",
-																		"name": "Juniperus communis",
-																		"aka": "common juniper",
-																		"common": {
-																			"ca": "ginebre",
-																			"en": "common juniper",
-																			"es": "enebro común"
-																		},
-																		"images": [
+																		"iNatId": 701535,
+																		"level": "Section",
+																		"name": "Juniperus",
+																		"aka": "needle-leaf junipers",
+																		"children": [
 																			{
-																				"link": "juniperus-communis-1.jpeg",
-																				"caption": [
+																				"iNatId": 58725,
+																				"level": "Species",
+																				"name": "Juniperus communis",
+																				"aka": "common juniper",
+																				"common": {
+																					"ca": "ginebre",
+																					"en": "common juniper",
+																					"es": "enebro común"
+																				},
+																				"images": [
 																					{
-																						"text": "Juniperus communis",
-																						"type": "i"
-																					},
+																						"link": "juniperus-communis-1.jpeg",
+																						"caption": [
+																							{
+																								"text": "Juniperus communis",
+																								"type": "i"
+																							},
+																							{
+																								"text": " near Helsinki, Uusimaa, Finland",
+																								"type": "span"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 133994,
+																				"level": "Species",
+																				"name": "Juniperus oxycedrus",
+																				"aka": "cade juniper",
+																				"common": {
+																					"ca": "càdec",
+																					"en": "cade juniper",
+																					"es": "enebro de la miera"
+																				},
+																				"images": [
 																					{
-																						"text": " near Helsinki, Uusimaa, Finland",
-																						"type": "span"
+																						"link": "juniperus-oxycedrus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A specimen of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Juniperus oxycedrus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " at Güvenç, Ankara, Turkey"
+																							}
+																						]
 																					}
 																				]
 																			}
 																		]
 																	},
 																	{
-																		"iNatId": 133994,
-																		"level": "Species",
-																		"name": "Juniperus oxycedrus",
-																		"aka": "cade juniper",
-																		"common": {
-																			"ca": "càdec",
-																			"en": "cade juniper",
-																			"es": "enebro de la miera"
-																		},
-																		"images": [
+																		"iNatId": 701533,
+																		"level": "Section",
+																		"name": "Sabina",
+																		"aka": "scale-leaf junipers",
+																		"children": [
 																			{
-																				"link": "juniperus-oxycedrus-1.jpeg",
-																				"caption": [
+																				"iNatId": 774737,
+																				"level": "Species",
+																				"name": "Juniperus phoenicea",
+																				"aka": "Phoenicean juniper",
+																				"common": {
+																					"ca": "savina",
+																					"en": "Phoenicean juniper",
+																					"es": "sabina negral"
+																				},
+																				"images": [
 																					{
-																						"type": "span",
-																						"text": "A specimen of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Juniperus oxycedrus"
-																					},
-																					{
-																						"type": "span",
-																						"text": " at Güvenç, Ankara, Turkey"
-																					}
-																				]
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"iNatId": 701533,
-																"level": "Section",
-																"name": "Sabina",
-																"aka": "scale-leaf junipers",
-																"children": [
-																	{
-																		"iNatId": 774737,
-																		"level": "Species",
-																		"name": "Juniperus phoenicea",
-																		"aka": "Phoenicean juniper",
-																		"common": {
-																			"ca": "savina",
-																			"en": "Phoenicean juniper",
-																			"es": "sabina negral"
-																		},
-																		"images": [
-																			{
-																				"link": "juniperus-phoenicea-1.jpeg",
-																				"caption": [
-																					{
-																						"type": "span",
-																						"text": "A plant of "
-																					},
-																					{
-																						"type": "i",
-																						"text": "Juniperus phoenicea"
-																					},
-																					{
-																						"type": "span",
-																						"text": " near Zaragona, Aragón, Spain"
+																						"link": "juniperus-phoenicea-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A plant of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Juniperus phoenicea"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Zaragona, Aragón, Spain"
+																							}
+																						]
 																					}
 																				]
 																			}
@@ -5900,21 +6238,29 @@
 								"aka": "ferns",
 								"children": [
 									{
-										"iNatId": 47748,
-										"level": "Order",
-										"name": "Equisetales",
+										"iNatId": 764793,
+										"level": "Subclass",
+										"name": "Equisetidae",
+										"aka": "horsetails",
 										"children": [
 											{
-												"iNatId": 47747,
-												"level": "Family",
-												"name": "Equisetaceae",
-												"aka": "horsetail family",
+												"iNatId": 47748,
+												"level": "Order",
+												"name": "Equisetales",
 												"children": [
 													{
-														"iNatId": 47746,
-														"level": "Genus",
-														"name": "Equisetum",
-														"aka": "horsetails"
+														"iNatId": 47747,
+														"level": "Family",
+														"name": "Equisetaceae",
+														"aka": "horsetail family",
+														"children": [
+															{
+																"iNatId": 47746,
+																"level": "Genus",
+																"name": "Equisetum",
+																"aka": "horsetails"
+															}
+														]
 													}
 												]
 											}

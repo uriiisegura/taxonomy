@@ -30,10 +30,15 @@ class Navbar extends Component {
 							<span><span>Galleries<img src="font-awesome/caret-down.svg" alt="caret-down.svg" /></span></span>
 							<div id="galleries" className="sub-menus">
 								<div className="sub-menu">
+									<h4 className="sub-menu-title">Vertebrates</h4>
+									<ul>
+										<li><NavLink to="/galleries/class/aves">Aves (birds)</NavLink></li>
+									</ul>
+								</div>
+								<div className="sub-menu">
 									<h4 className="sub-menu-title">Invertebrates</h4>
 									<ul>
 										<li><NavLink to="/galleries/superfamily/papilionoidea">Papilionoidea (butterflies)</NavLink></li>
-										<li><NavLink to="/galleries/class/aves">Aves (birds)</NavLink></li>
 									</ul>
 								</div>
 							</div>
