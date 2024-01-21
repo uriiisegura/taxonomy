@@ -1,7 +1,3 @@
-/*
-	https://es.m.wikipedia.org/wiki/Archivo:Cartography_of_Latin_America.svg
-*/
-
 *,
 ::after,
 ::before {
@@ -678,6 +674,13 @@ Taxonomy Tree
 	width: calc(50% - 5px);
 }
 
+.taxonomy-tree-scroll-wrapper {
+	overflow-x: scroll;
+}
+.taxonomy-tree-scroll-wrapper::-webkit-scrollbar {
+	display: none;
+}
+
 .taxonomy-tree {
 	margin: 0;
 	padding: 0;
@@ -719,6 +722,7 @@ Taxonomy Tree
 
 .taxonomy-item {
 	width: fit-content;
+	white-space: nowrap;
 }
 
 .extinct:after {

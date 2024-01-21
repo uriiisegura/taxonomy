@@ -84,13 +84,15 @@ class Tree extends Component {
 				<button className="btn" onClick={this.collapseAll}>Collapse all</button>
 			</div>
 			
-			<ul className="taxonomy-tree">
-				{
-					this.props.children.map((e, i) => {
-						return this.renderLevel(e, i);
-					})
-				}
-			</ul>
+			<div className="taxonomy-tree-scroll-wrapper">
+				<ul className="taxonomy-tree">
+					{
+						this.props.children.map((e, i) => {
+							return this.renderLevel(e, i);
+						})
+					}
+				</ul>
+			</div>
 		</>);
 	}
 }
