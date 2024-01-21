@@ -106,6 +106,27 @@ class TaxonomyItem extends Component {
 			</div>
 		</div>);
 	}
+	setChildrenSlideshow() {
+		const childrenImages = [];
+		ITEM.children.forEach(e => {
+			childrenImages.push(...this.getImages(e));
+		});
+		if (childrenImages.length === 0) return <></>;
+		childrenImages.sort(() => Math.random() - 0.5);
+		return this.setSlideshow(childrenImages.slice(0, 5));
+	}
+	getImages(e) {
+		const images = [];
+		if (e.children) {
+			e.children.forEach(c => {
+				images.push(...this.getImages(c));
+			});
+		}
+		if (e.images) {
+			images.push(...e.images);
+		}
+		return images;
+	}
 	renderComponent(c, i) {
 		let component;
 		const props = c.props ? c.props : {};
@@ -181,7 +202,7 @@ class TaxonomyItem extends Component {
 					{
 						ITEM.images ?
 							this.setSlideshow(ITEM.images)
-						: <></>
+						: (ITEM.children ? this.setChildrenSlideshow() : <></>)
 					}
 
 					<div className="tax-item-information">
