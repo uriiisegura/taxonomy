@@ -117,14 +117,12 @@ class TaxonomyItem extends Component {
 	}
 	getImages(e) {
 		const images = [];
-		if (e.children) {
+		if (e.children)
 			e.children.forEach(c => {
 				images.push(...this.getImages(c));
 			});
-		}
-		if (e.images) {
-			images.push(...e.images);
-		}
+		if (e.images)
+			images.push(e.images[0]); // used to be: images.push(...e.images);
 		return images;
 	}
 	renderComponent(c, i) {
@@ -166,12 +164,13 @@ class TaxonomyItem extends Component {
 		document.title = `Taxonomy | ${ITEM.level === 'Subspecies' ? `${ITEM.species.charAt(0)}. ${ITEM.species.split(' ')[1]} ssp. ${ITEM.name}` : ITEM.name}`;
 
 		const extinct = ITEM.extinct !== undefined && ITEM.extinct;
+		const complete = ITEM.complete !== undefined && ITEM.complete;
 
 		return (<>
 			<section>
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
-					<h1>{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
+					<h1>{complete && <img src="/complete.png" className="complete-badge big-badge" title="All species added to the database" />}{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
 					{ITEM.aka && /* !ITEM.common && */ <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
 					{ITEM.iNatId && <p className="inat"><a href={`https://www.inaturalist.org/taxa/${ITEM.iNatId}`} target="_blank" rel="noopener noreferrer">Go to <img src="inat.png" alt="iNaturalist" />iNaturalist taxon page</a></p>}
 

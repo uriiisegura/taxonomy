@@ -48,6 +48,7 @@ class Tree extends Component {
 		if (level.children === undefined)
 			return (
 				<li key={key} className={`taxonomy-item ${unknown && 'idk'}`}>
+					{level.complete && <img src="/complete.png" className="complete-badge" title="All species added to the database" />}
 					{
 						unknown ? UNKNOWN_STRING
 						: <NavLink to={`/${this.props.collection}/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
@@ -60,6 +61,7 @@ class Tree extends Component {
 				<span className={`taxomomy-item-wrap ${unknown && 'idk'}`}>
 					<span className="caret"></span>
 					<span className="taxonomy-item">
+						{level.complete && <img src="/complete.png" className="complete-badge" title="All species added to the database" />}
 						{
 							unknown ? UNKNOWN_STRING
 							: <NavLink to={`/${this.props.collection}/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>

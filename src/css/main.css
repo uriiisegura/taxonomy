@@ -725,6 +725,12 @@ Taxonomy Tree
 	white-space: nowrap;
 }
 
+.complete-badge {
+	height: 12px;
+	margin-right: 5px;
+	user-select: none;
+}
+
 .extinct:after {
 	content: '\271E\00a0';
 	font-style: normal !important;
@@ -889,6 +895,11 @@ Taxonomy Item
 }
 .tax-item-title h1 {
 	font-style: italic;
+}
+
+.big-badge {
+	height: 35px;
+	margin-right: 5px;
 }
 
 .inat {

@@ -4289,6 +4289,99 @@
 												]
 											},
 											{
+												"iNatId": 367701,
+												"level": "Order",
+												"name": "Rheiformes",
+												"aka": "rheas",
+												"complete": true,
+												"children": [
+													{
+														"iNatId": 20510,
+														"level": "Family",
+														"name": "Rheidae",
+														"aka": "rheas",
+														"complete": true,
+														"children": [
+															{
+																"iNatId": 20511,
+																"level": "Genus",
+																"name": "Rhea",
+																"aka": "rheas",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 20512,
+																		"level": "Species",
+																		"name": "Rhea americana",
+																		"aka": "greater rhea",
+																		"common": {
+																			"ca": "nyandú comú",
+																			"en": "greater rhea",
+																			"es": "ñandú común"
+																		},
+																		"images": [
+																			{
+																				"link": "rhea-americana-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Rhea americana"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in La Pampa, Argentina"
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 73338,
+																		"level": "Species",
+																		"name": "Rhea pennata",
+																		"aka": "lesser rhea",
+																		"common": {
+																			"ca": [
+																				"nyandú menut",
+																				"nyandú de Darwin"
+																			],
+																			"en": [
+																				"lesser rhea",
+																				"Darwin's rhea"
+																			],
+																			"es": "ñandú de Magallanes"
+																		},
+																		"images": [
+																			{
+																				"link": "rhea-pennata-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Rhea pennata"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Las Heras, Mendoza, Argentina"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
 												"iNatId": 19350,
 												"level": "Order",
 												"name": "Strigiformes",
@@ -4331,6 +4424,93 @@
 																					{
 																						"type": "span",
 																						"text": " near Castro Marim, Algarve, Portugal"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"iNatId": 20487,
+												"level": "Order",
+												"name": "Struthioniformes",
+												"aka": "ostriches",
+												"complete": true,
+												"children": [
+													{
+														"iNatId": 20523,
+														"level": "Family",
+														"name": "Struthionidae",
+														"aka": "ostriches",
+														"complete": true,
+														"children": [
+															{
+																"iNatId": 20524,
+																"level": "Genus",
+																"name": "Struthio",
+																"aka": "ostriches",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 20526,
+																		"level": "Species",
+																		"name": "Struthio camelus",
+																		"aka": "common ostrich",
+																		"common": {
+																			"ca": "estruç comú",
+																			"en": "common ostrich",
+																			"es": "avestruz común"
+																		},
+																		"images": [
+																			{
+																				"link": "struthio-camelus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A male "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Struthio camelus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Mara, Narok, Kenya"
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 472777,
+																		"level": "Species",
+																		"name": "Struthio molybdophanes",
+																		"aka": "Somali ostrich",
+																		"common": {
+																			"ca": "estruç de Somàlia",
+																			"en": "Somali ostrich",
+																			"es": "avestruz somalí"
+																		},
+																		"images": [
+																			{
+																				"link": "struthio-molybdophanes-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Struthio molybdophanes"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Meru, Meru, Kenya"
 																					}
 																				]
 																			}
@@ -4438,6 +4618,7 @@
 																						"iNatId": 91292,
 																						"level": "Genus",
 																						"name": "Prionace",
+																						"complete": true,
 																						"children": [
 																							{
 																								"iNatId": 110361,
@@ -4578,6 +4759,7 @@
 																								"level": "Genus",
 																								"name": "Panthera",
 																								"aka": "roaring cats",
+																								"complete": true,
 																								"children": [
 																									{
 																										"iNatId": 41964,
