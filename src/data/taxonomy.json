@@ -1747,6 +1747,22 @@
 										"aka": "birds",
 										"children": [
 											{
+												"iNatId": 570881,
+												"level": "Order",
+												"name": "Aepyornithiformes",
+												"aka": "elephant birds",
+												"extinct": true,
+												"children": [
+													{
+														"iNatId": 570755,
+														"level": "Family",
+														"name": "Aepyornithidae",
+														"aka": "elephant birds",
+														"extinct": true
+													}
+												]
+											},
+											{
 												"iNatId": 6888,
 												"level": "Order",
 												"name": "Anseriformes",
@@ -2028,6 +2044,161 @@
 																					{
 																						"type": "span",
 																						"text": " at Sarıçam, Turkey"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"iNatId": 367702,
+												"level": "Order",
+												"name": "Casuariiformes",
+												"aka": "cassowaries and emus",
+												"complete": true,
+												"children": [
+													{
+														"iNatId": 508252,
+														"level": "Family",
+														"name": "Casuariidae",
+														"aka": "cassowaries and emus",
+														"complete": true,
+														"children": [
+															{
+																"iNatId": 20498,
+																"level": "Genus",
+																"name": "Casuarius",
+																"aka": "cassowaries",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 20499,
+																		"level": "Species",
+																		"name": "Casuarius bennetti",
+																		"aka": "dwarf cassowary",
+																		"common": {
+																			"ca": "casuari de Bennett",
+																			"en": "dwarf cassowary",
+																			"es": [
+																				"casuario menor",
+																				"casuario de Bennett"
+																			]
+																		},
+																		"images": [
+																			{
+																				"link": "casuarius-bennetti-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Casuarius bennetti"
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 20500,
+																		"level": "Species",
+																		"name": "Casuarius casuarius",
+																		"aka": "southern cassowary",
+																		"common": {
+																			"ca": "casuari comú",
+																			"en": "southern cassowary",
+																			"es": "casuario común"
+																		},
+																		"images": [
+																			{
+																				"link": "casuarius-casuarius-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "Two "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Casuarius casuarius"
+																					},
+																					{
+																						"type": "span",
+																						"text": " with their chicks near Diwan, Queensland, Australia"
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 20501,
+																		"level": "Species",
+																		"name": "Casuarius unappendiculatus",
+																		"aka": "northern cassowary",
+																		"common": {
+																			"ca": "casuari unicarunculat",
+																			"en": "northern cassowary",
+																			"es": "casuario unicarunculado"
+																		},
+																		"images": [
+																			{
+																				"link": "casuarius-unappendiculatus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An adult "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Casuarius unappendiculatus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " in Kampung Malagufuk, Papua Barat, Indonesia"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"iNatId": 20503,
+																"level": "Genus",
+																"name": "Dromaius",
+																"aka": "emus",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 20504,
+																		"level": "Species",
+																		"name": "Dromaius novaehollandiae",
+																		"aka": "emu",
+																		"common": {
+																			"ca": "emú",
+																			"en": "emu",
+																			"es": "emú"
+																		},
+																		"images": [
+																			{
+																				"link": "dromaius-novaehollandiae-1.jpg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "An "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Dromaius novaehollandiae"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Exmouth, Western Australia, Australia"
 																					}
 																				]
 																			}
