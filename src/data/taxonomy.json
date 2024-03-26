@@ -339,6 +339,99 @@
 												"aka": "winged and once-winged insects",
 												"children": [
 													{
+														"iNatId": 47208,
+														"level": "Order",
+														"name": "Coleoptera",
+														"aka": "beetles",
+														"children": [
+															{
+																"iNatId": 71130,
+																"level": "Suborder",
+																"name": "Polyphaga",
+																"aka": "water, rove, scarab, long-horned, leaf and snout beetles",
+																"children": [
+																	{
+																		"iNatId": 372852,
+																		"level": "Infraorder",
+																		"name": "Cucujiformia",
+																		"aka": "cujiform beetles",
+																		"children": [
+																			{
+																				"iNatId": 47593,
+																				"level": "Superfamily",
+																				"name": "Tenebrionoidea",
+																				"aka": "darkling beetles",
+																				"children": [
+																					{
+																						"iNatId": 53816,
+																						"level": "Family",
+																						"name": "Tenebrionidae",
+																						"aka": "darkling beetles",
+																						"children": [
+																							{
+																								"iNatId": 373517,
+																								"level": "Subfamily",
+																								"name": "Pimeliinae",
+																								"children": [
+																									{
+																										"iNatId": 510285,
+																										"level": "Tribe",
+																										"name": "Cryptoglossini",
+																										"children": [
+																											{
+																												"iNatId": 127518,
+																												"level": "Genus",
+																												"name": "Asbolus",
+																												"children": [
+																													{
+																														"iNatId": 127519,
+																														"level": "Species",
+																														"name": "Asbolus verrucosus",
+																														"aka": "desert ironclad beetle",
+																														"common": {
+																															"en": [
+																																"desert ironclad beetle",
+																																"blue death feigning beetle"
+																															],
+																															"es": "escarabajo acorazado del desierto"
+																														},
+																														"images": [
+																															{
+																																"link": "asbolus-verrucosus-1.jpeg",
+																																"caption": [
+																																	{
+																																		"type": "span",
+																																		"text": "A "
+																																	},
+																																	{
+																																		"type": "i",
+																																		"text": "Asbolus verrucosus"
+																																	},
+																																	{
+																																		"type": "span",
+																																		"text": " in Moapa Valley, Nevada, United States"
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
 														"iNatId": 47744,
 														"level": "Order",
 														"name": "Hemiptera",
