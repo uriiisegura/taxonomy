@@ -163,7 +163,7 @@ class TaxonomyItem extends Component {
 		
 		delete path[Object.keys(path)[0]];
 
-		document.title = `Taxonomy | ${ITEM.name}`;
+		document.title = `Taxonomy | ${ITEM.level === 'Subspecies' ? `${ITEM.species.charAt(0)}. ${ITEM.species.split(' ')[1]} ssp. ${ITEM.name}` : ITEM.name}`;
 
 		const extinct = ITEM.extinct !== undefined && ITEM.extinct;
 
