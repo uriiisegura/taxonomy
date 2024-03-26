@@ -50,7 +50,7 @@ class Tree extends Component {
 				<li key={key} className={`taxonomy-item ${unknown && 'idk'}`}>
 					{
 						unknown ? UNKNOWN_STRING
-						: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
+						: <NavLink to={`/${this.props.collection}/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
 					}
 					{SYMBOLS[level.level]}
 				</li>
@@ -62,7 +62,7 @@ class Tree extends Component {
 					<span className="taxonomy-item">
 						{
 							unknown ? UNKNOWN_STRING
-							: <NavLink to={`/taxonomy/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
+							: <NavLink to={`/${this.props.collection}/${MakeURL(level.level)}/${MakeURL(name)}`}>{extinct && <span className="extinct"></span>}{name}{level.aka && <span className="aka">{level.aka}</span>}</NavLink>
 						}
 						{SYMBOLS[level.level]}
 					</span>

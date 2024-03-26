@@ -235,6 +235,7 @@ class TaxonomyItem extends Component {
 
 						<Tree
 							children={ITEM.children}
+							collection="taxonomy"
 							collapsed={true}
 							/>
 					</section>

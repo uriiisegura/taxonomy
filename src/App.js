@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import TaxonomyTree from "./pages/TaxonomyTree";
 import TaxonomyItem from "./pages/TaxonomyItem";
 import Gallery from "./pages/Gallery";
+import PokemonTree from "./pages/PokemonTree";
 import Articles from "./pages/Articles";
 import SingleArticle from "./pages/SingleArticle";
 import Palette from "./pages/Palette";
@@ -24,6 +25,7 @@ function App() {
 					<Route path="/taxonomy-tree" element={<TaxonomyTree />} />
 					<Route path="/palette" element={<Palette />} />
 					<Route path="/taxonomy/:level/:name" element={<TaxonomyItem />} />
+					<Route path="/pokemon" element={<PokemonTree />} />
 					<Route path="/articles" element={<Articles />} />
 					<Route path="/articles/:id" element={<SingleArticle />} />
 					<Route path="/galleries/:level/:name" element={<Gallery />} />

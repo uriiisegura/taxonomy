@@ -10,6 +10,7 @@ class TaxonomyTree extends Component {
 
 				<Tree
 					children={taxonomy}
+					collection="taxonomy"
 					/>
 			</section>
 		</>);

@@ -1,0 +1,255 @@
+[
+	{
+		"level": "Domain",
+		"name": "Natura",
+		"children": [
+			{
+				"level": "Kingdom",
+				"name": "Bacteria",
+				"children": [
+					{
+						"level": "Phylum",
+						"name": "Monozoa",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Uniplasmia",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Uniplasmida",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Uniplasmidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Uniplasma",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Uniplasma homunculus",
+																"aka": "Solosis"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"level": "Kingdom",
+				"name": "Protista",
+				"children": [
+					{
+						"level": "Phylum",
+						"name": "Mycetozoa",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Dictyostelia",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Dictyostelida",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Toxodictyostelidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Toxodictyostelium",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Toxodictyostelium putridus",
+																"aka": "Grimer",
+																"children": [
+																	{
+																		"level": "Subspecies",
+																		"species": "Toxodictyostelium putridus",
+																		"name": "kantum",
+																		"aka": "Kanto Grimer"
+																	},
+																	{
+																		"level": "Subspecies",
+																		"species": "Toxodictyostelium putridus",
+																		"name": "alolum",
+																		"aka": "Alolan Grimer"
+																	}
+																]
+															},
+															{
+																"level": "Species",
+																"name": "Toxodictyostelium mobilus",
+																"aka": "Varoom"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
+						"name": "Amorphozoa",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Amorphozodia",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Amorphozodia",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Amorphozoidae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Amorphozodium",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Amorphozodium amorphus",
+																"aka": "Ditto"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"level": "Kingdom",
+				"name": "Plantoidae",
+				"children": [
+					{
+						"level": "Phylum",
+						"name": "Chlorophyta",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Pseudohederapsida",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Pseudohederales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Pseudohederaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Pseudohedera",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Pseudohedera vita",
+																"aka": "Tangela"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
+						"name": "Pinophyta",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Pinopsida",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Pinales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Pinaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Abies",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Abies yeti",
+																"aka": "Snover"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"level": "Phylum",
+						"name": "Magnoliophyta",
+						"children": [
+							{
+								"level": "Class",
+								"name": "Magnoliopsida",
+								"children": [
+									{
+										"level": "Order",
+										"name": "Nymphaeales",
+										"children": [
+											{
+												"level": "Family",
+												"name": "Nymphaeaceae",
+												"children": [
+													{
+														"level": "Genus",
+														"name": "Nymphaea",
+														"children": [
+															{
+																"level": "Species",
+																"name": "Nymphaea saltada",
+																"aka": "Lotad"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
