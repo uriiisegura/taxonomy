@@ -170,7 +170,7 @@ class TaxonomyItem extends Component {
 			<section>
 				<div className="tax-item-title">
 					<h3>{ITEM.level}</h3>
-					<h1>{complete && <img src="/complete.png" className="complete-badge big-badge" title="All species added to the database" />}{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
+					<h1>{complete && <img src="/complete.png" alt="" className="complete-badge big-badge" title="All species added to the database" />}{extinct && <span className="extinct"></span>}{ITEM.level === 'Subspecies' ? <>{ITEM.species} <span className="ssp-var">ssp.</span> {ITEM.name}</> : ITEM.name}</h1>
 					{ITEM.aka && /* !ITEM.common && */ <h5>{CapitalizeFirst(ITEM.aka)}</h5>}
 					{ITEM.iNatId && <p className="inat"><a href={`https://www.inaturalist.org/taxa/${ITEM.iNatId}`} target="_blank" rel="noopener noreferrer">Go to <img src="inat.png" alt="iNaturalist" />iNaturalist taxon page</a></p>}
 

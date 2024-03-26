@@ -146,7 +146,7 @@
 																												"caption": [
 																													{
 																														"type": "span",
-																														"text": "A speciment of "
+																														"text": "A specimen of "
 																													},
 																													{
 																														"type": "i",
@@ -3246,7 +3246,7 @@
 																				"caption": [
 																					{
 																						"type": "span",
-																						"text": "An speciment of "
+																						"text": "An specimen of "
 																					},
 																					{
 																						"type": "i",
@@ -3641,7 +3641,7 @@
 																				"caption": [
 																					{
 																						"type": "span",
-																						"text": "An speciment of "
+																						"text": "An specimen of "
 																					},
 																					{
 																						"type": "i",
@@ -3918,7 +3918,7 @@
 																			},
 																			{
 																				"type": "p",
-																				"text": "Specimens of this species are usually 12 cm long with a wingspan of 18 cm for both sexes, and weigh about 11 g. A speciment will have an azure-blue crown and dark blue line passing through the eye, and encircling the white cheeks to the chin, giving the bird a very distinctive appearance. The forehead and a bar on the wing are white. The nape, wings and tail are blue and the back is yellowish green. The underparts is mostly sulphur-yellow with a dark line down the abdomen —the yellowness is indicative of the number of yellowy- green caterpillars eaten, due to high levels of carotene pigments in the diet. The bill is black, the legs bluish grey, and the irides dark brown. Young specimens are noticeably more yellow."
+																				"text": "Specimens of this species are usually 12 cm long with a wingspan of 18 cm for both sexes, and weigh about 11 g. A specimen will have an azure-blue crown and dark blue line passing through the eye, and encircling the white cheeks to the chin, giving the bird a very distinctive appearance. The forehead and a bar on the wing are white. The nape, wings and tail are blue and the back is yellowish green. The underparts is mostly sulphur-yellow with a dark line down the abdomen —the yellowness is indicative of the number of yellowy- green caterpillars eaten, due to high levels of carotene pigments in the diet. The bill is black, the legs bluish grey, and the irides dark brown. Young specimens are noticeably more yellow."
 																			},
 																			{
 																				"type": "h4",
@@ -5050,6 +5050,60 @@
 																											{
 																												"type": "i",
 																												"text": "Sphyrna mokarran"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 50870,
+																		"level": "Order",
+																		"name": "Lamniformes",
+																		"aka": "mackerel sharks",
+																		"children": [
+																			{
+																				"iNatId": 85900,
+																				"level": "Family",
+																				"name": "Mitsukurinidae",
+																				"aka": "goblin sharks",
+																				"complete": true,
+																				"children": [
+																					{
+																						"iNatId": 89995,
+																						"level": "Genus",
+																						"name": "Mitsukurina",
+																						"complete": true,
+																						"children": [
+																							{
+																								"iNatId": 89996,
+																								"level": "Species",
+																								"name": "Mitsukurina owstoni",
+																								"aka": "goblin shark",
+																								"common": {
+																									"ca": "tauró follet",
+																									"en": "goblin shark",
+																									"es": [
+																										"tiburón duende",
+																										"tiburón trasgo"
+																									]
+																								},
+																								"images": [
+																									{
+																										"link": "mitsukurina-owstoni-1.webp",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Mitsukurina owstoni"
 																											}
 																										]
 																									}
