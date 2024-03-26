@@ -3707,6 +3707,52 @@
 														]
 													},
 													{
+														"iNatId": 180354,
+														"level": "Family",
+														"name": "Regulidae",
+														"aka": "kinglets",
+														"children": [
+															{
+																"iNatId": 19660,
+																"level": "Genus",
+																"name": "Regulus",
+																"aka": "firecrests and goldcrests",
+																"children": [
+																	{
+																		"iNatId": 793469,
+																		"level": "Species",
+																		"name": "Regulus regulus",
+																		"aka": "goldcrest",
+																		"common": {
+																			"ca": "reietó eurasiàtic",
+																			"en": "goldcrest",
+																			"es": "reyezuelo sencillo"
+																		},
+																		"images": [
+																			{
+																				"link": "regulus-regulus-1.jpeg",
+																				"caption": [
+																					{
+																						"type": "span",
+																						"text": "A "
+																					},
+																					{
+																						"type": "i",
+																						"text": "Regulus regulus"
+																					},
+																					{
+																						"type": "span",
+																						"text": " near Cardiff, Wales, United Kingdom"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
 														"iNatId": 14841,
 														"level": "Family",
 														"name": "Sturnidae",
