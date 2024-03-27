@@ -43,6 +43,17 @@ class Navbar extends Component {
 								</div>
 							</div>
 						</li>
+						{/* <li onClick={() => this.showHide('cladistics')} className="nav-link">
+							<span><span>Cladistics<img src="font-awesome/caret-down.svg" alt="caret-down.svg" /></span></span>
+							<div id="cladistics" className="sub-menus">
+								<div className="sub-menu">
+									<h4 className="sub-menu-title">Aves</h4>
+									<ul>
+										<li><NavLink to="/cladistics/palaeognathae">Palaeognathae</NavLink></li>
+									</ul>
+								</div>
+							</div>
+						</li> */}
 						<li className="nav-link">
 							<NavLink to="/articles">Articles</NavLink>
 						</li>

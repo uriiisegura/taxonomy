@@ -5068,6 +5068,184 @@
 																		"aka": "mackerel sharks",
 																		"children": [
 																			{
+																				"iNatId": 50874,
+																				"level": "Family",
+																				"name": "Lamnidae",
+																				"aka": "white sharks",
+																				"complete": true,
+																				"children": [
+																					{
+																						"iNatId": 50875,
+																						"level": "Genus",
+																						"name": "Carcharodon",
+																						"complete": true,
+																						"children": [
+																							{
+																								"iNatId": 50873,
+																								"level": "Species",
+																								"name": "Carcharodon carcharias",
+																								"aka": "great white shark",
+																								"common": {
+																									"ca": "tauró blanc",
+																									"en": "great white shark",
+																									"es": "tiburón blanco"
+																								},
+																								"images": [
+																									{
+																										"link": "carcharodon-carcharias-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Carcharodon carcharias"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near the coast of Ensenada, Baja California, Mexico"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					},
+																					{
+																						"iNatId": 69678,
+																						"level": "Genus",
+																						"name": "Isurus",
+																						"complete": true,
+																						"children": [
+																							{
+																								"iNatId": 69677,
+																								"level": "Species",
+																								"name": "Isurus oxyrinchus",
+																								"aka": "shortfin mako",
+																								"common": {
+																									"ca": [
+																										"solraig",
+																										"salroig"
+																									],
+																									"en": "shortfin mako",
+																									"es": "tiburón mako"
+																								},
+																								"images": [
+																									{
+																										"link": "isurus-oxyrinchus-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Isurus oxyrinchus"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near the coast of Cabo San Lucas, Baja California Sur, Mexico"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"iNatId": 103571,
+																								"level": "Species",
+																								"name": "Isurus paucus",
+																								"aka": "longfin mako",
+																								"common": {
+																									"ca": "marraix d'aleta llarga",
+																									"en": "longfin mako",
+																									"es": "marrajo de aleta larga"
+																								},
+																								"images": [
+																									{
+																										"link": "isurus-paucus-1.webp",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "An adult specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Isurus paucus"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					},
+																					{
+																						"iNatId": 62740,
+																						"level": "Genus",
+																						"name": "Lamna",
+																						"complete": true,
+																						"children": [
+																							{
+																								"iNatId": 62739,
+																								"level": "Species",
+																								"name": "Lamna ditropis",
+																								"aka": "salmon shark",
+																								"common": {
+																									"ca": "marraix salmó",
+																									"en": "salmon shark",
+																									"es": "tiburón salmón"
+																								},
+																								"images": [
+																									{
+																										"link": "lamna-ditropis-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Lamna ditropis"
+																											},
+																											{
+																												"type": "span",
+																												"text": " near the coast of Canada"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"iNatId": 63508,
+																								"level": "Species",
+																								"name": "Lamna nasus",
+																								"aka": "porbeagle",
+																								"common": {
+																									"ca": "marraix",
+																									"en": "porbeagle",
+																									"es": "tiburón cailón"
+																								},
+																								"images": [
+																									{
+																										"link": "lamna-nasus-1.jpeg",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Lamna nasus"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
 																				"iNatId": 85900,
 																				"level": "Family",
 																				"name": "Mitsukurinidae",
