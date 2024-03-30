@@ -5399,6 +5399,48 @@
 																						]
 																					}
 																				]
+																			},
+																			{
+																				"iNatId": 86020,
+																				"level": "Family",
+																				"name": "Pseudocarchariidae",
+																				"aka": "crocodile sharks",
+																				"complete": true,
+																				"children": [
+																					{
+																						"iNatId": 91432,
+																						"level": "Genus",
+																						"name": "Pseudocarcharias",
+																						"complete": true,
+																						"children": [
+																							{
+																								"iNatId": 110962,
+																								"level": "Species",
+																								"name": "Pseudocarcharias kamoharai",
+																								"aka": "crocodile shark",
+																								"common": {
+																									"en": "crocodile shark",
+																									"es": "tiburón cocodrilo"
+																								},
+																								"images": [
+																									{
+																										"link": "pseudocarcharias-kamoharai-1.webp",
+																										"caption": [
+																											{
+																												"type": "span",
+																												"text": "A dead specimen of "
+																											},
+																											{
+																												"type": "i",
+																												"text": "Pseudocarcharias kamoharai"
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
 																			}
 																		]
 																	}
@@ -5655,6 +5697,330 @@
 										"name": "Reptilia",
 										"aka": "reptiles",
 										"children": [
+											{
+												"iNatId": 26039,
+												"level": "Order",
+												"name": "Crocodylia",
+												"aka": "crocodilians",
+												"children": [
+													{
+														"iNatId": 121038,
+														"level": "Family",
+														"name": "Alligatoridae",
+														"aka": "alligators and caimans",
+														"complete": true,
+														"children": [
+															{
+																"iNatId": null,
+																"level": "Subfamily",
+																"name": "Alligatorinae",
+																"aka": "alligators",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 26154,
+																		"level": "Genus",
+																		"name": "Alligator",
+																		"aka": "alligators",
+																		"complete": true,
+																		"children": [
+																			{
+																				"iNatId": 26159,
+																				"level": "Species",
+																				"name": "Alligator mississippiensis",
+																				"aka": "American alligator",
+																				"common": {
+																					"ca": "al·ligàtor del Mississipi",
+																					"en": "American alligator",
+																					"es": "aligátor americano"
+																				},
+																				"images": [
+																					{
+																						"link": "alligator-mississippiensis-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "An adult "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Alligator mississippiensis"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Aransas County, Texas, United States"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 26156,
+																				"level": "Species",
+																				"name": "Alligator sinensis",
+																				"aka": "Chinese alligator",
+																				"common": {
+																					"ca": "al·ligàtor xinès",
+																					"en": "Chinese alligator",
+																					"es": "aligátor chino"
+																				},
+																				"images": [
+																					{
+																						"link": "alligator-sinensis-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A specimen of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Alligator sinensis"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in the Shanghai Zoo, Shanghai, China"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"iNatId": null,
+																"level": "Subfamily",
+																"name": "Caimaninae",
+																"aka": "caimans",
+																"complete": true,
+																"children": [
+																	{
+																		"iNatId": 116638,
+																		"level": "Genus",
+																		"name": "Caiman",
+																		"aka": "typical caimans",
+																		"complete": true,
+																		"children": [
+																			{
+																				"iNatId": 116517,
+																				"level": "Species",
+																				"name": "Caiman crocodilus",
+																				"aka": "spectacled caiman",
+																				"common": {
+																					"ca": "caiman comú",
+																					"en": "spectacled caiman",
+																					"es": "caimán de anteojos"
+																				},
+																				"images": [
+																					{
+																						"link": "caiman-crocodilus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "An adult "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Caiman crocodilus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Tortuguero National Park, Limón, Costa Rica"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 116518,
+																				"level": "Species",
+																				"name": "Caiman latirostris",
+																				"aka": "broad-snouted caiman",
+																				"common": {
+																					"ca": "caiman de morro ample",
+																					"en": "broad-snouted caiman",
+																					"es": "yacaré overo"
+																				},
+																				"images": [
+																					{
+																						"link": "caiman-latirostris-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A specimen of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Caiman latirostris"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Rio Grande, Rio Grande do Sul, Brazil"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 116570,
+																				"level": "Species",
+																				"name": "Caiman yacare",
+																				"aka": "yacare caiman",
+																				"common": {
+																					"ca": "caiman cocodril",
+																					"en": "yacare caiman",
+																					"es": "yacaré negro"
+																				},
+																				"images": [
+																					{
+																						"link": "caiman-yacare-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Caiman yacare"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Pantanal - Poconé, Mato Grosso, Brazil"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 116646,
+																		"level": "Genus",
+																		"name": "Melanosuchus",
+																		"complete": true,
+																		"children": [
+																			{
+																				"iNatId": 116532,
+																				"level": "Species",
+																				"name": "Melanosuchus niger",
+																				"aka": "black caiman",
+																				"common": {
+																					"ca": "caiman negre",
+																					"en": "black caiman",
+																					"es": "caimán negro"
+																				},
+																				"images": [
+																					{
+																						"link": "melanosuchus-niger-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Melanosuchus niger"
+																							},
+																							{
+																								"type": "span",
+																								"text": " near Rurrenabaque, Franz Tamayo, Bolivia"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	},
+																	{
+																		"iNatId": 116648,
+																		"level": "Genus",
+																		"name": "Paleosuchus",
+																		"aka": "dwarf caimans",
+																		"complete": true,
+																		"children": [
+																			{
+																				"iNatId": 116538,
+																				"level": "Species",
+																				"name": "Paleosuchus palpebrosus",
+																				"aka": "Cuvier's dwarf caiman",
+																				"common": {
+																					"ca": "caiman nan de Cuvier",
+																					"en": "Cuvier's dwarf caiman",
+																					"es": "caimán enano de Cuvier"
+																				},
+																				"images": [
+																					{
+																						"link": "paleosuchus-palpebrosus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A specimen of "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Paleosuchus palpebrosus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Conde, Brazil"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"iNatId": 116539,
+																				"level": "Species",
+																				"name": "Paleosuchus trigonatus",
+																				"aka": "Schneider's dwarf caiman",
+																				"common": {
+																					"en": [
+																						"Schneider's dwarf caiman",
+																						"smooth-fronted caiman"
+																					],
+																					"es": "caimán postruso"
+																				},
+																				"images": [
+																					{
+																						"link": "paleosuchus-trigonatus-1.jpeg",
+																						"caption": [
+																							{
+																								"type": "span",
+																								"text": "A "
+																							},
+																							{
+																								"type": "i",
+																								"text": "Paleosuchus trigonatus"
+																							},
+																							{
+																								"type": "span",
+																								"text": " in Alta Floresta, Mato Grosso, Brazil"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"iNatId": 26041,
+														"level": "Family",
+														"name": "Crocodylidae",
+														"aka": "crocodiles"
+													},
+													{
+														"iNatId": 121039,
+														"level": "Family",
+														"name": "Gavialidae",
+														"aka": "gharials"
+													}
+												]
+											},
 											{
 												"iNatId": 26172,
 												"level": "Order",
